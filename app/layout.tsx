@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
-import AppShell from '@/components/AppShell'
+import AuthGate from '@/components/AuthGate'
+import { AuthProvider } from '@/lib/auth'
 import { SidebarProvider } from '@/components/SidebarProvider'
 import BackgroundWave from '@/components/BackgroundWave'
 
@@ -44,9 +45,11 @@ export default function RootLayout({
       </head>
       <body className="relative bg-cream min-h-screen">
         <BackgroundWave />
-        <SidebarProvider>
-          <AppShell>{children}</AppShell>
-        </SidebarProvider>
+        <AuthProvider>
+          <SidebarProvider>
+            <AuthGate>{children}</AuthGate>
+          </SidebarProvider>
+        </AuthProvider>
         <script
           dangerouslySetInnerHTML={{
             __html: `

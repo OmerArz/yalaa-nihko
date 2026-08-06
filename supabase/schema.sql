@@ -39,6 +39,10 @@ ALTER TABLE word_progress ENABLE ROW LEVEL SECURITY;
 ALTER TABLE user_settings ENABLE ROW LEVEL SECURITY;
 ALTER TABLE push_subscriptions ENABLE ROW LEVEL SECURITY;
 
+DROP POLICY IF EXISTS "allow all" ON word_progress;
+DROP POLICY IF EXISTS "allow all" ON user_settings;
+DROP POLICY IF EXISTS "allow all" ON push_subscriptions;
+
 CREATE POLICY "allow all" ON word_progress FOR ALL USING (true) WITH CHECK (true);
 CREATE POLICY "allow all" ON user_settings FOR ALL USING (true) WITH CHECK (true);
 CREATE POLICY "allow all" ON push_subscriptions FOR ALL USING (true) WITH CHECK (true);

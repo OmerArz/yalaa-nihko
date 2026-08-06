@@ -1,21 +1,12 @@
 'use client'
 
-import { createClient, SupabaseClient } from '@supabase/supabase-js'
 import { getAllWordProgress, saveSettings, getSettings, saveConversation } from './db'
+import { getSupabaseClient, isSupabaseConfigured } from './supabaseClient'
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+export { isSupabaseConfigured }
 
-export const isSupabaseConfigured = !!(supabaseUrl && supabaseKey)
-
-let supabase: SupabaseClient | null = null
-
-function getSupabase(): SupabaseClient {
-  if (!supabase && isSupabaseConfigured) {
-    supabase = createClient(supabaseUrl!, supabaseKey!)
-  }
-  if (!supabase) throw new Error('Supabase is not configured')
-  return supabase
+function getSupabase() {
+  return getSupabaseClient()
 }
 
 const USER_ID = 'default'
