@@ -83,7 +83,7 @@ export default function LoginPage() {
   return (
     <div
       dir="rtl"
-      className="relative min-h-screen overflow-hidden flex flex-col items-center justify-center px-5 py-6"
+      className="relative h-dvh w-full overflow-y-auto overflow-x-hidden flex flex-col items-center justify-center px-5 py-6"
       style={{ background: 'radial-gradient(circle at 20% 10%, #F5EFDD 0%, #FDFBF7 45%, #FDFBF7 100%)' }}
     >
       <div
@@ -135,7 +135,7 @@ export default function LoginPage() {
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.15 }}
-        className="relative z-10 w-full max-w-[400px] mt-3 min-h-0 overflow-auto"
+        className="relative z-10 w-full max-w-[400px] mt-3 flex-shrink-0"
       >
         <div className="relative bg-white/70 backdrop-blur-md border border-gold/35 rounded-[22px] shadow-[0_16px_40px_rgba(45,90,39,0.18),0_0_0_6px_rgba(212,175,55,0.06)] p-4 pb-[18px]">
           <div className="relative flex bg-olive-50 rounded-2xl p-[5px] gap-1">

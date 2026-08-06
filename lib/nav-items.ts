@@ -32,7 +32,12 @@ export const desktopNavItems: NavItem[] = [
   { id: 'settings', href: '/settings', label: 'הגדרות', icon: Settings },
 ]
 
-// 7 items — mobile bottom nav (subset, matches existing brief)
+// 5 items always visible in the mobile bottom nav pill — the most-used, habitual actions
 export const mobileNavItems: NavItem[] = desktopNavItems.filter((item) =>
-  ['home', 'chat', 'basics', 'scenarios', 'dictionary', 'games', 'settings'].includes(item.id)
+  ['home', 'daily-practice', 'daily-quiz', 'dictionary', 'chat'].includes(item.id)
+)
+
+// Everything else — reachable via the "עוד" (more) button in the mobile bottom nav
+export const mobileMoreNavItems: NavItem[] = desktopNavItems.filter(
+  (item) => !mobileNavItems.includes(item)
 )
