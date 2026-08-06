@@ -1,0 +1,1316 @@
+{
+  "version": "2.0",
+  "scenarios": [
+    {
+      "id": "SC001",
+      "title_hebrew": "הזמנת אוכל במסעדה",
+      "title_arabic": "طلب الأكل بالمطعم",
+      "icon": "🍽️",
+      "difficulty_level": 1,
+      "description": "שיחה מלאה במסעדה ירושלמית - הזמנה, שאלות על התפריט, ותשלום",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "أهلا وسهلا! شو بتحب تطلب؟",
+            "transliteration_hebrew": "אַהְלַן וְסַהְלַן! שוּ בְּתְחֶבּ תְּטְלוּב?",
+            "transliteration_english": "ahlan w sahlan! shu bthebb tutlub?"
+          },
+          "user_goal_hebrew": "תגיד למלצר: אני רוצה חומוס",
+          "required_keywords": [
+            "בדי",
+            "חומוס"
+          ],
+          "hint": "התחל ב\"בדי\" (אני רוצה) ואז תוסיף \"חומוס\""
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام! بتحب حار ولا لأ؟",
+            "transliteration_hebrew": "תַמָּאם! בְּתְחֶבּ חַאר וְלָא לַא?",
+            "transliteration_english": "tamam! bthebb har wala la?"
+          },
+          "user_goal_hebrew": "תגיד שאתה לא רוצה חריף: בלי חריף",
+          "required_keywords": [
+            "בלא",
+            "חאר"
+          ],
+          "hint": "\"בלא\" = בלי, \"חאר\" = חריף"
+        },
+        {
+          "npc_message": {
+            "arabic": "منيح. بتحب تشرب اشي، شاي ولا قهوة؟",
+            "transliteration_hebrew": "מְנִיח. בְּתְחֶבּ תִּשְׁרַבּ אִישִׁי, שַׁאיּ וְלָא אַהְוֶה?",
+            "transliteration_english": "mnih. bthebb tishrab ishi, shay wala ahweh?"
+          },
+          "user_goal_hebrew": "תגיד שאתה רוצה קפה",
+          "required_keywords": [
+            "בדי",
+            "קהוה",
+            "אהוה"
+          ],
+          "hint": "\"בדי\" + שם המשקה - קפה נאמר \"קהוה\" או \"אהוה\""
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، هلق جايبلك الأكل. بالعافية!",
+            "transliteration_hebrew": "תַמָּאם, הַלַּא גָ'איבְּלַכּ אַלְאַכַּל. בַּלְעָאפְיֶה!",
+            "transliteration_english": "tamam, hala jaybilak alakal. bal'afyeh!"
+          },
+          "user_goal_hebrew": "תענה \"תודה\"",
+          "required_keywords": [
+            "שכרא"
+          ],
+          "hint": "תודה בערבית ירושלמית - \"שוכראן\" (שכרא)"
+        },
+        {
+          "npc_message": {
+            "arabic": "كيف الأكل؟ زاكي؟",
+            "transliteration_hebrew": "כֵּיף אַלְאַכַּל? זָאכִּי?",
+            "transliteration_english": "keyf alakal? zaki?"
+          },
+          "user_goal_hebrew": "תגיד שזה טעים מאוד",
+          "required_keywords": [
+            "זאכי",
+            "כתיר"
+          ],
+          "hint": "\"זאכי\" = טעים, \"כתיר\" = מאוד"
+        },
+        {
+          "npc_message": {
+            "arabic": "يعطيك العافية! بدك اشي تاني؟",
+            "transliteration_hebrew": "יַעְטִיךּ אַלְעָאפְיֶה! בַּדַּכּ אִישִׁי תָאנִי?",
+            "transliteration_english": "ya'tik al'afyeh! badak ishi tani?"
+          },
+          "user_goal_hebrew": "תגיד שאתה שבע ולא רוצה יותר",
+          "required_keywords": [
+            "שבעאן"
+          ],
+          "hint": "\"אנא שבעאן\" = אני שבע"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، بجيبلك الحساب هلق.",
+            "transliteration_hebrew": "תַמָּאם, בְּג'ִיבְּלַכּ אַלְחִסָּאב הַלַּא.",
+            "transliteration_english": "tamam, bjiblak alhisab hala."
+          },
+          "user_goal_hebrew": "תשאל: כמה החשבון?",
+          "required_keywords": [
+            "אדיש",
+            "חסאב"
+          ],
+          "hint": "\"אדיש\" = כמה, \"אלחסאב\" = החשבון"
+        },
+        {
+          "npc_message": {
+            "arabic": "خمسين شيكل، الله يعطيك العافية! مع السلامة",
+            "transliteration_hebrew": "חַמְסִין שֵׁיקֶל, אַלְלָה יַעְטִיךּ אַלְעָאפְיֶה! מַעַ סְּלָאמֶה",
+            "transliteration_english": "hamsin shekel, allah ya'tik al'afyeh! ma'a slameh"
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"מעא סלאמה\" - להתראות"
+        }
+      ]
+    },
+    {
+      "id": "SC002",
+      "title_hebrew": "קניות בשוק",
+      "title_arabic": "التسوق بالسوق",
+      "icon": "🛒",
+      "difficulty_level": 1,
+      "description": "משא ומתן מלא עם מוכר בשוק הירושלמי - מחירים, מיקוח, קנייה",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "أهلا، تفضل! شو بتشوف؟",
+            "transliteration_hebrew": "אַהְלַן, תְּפַדְּל! שוּ בְּתְשׁוּף?",
+            "transliteration_english": "ahlan, tfadal! shu btshuf?"
+          },
+          "user_goal_hebrew": "תגיד שאתה רוצה עגבניות",
+          "required_keywords": [
+            "בדי",
+            "בנדורה"
+          ],
+          "hint": "\"בדי\" (אני רוצה) + \"בנדורה\" (עגבניות)"
+        },
+        {
+          "npc_message": {
+            "arabic": "كيلو ولا نص كيلو؟",
+            "transliteration_hebrew": "כִּילוֹ וְלָא נוּץ כִּילוֹ?",
+            "transliteration_english": "kilo wala nus kilo?"
+          },
+          "user_goal_hebrew": "תגיד: חצי קילו",
+          "required_keywords": [
+            "נוץ",
+            "כילו"
+          ],
+          "hint": "\"נוץ כילו\" = חצי קילו"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، بتحب اشي كمان؟",
+            "transliteration_hebrew": "תַמָּאם, בְּתְחֶבּ אִישִׁי כְּמָאן?",
+            "transliteration_english": "tamam, bthebb ishi kman?"
+          },
+          "user_goal_hebrew": "תגיד שאתה רוצה גם תפוחים",
+          "required_keywords": [
+            "בדי",
+            "תפאח"
+          ],
+          "hint": "\"בדי תפאח כמאן\" = אני רוצה גם תפוחים"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام. هاد بعشرين شيكل الكيلو.",
+            "transliteration_hebrew": "תַמָּאם. הָאד בְּעִשְׁרִין שֵׁיקֶל אַלְכִּילוֹ.",
+            "transliteration_english": "tamam. had b'ishrin shekel alkilo."
+          },
+          "user_goal_hebrew": "תגיד שזה יקר מאוד",
+          "required_keywords": [
+            "גאלי",
+            "כתיר"
+          ],
+          "hint": "\"גאלי כתיר\" = יקר מאוד"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، بعطيك بخمسطعش شيكل.",
+            "transliteration_hebrew": "תַמָּאם, בַּעְטִיךּ בְּחַ'מְסְטַעְשׁ שֵׁיקֶל.",
+            "transliteration_english": "tamam, ba'tik bkhamastaash shekel."
+          },
+          "user_goal_hebrew": "תגיד: טוב, תודה",
+          "required_keywords": [
+            "מניח",
+            "שכרא"
+          ],
+          "hint": "\"מניח\" = טוב, \"שכרא\" = תודה"
+        },
+        {
+          "npc_message": {
+            "arabic": "تفضل هاد كيسك. بتحتاج كيس تاني؟",
+            "transliteration_hebrew": "תְּפַדְּל הָאד כֵּיסַכּ. בְּתִחְתָאג' כֵּיס תָאנִי?",
+            "transliteration_english": "tfadal had keysak. bithtaj keys tani?"
+          },
+          "user_goal_hebrew": "תגיד: לא, זה מספיק",
+          "required_keywords": [
+            "חלאץ"
+          ],
+          "hint": "\"לא, ח'לאץ\" = לא, מספיק"
+        },
+        {
+          "npc_message": {
+            "arabic": "ما عندي فكة، بس عندي كمان واحد بلاش.",
+            "transliteration_hebrew": "מַא עִנְדִי פַּכֶּה, בַּס עִנְדִי כְּמָאן וָאחַד בַּלַאש.",
+            "transliteration_english": "ma indi fakeh, bas indi kman wahad balash."
+          },
+          "user_goal_hebrew": "תגיד: תודה רבה",
+          "required_keywords": [
+            "שכרא",
+            "כתיר"
+          ],
+          "hint": "\"שכרא כתיר\" = תודה רבה"
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا تفضل، الله معك!",
+            "transliteration_hebrew": "יַלָּה תְּפַדְּל, אַלְלָה מַעַךּ!",
+            "transliteration_english": "yalah tfadal, allah ma'ak!"
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"מעא סלאמה\" - להתראות"
+        }
+      ]
+    },
+    {
+      "id": "SC003",
+      "title_hebrew": "שאילת כיוונים",
+      "title_arabic": "السؤال عن الطريق",
+      "icon": "🗺️",
+      "difficulty_level": 1,
+      "description": "שאלת כיוון מלאה בעיר הירושלמית - רחובות, מקומות מפורסמים",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "مرحبا! شو في؟ وين رايح؟",
+            "transliteration_hebrew": "מַרְחַבָּא! שוּ פִּי? וֵין רָאיֶח?",
+            "transliteration_english": "marhaba! shu fi? weyn rayeh?"
+          },
+          "user_goal_hebrew": "תגיד שאתה מחפש את השוק",
+          "required_keywords": [
+            "דור",
+            "סוא"
+          ],
+          "hint": "\"בדור עלא אלסוא\" = אני מחפש את השוק"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، السوق مش بعيد. بتعرف وين البلدة القديمة؟",
+            "transliteration_hebrew": "תַמָּאם, אַלְסוּאַ מִש בְּעִיד. בְּתַעְרַף וֵין אַלְבַּלְדֶה אַלְאַדִּימֶה?",
+            "transliteration_english": "tamam, alsu'a mish b'id. bta'raf weyn albaldeh al'adimeh?"
+          },
+          "user_goal_hebrew": "תגיד: לא, אני לא יודע",
+          "required_keywords": [
+            "מא",
+            "בערף"
+          ],
+          "hint": "\"לא, מא בערף\" = לא, אני לא יודע"
+        },
+        {
+          "npc_message": {
+            "arabic": "ولا يهمك! روح دغري من هون.",
+            "transliteration_hebrew": "וַלָא יְהִמַּךּ! רוּח דּוּגְרִי מִן הוֹן.",
+            "transliteration_english": "wala yhimak! ruh dugri min hon."
+          },
+          "user_goal_hebrew": "תשאל: כמה זה רחוק?",
+          "required_keywords": [
+            "בעיד"
+          ],
+          "hint": "\"אדיש בעיד؟\" = כמה רחוק?"
+        },
+        {
+          "npc_message": {
+            "arabic": "مش كتير، بس خمس دقايق. بعدين لف يمين.",
+            "transliteration_hebrew": "מִש כְּתִיר, בַּס חַ'מְס דְּאָאיֶא. בַּעְדֵין לוּף יְמִין.",
+            "transliteration_english": "mish ktir, bas khams da'ayi'. ba'deyn luf ymin."
+          },
+          "user_goal_hebrew": "תגיד: טוב, תודה רבה",
+          "required_keywords": [
+            "מניח",
+            "שכרא"
+          ],
+          "hint": "\"מניח, שכרא כתיר\" = טוב, תודה רבה"
+        },
+        {
+          "npc_message": {
+            "arabic": "عفوا! وبعدين لف شمال عند الإشارة.",
+            "transliteration_hebrew": "עַפְוָן! וּבַּעְדֵין לוּף שְׁמָאל עִנְד אַלְאִשָּׁארֶה.",
+            "transliteration_english": "afwan! w ba'deyn luf shmal ind al'ishareh."
+          },
+          "user_goal_hebrew": "תחזור על ההוראה: לפנות שמאלה ליד הרמזור",
+          "required_keywords": [
+            "שמאל",
+            "אשארה"
+          ],
+          "hint": "\"לוף שמאל עند אלאשארה\" = פנה שמאלה ליד הרמזור"
+        },
+        {
+          "npc_message": {
+            "arabic": "مزبوط! وبعدها السوق قدامك.",
+            "transliteration_hebrew": "מַזְבּוּט! וּבַּעְדְהָא אַלְסוּאַ אַדָּאמַכּ.",
+            "transliteration_english": "mazbut! w ba'daha alsu'a adamak."
+          },
+          "user_goal_hebrew": "תגיד: מעולה, זה קרוב",
+          "required_keywords": [
+            "תמאם",
+            "אריב"
+          ],
+          "hint": "\"תמאם, אריב\" = מעולה, קרוב"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، إذا ما بتعرف اسأل اي حدا بالحارة.",
+            "transliteration_hebrew": "תַמָּאם, אִזָא מַא בְּתַעְרַף אִסְאַל אַיּ חַדָא בַּלְחָארֶה.",
+            "transliteration_english": "tamam, iza ma bta'raf is'al ay hada balhareh."
+          },
+          "user_goal_hebrew": "תגיד: בסדר, תודה על העזרה",
+          "required_keywords": [
+            "שכרא",
+            "מסאעדה"
+          ],
+          "hint": "\"שכרא עלא אלמסאעדה\" = תודה על העזרה"
+        },
+        {
+          "npc_message": {
+            "arabic": "العفو! الله يوفقك، مع السلامة",
+            "transliteration_hebrew": "אַלְעַפְו! אַלְלָה יְוַפִּקַכּ, מַעַ סְּלָאמֶה",
+            "transliteration_english": "al'afu! allah ywafiqak, ma'a slameh"
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"מעא סלאמה\" - להתראות"
+        }
+      ]
+    },
+    {
+      "id": "SC004",
+      "title_hebrew": "שיחה קטנה עם שכן",
+      "title_arabic": "حديث مع الجيران",
+      "icon": "👋",
+      "difficulty_level": 1,
+      "description": "שיחת יומיום מלאה עם שכן ירושלמי - שלומות, משפחה, תוכניות",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "أهلا جارنا! كيفك اليوم؟",
+            "transliteration_hebrew": "אַהְלַן גָ'ארְנָה! כֵּיפַּכּ אַלְיוֹם?",
+            "transliteration_english": "ahlan jarna! keyfak alyom?"
+          },
+          "user_goal_hebrew": "תענה: טוב, תודה לאל",
+          "required_keywords": [
+            "מניח",
+            "חמדו"
+          ],
+          "hint": "\"מניח, אלחמדו לילה\" = טוב, תודה לאל"
+        },
+        {
+          "npc_message": {
+            "arabic": "الحمد لله. شو أخبار العيلة؟",
+            "transliteration_hebrew": "אַלְחַמְדוּ לִלָּה. שוּ אַחְבָּאר אַלְעֵילֶה?",
+            "transliteration_english": "alhamdu lilah. shu ahbar al'eyleh?"
+          },
+          "user_goal_hebrew": "תגיד שהמשפחה בסדר, תודה לאל",
+          "required_keywords": [
+            "עילה",
+            "חמדו"
+          ],
+          "hint": "\"אלעילה בח'יר, אלחמדו לילה\""
+        },
+        {
+          "npc_message": {
+            "arabic": "يسلمو. وشو أخبار الشغل؟",
+            "transliteration_hebrew": "יִסְלַמּוּ. וְשוּ אַחְבָּאר אַלְשֻׁגַ'ל?",
+            "transliteration_english": "yislamu. w shu ahbar alshughal?"
+          },
+          "user_goal_hebrew": "תגיד שהעבודה עסוקה מאוד",
+          "required_keywords": [
+            "משעול",
+            "כתיר"
+          ],
+          "hint": "\"אלשע'ל משע'ול כתיר\" = העבודה עסוקה מאוד"
+        },
+        {
+          "npc_message": {
+            "arabic": "الله يعينك. الجو حلو اليوم مش هيك؟",
+            "transliteration_hebrew": "אַלְלָה יְעִינַךּ. אַלְגַ'וּ חִלוּ אַלְיוֹם מִש הֵיךּ?",
+            "transliteration_english": "allah y'inak. aljau hilu alyom mish heyk?"
+          },
+          "user_goal_hebrew": "תסכים: כן, השמש יפה",
+          "required_keywords": [
+            "שמס"
+          ],
+          "hint": "\"אלשמס חלוה\" = השמש יפה"
+        },
+        {
+          "npc_message": {
+            "arabic": "صحيح! بدك تشرب قهوة معي؟",
+            "transliteration_hebrew": "צַחִיח! בַּדַּכּ תִּשְׁרַבּ אַהְוֶה מַעִי?",
+            "transliteration_english": "sahih! badak tishrab ahweh ma'i?"
+          },
+          "user_goal_hebrew": "תגיד: בשמחה!",
+          "required_keywords": [
+            "ראסי"
+          ],
+          "hint": "\"עלא ראסי\" = בשמחה"
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا تفضل عالبيت!",
+            "transliteration_hebrew": "יַלָּה תְּפַדְּל עַלְבֵּית!",
+            "transliteration_english": "yalah tfadal 'albeyt!"
+          },
+          "user_goal_hebrew": "תגיד: תודה",
+          "required_keywords": [
+            "שכרא"
+          ],
+          "hint": "\"שכרא\" = תודה"
+        },
+        {
+          "npc_message": {
+            "arabic": "شو رأيك، بكرا بنروح عالسوق سوا؟",
+            "transliteration_hebrew": "שוּ רַאיַּךּ, בּוּכְרָה בְּנְרוּח עַ סוּאַ סַוָא?",
+            "transliteration_english": "shu rayak, bukrah bnruh 'a su'a sawa?"
+          },
+          "user_goal_hebrew": "תגיד: כן, בסדר",
+          "required_keywords": [
+            "תמאם"
+          ],
+          "hint": "\"אי, תמאם\" = כן, בסדר"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، الله يعطيك العافية. مع السلامة!",
+            "transliteration_hebrew": "תַמָּאם, אַלְלָה יַעְטִיךּ אַלְעָאפְיֶה. מַעַ סְּלָאמֶה!",
+            "transliteration_english": "tamam, allah ya'tik al'afyeh. ma'a slameh!"
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"מעא סלאמה\" - להתראות"
+        }
+      ]
+    },
+    {
+      "id": "SC005",
+      "title_hebrew": "מצב חירום / בקשת עזרה",
+      "title_arabic": "حالة طوارئ / طلب المساعدة",
+      "icon": "🆘",
+      "difficulty_level": 2,
+      "description": "בקשת עזרה דחופה מלאה - כאב, מציאת רופא, הרגעה",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "شو صار؟ شو في؟ قولي شو بتحتاج!",
+            "transliteration_hebrew": "שוּ צָּאר? שוּ פִּי? אוּלִּי שוּ בְּתְחְתָּאג'!",
+            "transliteration_english": "shu sar? shu fi? uli shu bithtaj!"
+          },
+          "user_goal_hebrew": "תגיד: עזור לי בבקשה",
+          "required_keywords": [
+            "סאעדני"
+          ],
+          "hint": "\"סאעדני לו סמחת\" = עזור לי בבקשה"
+        },
+        {
+          "npc_message": {
+            "arabic": "طبعا! شو صار فيك؟",
+            "transliteration_hebrew": "טַבְּעַן! שוּ צָּאר פִּיךּ?",
+            "transliteration_english": "tab'an! shu sar fik?"
+          },
+          "user_goal_hebrew": "תגיד: כואב לי הראש",
+          "required_keywords": [
+            "בוגעני",
+            "ראסי"
+          ],
+          "hint": "\"בוג'עני ראסי\" = כואב לי הראש"
+        },
+        {
+          "npc_message": {
+            "arabic": "يا خسارة! بدك دكتور ولا صيدلية؟",
+            "transliteration_hebrew": "יַא חַ'סָארַה! בַּדַּכּ דַּכְּתוּר וְלָא צַיְדַלִיֶה?",
+            "transliteration_english": "ya khasarah! badak daktur wala saydaliyeh?"
+          },
+          "user_goal_hebrew": "תגיד שאתה צריך רופא",
+          "required_keywords": [
+            "בדי",
+            "דכתור"
+          ],
+          "hint": "\"בדי דכתור\" = אני רוצה רופא"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، فيه مستشفى قريب من هون.",
+            "transliteration_hebrew": "תַמָּאם, פִּי מֻסְתַשְׁפַא אָרִיב מִן הוֹן.",
+            "transliteration_english": "tamam, fi mustashfa arib min hon."
+          },
+          "user_goal_hebrew": "תשאל: כמה זה רחוק?",
+          "required_keywords": [
+            "בעיד"
+          ],
+          "hint": "\"כם בעיד؟\" = כמה רחוק?"
+        },
+        {
+          "npc_message": {
+            "arabic": "مش بعيد، بس خمس دقايق بالسيارة.",
+            "transliteration_hebrew": "מִש בְּעִיד, בַּס חַ'מְס דְּאָאיֶא בַּלְסַיָּארַה.",
+            "transliteration_english": "mish b'id, bas khams da'ayi' balsayarah."
+          },
+          "user_goal_hebrew": "תגיד שאתה לא יכול ללכת",
+          "required_keywords": [
+            "בקדר"
+          ],
+          "hint": "\"מא בקדר אמשי\" = אני לא יכול ללכת"
+        },
+        {
+          "npc_message": {
+            "arabic": "ولا يهمك، بقدر أوصلك بالسيارة.",
+            "transliteration_hebrew": "וַלָא יְהִמַּךּ, בַּאְדַר אַוַצְּלַכּ בַּלְסַיָּארַה.",
+            "transliteration_english": "wala yhimak, ba'dar awasilak balsayarah."
+          },
+          "user_goal_hebrew": "תגיד: תודה רבה",
+          "required_keywords": [
+            "שכרא",
+            "כתיר"
+          ],
+          "hint": "\"שכרא כתיר\" = תודה רבה"
+        },
+        {
+          "npc_message": {
+            "arabic": "الدكتور هلق بيشوفك.",
+            "transliteration_hebrew": "אַדַּכְּתוּר הַלַּא בְּיְשׁוּפַכּ.",
+            "transliteration_english": "adaktur hala byshufak."
+          },
+          "user_goal_hebrew": "תגיד: תודה לאל",
+          "required_keywords": [
+            "חמדו"
+          ],
+          "hint": "\"אלחמדו לילה\" = תודה לאל"
+        },
+        {
+          "npc_message": {
+            "arabic": "الحمد لله عالسلامة! خد بالك عحالك.",
+            "transliteration_hebrew": "אַלְחַמְדוּ לִלָּה עַ סְּלָאמֶה! חוד בָּאלַכּ עַ חָאלַכּ.",
+            "transliteration_english": "alhamdu lilah 'a slameh! khud balak 'a halak."
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"שכרא, מעא סלאמה\" - תודה, להתראות"
+        }
+      ]
+    },
+    {
+      "id": "SC006",
+      "title_hebrew": "ביקור אצל רופא",
+      "title_arabic": "زيارة الدكتور",
+      "icon": "🩺",
+      "difficulty_level": 2,
+      "description": "בדיקה במרפאה - תיאור תסמינים, קבלת הוראות ותרופה",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "أهلين! شو أخبارك اليوم؟ شو بيوجعك؟",
+            "transliteration_hebrew": "אַהְלֵין! שוּ אַחְבָּארַךּ אַלְיוֹם? שוּ בְּיוּג'ְעַךּ?",
+            "transliteration_english": "ahleyn! shu ahbarak alyom? shu byuja'ak?"
+          },
+          "user_goal_hebrew": "תגיד: כואב לי הבטן",
+          "required_keywords": [
+            "בוגעני",
+            "בטני"
+          ],
+          "hint": "\"בוג'עני בטני\" = כואב לי הבטן"
+        },
+        {
+          "npc_message": {
+            "arabic": "من إمتى وأنت هيك؟ إمبارح ولا اليوم؟",
+            "transliteration_hebrew": "מִן אֶמְתַא וְאִנְתֶ הֵיךּ? אִמְבָּארִח וְלָא אַלְיוֹם?",
+            "transliteration_english": "min emta w inte heyk? imbarih wala alyom?"
+          },
+          "user_goal_hebrew": "תגיד: מאתמול",
+          "required_keywords": [
+            "אמבארח"
+          ],
+          "hint": "\"מן אמבארח\" = מאתמול"
+        },
+        {
+          "npc_message": {
+            "arabic": "طيب، عندك حرارة؟",
+            "transliteration_hebrew": "טַיֶּבּ, עִנְדַכּ חַרָארֶה?",
+            "transliteration_english": "tayeb, indak hararah?"
+          },
+          "user_goal_hebrew": "תגיד: כן, יש לי חום",
+          "required_keywords": [
+            "חרארה"
+          ],
+          "hint": "\"עִנדי חרארה\" = יש לי חום"
+        },
+        {
+          "npc_message": {
+            "arabic": "وعندك كحة كمان؟",
+            "transliteration_hebrew": "וְעִנְדַכּ כַּחַּה כְּמָאן?",
+            "transliteration_english": "w indak kahheh kman?"
+          },
+          "user_goal_hebrew": "תגיד: לא, אין לי שיעול",
+          "required_keywords": [
+            "כחה"
+          ],
+          "hint": "\"לא, מא עִנדי כחה\" = לא, אין לי שיעול"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام. بدك دوا، وارتاح كم يوم بالبيت.",
+            "transliteration_hebrew": "תַמָּאם. בַּדַּכּ דְּוָא, וַארְתָאח כַּם יוֹם בַּלְבֵּית.",
+            "transliteration_english": "tamam. badak dwa, wartah kam yom balbeyt."
+          },
+          "user_goal_hebrew": "תשאל: איפה בית המרקחת?",
+          "required_keywords": [
+            "צידליה"
+          ],
+          "hint": "\"וין אלצידליה؟\" = איפה בית המרקחת?"
+        },
+        {
+          "npc_message": {
+            "arabic": "فيه صيدلية قريبة، جنب البيت.",
+            "transliteration_hebrew": "פִּי צַיְדַלִיֶה אָרִיבֶּה, גַ'נְּב אַלְבֵּית.",
+            "transliteration_english": "fi saydaliyeh aribeh, janb albeyt."
+          },
+          "user_goal_hebrew": "תגיד: טוב, תודה דוקטור",
+          "required_keywords": [
+            "שכרא",
+            "דכתור"
+          ],
+          "hint": "\"מניח, שכרא דכתור\""
+        },
+        {
+          "npc_message": {
+            "arabic": "العفو، خد الدوا مرتين باليوم.",
+            "transliteration_hebrew": "אַלְעַפְו, חוד אַלְדְּוָא מַרְתֵין בַּלְיוֹם.",
+            "transliteration_english": "al'afu, khud aldwa marteyn balyom."
+          },
+          "user_goal_hebrew": "תגיד: בסדר, הבנתי",
+          "required_keywords": [
+            "פהמת"
+          ],
+          "hint": "\"תמאם, פהמת\" = בסדר, הבנתי"
+        },
+        {
+          "npc_message": {
+            "arabic": "يعطيك العافية، وإن شاء الله بتصير أحسن!",
+            "transliteration_hebrew": "יַעְטִיךּ אַלְעָאפְיֶה, וְאִנְשַׁאלָּה בְּתְצִיר אַחְסַן!",
+            "transliteration_english": "ya'tik al'afyeh, w inshalah bitsir ahsan!"
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"שכרא כתיר, מעא סלאמה\""
+        }
+      ]
+    },
+    {
+      "id": "SC007",
+      "title_hebrew": "קניית בגדים בחנות",
+      "title_arabic": "شراء ملابس بالمحل",
+      "icon": "👕",
+      "difficulty_level": 1,
+      "description": "בחירת בגד, צבע, מידה ותשלום בחנות בגדים",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "أهلا فيك! شو بتحب تشوف اليوم؟",
+            "transliteration_hebrew": "אַהְלַן פִּיךּ! שוּ בְּתְחֶבּ תְּשׁוּף אַלְיוֹם?",
+            "transliteration_english": "ahlan fik! shu bthebb tshuf alyom?"
+          },
+          "user_goal_hebrew": "תגיד שאתה רוצה חולצה",
+          "required_keywords": [
+            "בדי",
+            "אמיץ"
+          ],
+          "hint": "\"בדי אמיץ\" = אני רוצה חולצה"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، شو اللون اللي بتحب؟",
+            "transliteration_hebrew": "תַמָּאם, שוּ אַלְלוֹן אִלִּי בְּתְחֶבּ?",
+            "transliteration_english": "tamam, shu allon illi bthebb?"
+          },
+          "user_goal_hebrew": "תגיד: כחול",
+          "required_keywords": [
+            "אזרא"
+          ],
+          "hint": "כחול = \"אזרא\""
+        },
+        {
+          "npc_message": {
+            "arabic": "عندي أزرق حلو. شو مقاسك؟",
+            "transliteration_hebrew": "עִנְדִי אַזְרַא חִלוּ. שוּ מַאָאסַכּ?",
+            "transliteration_english": "indi azra' hilu. shu ma'asak?"
+          },
+          "user_goal_hebrew": "תגיד: גדול",
+          "required_keywords": [
+            "כביר"
+          ],
+          "hint": "גדול = \"כביר\""
+        },
+        {
+          "npc_message": {
+            "arabic": "تفضل جرب هاد بالغرفة.",
+            "transliteration_hebrew": "תְּפַדְּל גָ'רִבּ הָאד בַּלְעֻ'רְפֶה.",
+            "transliteration_english": "tfadal jarib had balghurfeh."
+          },
+          "user_goal_hebrew": "תגיד: תודה, אני מנסה",
+          "required_keywords": [
+            "שכרא"
+          ],
+          "hint": "\"שכרא, בג'רב\" = תודה, אני מנסה"
+        },
+        {
+          "npc_message": {
+            "arabic": "كيف؟ مزبوط مقاسك؟",
+            "transliteration_hebrew": "כֵּיף? מַזְבּוּט מַאָאסַכּ?",
+            "transliteration_english": "keyf? mazbut ma'asak?"
+          },
+          "user_goal_hebrew": "תגיד: כן, זה מתאים בדיוק",
+          "required_keywords": [
+            "מזבוט"
+          ],
+          "hint": "\"אי, מזבוט\" = כן, מתאים בדיוק"
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا، سعرو مية شيكل. عندك خصم اليوم كمان.",
+            "transliteration_hebrew": "יַלָּה, סִעְרוּ מִיֶּה שֵׁיקֶל. עִנְדַכּ חַ'צְם אַלְיוֹם כְּמָאן.",
+            "transliteration_english": "yalah, si'ru miyeh shekel. indak khasm alyom kman."
+          },
+          "user_goal_hebrew": "תגיד: וואו, יפה!",
+          "required_keywords": [
+            "סלאם"
+          ],
+          "hint": "\"יא סלאם\" = וואו, יפה"
+        },
+        {
+          "npc_message": {
+            "arabic": "بتحب كمان اشي؟ عندي كنزات حلوة.",
+            "transliteration_hebrew": "בְּתְחֶבּ כְּמָאן אִישִׁי? עִנְדִי כַּנְזָאת חִלוֶה.",
+            "transliteration_english": "bthebb kman ishi? indi kanzat hilweh."
+          },
+          "user_goal_hebrew": "תגיד: לא תודה, זה מספיק",
+          "required_keywords": [
+            "חלאץ"
+          ],
+          "hint": "\"לא שכרא, ח'לאץ\" = לא תודה, מספיק"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، يعطيك العافية! مع السلامة",
+            "transliteration_hebrew": "תַמָּאם, יַעְטִיךּ אַלְעָאפְיֶה! מַעַ סְּלָאמֶה",
+            "transliteration_english": "tamam, ya'tik al'afyeh! ma'a slameh"
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"מעא סלאמה\" - להתראות"
+        }
+      ]
+    },
+    {
+      "id": "SC008",
+      "title_hebrew": "נסיעה במונית",
+      "title_arabic": "رحلة بالتاكسي",
+      "icon": "🚕",
+      "difficulty_level": 1,
+      "description": "יעד, מחיר ותשלום עם נהג מונית ירושלמי",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "أهلا! وين رايح؟",
+            "transliteration_hebrew": "אַהְלַן! וֵין רָאיֶח?",
+            "transliteration_english": "ahlan! weyn rayeh?"
+          },
+          "user_goal_hebrew": "תגיד שאתה הולך לעיר העתיקה",
+          "required_keywords": [
+            "בלדה"
+          ],
+          "hint": "\"אלבלדה אלאדימה\" = העיר העתיקה"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، بتعرف قديش الأجرة؟",
+            "transliteration_hebrew": "תַמָּאם, בְּתַעְרַף אַדֵּיש אַלְאֻגְ'רֶה?",
+            "transliteration_english": "tamam, bta'raf adeysh alujreh?"
+          },
+          "user_goal_hebrew": "תשאל: כמה זה עולה?",
+          "required_keywords": [
+            "בכם"
+          ],
+          "hint": "\"בכם هاد؟\" = כמה זה עולה?"
+        },
+        {
+          "npc_message": {
+            "arabic": "بعشرين شيكل بس. تعا اركب.",
+            "transliteration_hebrew": "בְּעִשְׁרִין שֵׁיקֶל בַּס. תְּעָה אִרְכַּבּ.",
+            "transliteration_english": "b'ishrin shekel bas. t'ah irkab."
+          },
+          "user_goal_hebrew": "תגיד: בסדר, תודה",
+          "required_keywords": [
+            "תמאם",
+            "שכרא"
+          ],
+          "hint": "\"תמאם, שכרא\" = בסדר, תודה"
+        },
+        {
+          "npc_message": {
+            "arabic": "في عجقة اليوم، بس رح نوصل.",
+            "transliteration_hebrew": "פִּי עַגַ'אַה אַלְיוֹם, בַּס רַח נוּצַל.",
+            "transliteration_english": "fi ajaqah alyom, bas rah nusal."
+          },
+          "user_goal_hebrew": "תגיד: אין דבר, לא נורא",
+          "required_keywords": [
+            "צאר",
+            "אישי"
+          ],
+          "hint": "\"מא צאר אישי\" = אין דבר, לא קרה כלום"
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا وصلنا! هاد البلدة القديمة.",
+            "transliteration_hebrew": "יַלָּה וַצַלְנָה! הָאד אַלְבַּלְדֶה אַלְאַדִּימֶה.",
+            "transliteration_english": "yalah wasalna! had albaldeh al'adimeh."
+          },
+          "user_goal_hebrew": "תגיד: תודה רבה!",
+          "required_keywords": [
+            "שכרא",
+            "כתיר"
+          ],
+          "hint": "\"שכרא כתיר\" = תודה רבה"
+        },
+        {
+          "npc_message": {
+            "arabic": "تفضل، هاد الباقي.",
+            "transliteration_hebrew": "תְּפַדְּל, הָאד אַלְבָּאאִי.",
+            "transliteration_english": "tfadal, had albaqi."
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"שכרא, מעא סלאמה\""
+        },
+        {
+          "npc_message": {
+            "arabic": "بتحتاج تكسي ترجع؟ رقمي معك.",
+            "transliteration_hebrew": "בְּתְחְתָאג' תַכְּסִי תְּרְג'ַע? רַאְמִי מַעַכּ.",
+            "transliteration_english": "bithtaj taksi tirja'? ra'mi ma'ak."
+          },
+          "user_goal_hebrew": "תגיד: כן, אני אתקשר",
+          "required_keywords": [
+            "תצל"
+          ],
+          "hint": "\"אי, בתאצל\" = כן, אני אתקשר"
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا تمام، الله معك!",
+            "transliteration_hebrew": "יַלָּה תַמָּאם, אַלְלָה מַעַךּ!",
+            "transliteration_english": "yalah tamam, allah ma'ak!"
+          },
+          "user_goal_hebrew": "תיפרד לשלום שוב",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"מעא סלאמה\" - להתראות"
+        }
+      ]
+    },
+    {
+      "id": "SC009",
+      "title_hebrew": "קביעת פגישה בטלפון",
+      "title_arabic": "تحديد موعد بالتلفون",
+      "icon": "📞",
+      "difficulty_level": 2,
+      "description": "שיחת טלפון לקביעת יום ושעה לפגישה",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "ألو! مين معي؟",
+            "transliteration_hebrew": "אַלוֹ! מִין מַעִי?",
+            "transliteration_english": "alo! min ma'i?"
+          },
+          "user_goal_hebrew": "תגיד שלום",
+          "required_keywords": [
+            "מרחבא"
+          ],
+          "hint": "\"מרחבא\" = שלום"
+        },
+        {
+          "npc_message": {
+            "arabic": "أهلين! شو بدك؟",
+            "transliteration_hebrew": "אַהְלֵין! שוּ בַּדַּכּ?",
+            "transliteration_english": "ahleyn! shu badak?"
+          },
+          "user_goal_hebrew": "תגיד שאתה רוצה לקבוע פגישה",
+          "required_keywords": [
+            "בדי",
+            "אגתמאע"
+          ],
+          "hint": "\"בדי אעמל אג'תמאע\" = אני רוצה לקבוע פגישה"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، إيمتى بدك تيجي؟",
+            "transliteration_hebrew": "תַמָּאם, אֵימְתָא בַּדַּכּ תִּיגִ'י?",
+            "transliteration_english": "tamam, eymta badak tiji?"
+          },
+          "user_goal_hebrew": "תגיד: מחר",
+          "required_keywords": [
+            "בוכרה"
+          ],
+          "hint": "מחר = \"בוכרה\""
+        },
+        {
+          "npc_message": {
+            "arabic": "بكرا الصبح ولا بعد الضهر؟",
+            "transliteration_hebrew": "בּוּכְרָה אַצְּבַח וְלָא בַּעַד אַדּוֹהַר?",
+            "transliteration_english": "bukrah asbah wala ba'ad adohar?"
+          },
+          "user_goal_hebrew": "תגיד: אחר הצהריים",
+          "required_keywords": [
+            "בעד",
+            "דוהר"
+          ],
+          "hint": "\"בעד אדוהר\" = אחר הצהריים"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، الساعة كم بيناسبك؟",
+            "transliteration_hebrew": "תַמָּאם, אַסָּאעָה כַּם בְּיְנָאסְבַּכּ?",
+            "transliteration_english": "tamam, asa'ah kam byinasibak?"
+          },
+          "user_goal_hebrew": "תגיד: בשלוש",
+          "required_keywords": [
+            "תלאתה"
+          ],
+          "hint": "שלוש = \"תלאתה\""
+        },
+        {
+          "npc_message": {
+            "arabic": "منيح، سجلتلك الموعد.",
+            "transliteration_hebrew": "מְנִיח, סַגַּ'לְתִלַכּ אַלְמַוְעֶד.",
+            "transliteration_english": "mnih, sajaltilak almaw'id."
+          },
+          "user_goal_hebrew": "תגיד: תודה רבה",
+          "required_keywords": [
+            "שכרא",
+            "כתיר"
+          ],
+          "hint": "\"שכרא כתיר\" = תודה רבה"
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا، لا تتأخر!",
+            "transliteration_hebrew": "יַלָּה, לָא תִתְאַחַ'ר!",
+            "transliteration_english": "yalah, la tit'akhar!"
+          },
+          "user_goal_hebrew": "תגיד: לא אאחר",
+          "required_keywords": [
+            "תאחר"
+          ],
+          "hint": "\"מא בתאחר\" = אני לא מאחר"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، الله يعطيك العافية. مع السلامة",
+            "transliteration_hebrew": "תַמָּאם, אַלְלָה יַעְטִיךּ אַלְעָאפְיֶה. מַעַ סְּלָאמֶה",
+            "transliteration_english": "tamam, allah ya'tik al'afyeh. ma'a slameh"
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"מעא סלאמה\" - להתראות"
+        }
+      ]
+    },
+    {
+      "id": "SC010",
+      "title_hebrew": "יום ראשון בעבודה",
+      "title_arabic": "أول يوم بالشغل",
+      "icon": "💼",
+      "difficulty_level": 2,
+      "description": "היכרות עם מנהל, הבנת סדר יום ומיקומים במשרד",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "أهلا وسهلا فيك! أول يوم إلك بالشغل؟",
+            "transliteration_hebrew": "אַהְלַן וְסַהְלַן פִּיךּ! אַוַּל יוֹם אִלַכּ בַּלְשֻׁגַ'ל?",
+            "transliteration_english": "ahlan w sahlan fik! awal yom ilak balshughal?"
+          },
+          "user_goal_hebrew": "תגיד: כן, זה היום הראשון שלי",
+          "required_keywords": [
+            "אול",
+            "יום"
+          ],
+          "hint": "\"אי, אול יום אלי\" = כן, היום הראשון שלי"
+        },
+        {
+          "npc_message": {
+            "arabic": "تشرفنا! هاد مكتبك هون.",
+            "transliteration_hebrew": "תְשַׁרַּפְנָא! הָאד מַכְּתַבַּכּ הוֹן.",
+            "transliteration_english": "tsharrafna! had maktabak hon."
+          },
+          "user_goal_hebrew": "תגיד: תודה, נעים מאוד",
+          "required_keywords": [
+            "תשרפנא"
+          ],
+          "hint": "\"שכרא, תשרפנא\" = תודה, נעים מאוד"
+        },
+        {
+          "npc_message": {
+            "arabic": "بتعرف تشتغل عالكمبيوتر؟",
+            "transliteration_hebrew": "בְּתַעְרַף תִּשְׁתַּגַ'ל עַ אַלְכּוֹמְבְּיוּתַר?",
+            "transliteration_english": "bta'raf tishtaghal 'a alkombyutar?"
+          },
+          "user_goal_hebrew": "תגיד: כן, אני יודע",
+          "required_keywords": [
+            "בערף"
+          ],
+          "hint": "\"אי, בערף\" = כן, אני יודע"
+        },
+        {
+          "npc_message": {
+            "arabic": "منيح. اجتماعنا الساعة عشرة الصبح.",
+            "transliteration_hebrew": "מְנִיח. אִגְ'תִמָאעְנָה אַסָּאעָה עַשְׁרֶה אַצְּבַח.",
+            "transliteration_english": "mnih. ijtima'na asa'ah ashreh asbah."
+          },
+          "user_goal_hebrew": "תגיד: בסדר",
+          "required_keywords": [
+            "תמאם"
+          ],
+          "hint": "\"תמאם\" = בסדר"
+        },
+        {
+          "npc_message": {
+            "arabic": "عندك اي سؤال؟",
+            "transliteration_hebrew": "עִנְדַכּ אַיּ סֻאַאל?",
+            "transliteration_english": "indak ay su'al?"
+          },
+          "user_goal_hebrew": "תשאל: איפה השירותים?",
+          "required_keywords": [
+            "חמאם"
+          ],
+          "hint": "\"וין אלחמאם؟\" = איפה השירותים?"
+        },
+        {
+          "npc_message": {
+            "arabic": "جنب المكتب، على اليمين.",
+            "transliteration_hebrew": "גַ'נְּב אַלְמַכְּתַב, עַלָא אַלְיְמִין.",
+            "transliteration_english": "janb almaktab, 'ala alymin."
+          },
+          "user_goal_hebrew": "תגיד: תודה רבה",
+          "required_keywords": [
+            "שכרא",
+            "כתיר"
+          ],
+          "hint": "\"שכרא כתיר\" = תודה רבה"
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا، بالتوفيق باول يوم!",
+            "transliteration_hebrew": "יַלָּה, בִּאל-תַוְפִיא בַּאַוַּל יוֹם!",
+            "transliteration_english": "yalah, bil-tawfi' bawal yom!"
+          },
+          "user_goal_hebrew": "תגיד: תודה לאל, בסדר",
+          "required_keywords": [
+            "חמדו"
+          ],
+          "hint": "\"אלחמדו לילה, תמאם\""
+        },
+        {
+          "npc_message": {
+            "arabic": "عادي، كل واحد بيصير منيح معه بالأول. مع السلامة",
+            "transliteration_hebrew": "עָאדִי, כֻּל וָאחַד בְּיְצִיר מְנִיח מַעוֹ בַּלְאַוַּל. מַעַ סְּלָאמֶה",
+            "transliteration_english": "'adi, kul wahad biysir mnih ma'o balawal. ma'a slameh"
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"מעא סלאמה\" - להתראות"
+        }
+      ]
+    },
+    {
+      "id": "SC011",
+      "title_hebrew": "מזג אוויר ותוכניות לסופ\"ש",
+      "title_arabic": "الجو وخطط الويكند",
+      "icon": "☀️",
+      "difficulty_level": 1,
+      "description": "שיחת חולין על מזג האוויר ותכניות משותפות לסוף השבוע",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "يا سلام، الجو حلو اليوم! شو رأيك؟",
+            "transliteration_hebrew": "יַא סַלָאם, אַלְגַ'וּ חִלוּ אַלְיוֹם! שוּ רַאיַּךּ?",
+            "transliteration_english": "ya salam, aljau hilu alyom! shu rayak?"
+          },
+          "user_goal_hebrew": "תסכים: כן, השמש יפה",
+          "required_keywords": [
+            "שמס"
+          ],
+          "hint": "\"אלשמס חלוה\" = השמש יפה"
+        },
+        {
+          "npc_message": {
+            "arabic": "بس بيقولوا رح تمطر بكرا.",
+            "transliteration_hebrew": "בַּס בְּיְאוּלוּ רַח תַּמְטַר בּוּכְרָה.",
+            "transliteration_english": "bas byquilu rah tamtir bukrah."
+          },
+          "user_goal_hebrew": "תגיד שאתה לא אוהב גשם",
+          "required_keywords": [
+            "מטר"
+          ],
+          "hint": "\"מא בחב אלמטר\" = אני לא אוהב גשם"
+        },
+        {
+          "npc_message": {
+            "arabic": "صحيح، بس منيح للأرض. شو خططك لهاد الويكند؟",
+            "transliteration_hebrew": "צַחִיח, בַּס מְנִיח לַלְאַרְז'. שוּ חַ'טַטַכּ לְהָאד אַלְוִיכֶּנְד?",
+            "transliteration_english": "sahih, bas mnih lal'ard. shu khatatak lhad alweekend?"
+          },
+          "user_goal_hebrew": "תגיד שאתה רוצה לנוח בבית",
+          "required_keywords": [
+            "בדי",
+            "ארתאח"
+          ],
+          "hint": "\"בדי ארתאח בלבית\" = אני רוצה לנוח בבית"
+        },
+        {
+          "npc_message": {
+            "arabic": "منيح كتير. أنا رح روح عالحديقة مع العيلة.",
+            "transliteration_hebrew": "מְנִיח כְּתִיר. אַנָּה רַח רוּח עַ אַלְחַדִיאַה מַעַ אַלְעֵילֶה.",
+            "transliteration_english": "mnih ktir. ana rah ruh 'a alhadi'ah ma' al'eyleh."
+          },
+          "user_goal_hebrew": "תגיד: איזה יופי!",
+          "required_keywords": [
+            "סלאם"
+          ],
+          "hint": "\"יא סלאם\" = איזה יופי"
+        },
+        {
+          "npc_message": {
+            "arabic": "بتحب تيجي معنا؟",
+            "transliteration_hebrew": "בְּתְחֶבּ תִּיגִ'י מַעְנָה?",
+            "transliteration_english": "bthebb tiji ma'na?"
+          },
+          "user_goal_hebrew": "תגיד: בשמחה",
+          "required_keywords": [
+            "ראסי"
+          ],
+          "hint": "\"עלא ראסי\" = בשמחה"
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا تمام، منلتقي الساعة عشرة الصبح.",
+            "transliteration_hebrew": "יַלָּה תַמָּאם, מְנִלְתַאִי אַסָּאעָה עַשְׁרֶה אַצְּבַח.",
+            "transliteration_english": "yalah tamam, mniltaqi asa'ah ashreh asbah."
+          },
+          "user_goal_hebrew": "תגיד: מעולה",
+          "required_keywords": [
+            "תמאם"
+          ],
+          "hint": "\"תמאם\" = מעולה, בסדר"
+        },
+        {
+          "npc_message": {
+            "arabic": "لا تنسى قنينة ماء، الجو ممكن يصير حر.",
+            "transliteration_hebrew": "לָא תִנְסָא אָנִינֶת מַאיּ, אַלְגַ'וּ מֻמְכִּן יְצִיר חַרּ.",
+            "transliteration_english": "la tinsa aninet may, aljau mumkin yisir harr."
+          },
+          "user_goal_hebrew": "תגיד: בסדר, לא אשכח",
+          "required_keywords": [
+            "בנסא"
+          ],
+          "hint": "\"מא בנסא\" = אני לא שוכח"
+        },
+        {
+          "npc_message": {
+            "arabic": "تمام، الله يعطيك العافية، مع السلامة",
+            "transliteration_hebrew": "תַמָּאם, אַלְלָה יַעְטִיךּ אַלְעָאפְיֶה, מַעַ סְּלָאמֶה",
+            "transliteration_english": "tamam, allah ya'tik al'afyeh, ma'a slameh"
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"מעא סלאמה\" - להתראות"
+        }
+      ]
+    },
+    {
+      "id": "SC012",
+      "title_hebrew": "ביקור משפחתי אצל סבתא",
+      "title_arabic": "زيارة عند ستي",
+      "icon": "🏠",
+      "difficulty_level": 1,
+      "description": "ביקור חם במשפחה - אוכל, שאלות על החיים, פרידה",
+      "steps": [
+        {
+          "npc_message": {
+            "arabic": "يا حياتي! نورتني! كيفك؟",
+            "transliteration_hebrew": "יַא חַיָאתִי! נַוַּרְתְנִי! כֵּיפַּכּ?",
+            "transliteration_english": "ya hayati! nawartni! keyfak?"
+          },
+          "user_goal_hebrew": "תענה: טוב, תודה לאל",
+          "required_keywords": [
+            "מניח",
+            "חמדו"
+          ],
+          "hint": "\"מניח, אלחמדו לילה\" = טוב, תודה לאל"
+        },
+        {
+          "npc_message": {
+            "arabic": "الحمد لله، بخير. جوعان؟ عملتلك أكل!",
+            "transliteration_hebrew": "אַלְחַמְדוּ לִלָּה, בְּחֵיר. גְ'וּעָאן? עַמַלְתְלַכּ אַכַּל!",
+            "transliteration_english": "alhamdu lilah, bkheyr. ju'an? amaltilak akal!"
+          },
+          "user_goal_hebrew": "תגיד: כן, אני רעב מאוד",
+          "required_keywords": [
+            "גועאן"
+          ],
+          "hint": "\"אנא ג'ועאן כתיר\" = אני רעב מאוד"
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا تفضل عالطاولة، عملت مقلوبة!",
+            "transliteration_hebrew": "יַלָּה תְּפַדְּל עַ אַלְטָאוְולֶה, עַמַלְת מַאְלוּבֶּה!",
+            "transliteration_english": "yalah tfadal 'a altawleh, amalt ma'lubeh!"
+          },
+          "user_goal_hebrew": "תגיד: וואי, זה נראה טעים",
+          "required_keywords": [
+            "זאכי"
+          ],
+          "hint": "\"יא סלאם, זאכי\" = וואו, טעים"
+        },
+        {
+          "npc_message": {
+            "arabic": "كلي كلي، في كتير!",
+            "transliteration_hebrew": "כֻּלִי כֻּלִי, פִּי כְּתִיר!",
+            "transliteration_english": "kuli kuli, fi ktir!"
+          },
+          "user_goal_hebrew": "תגיד: תודה, זה ממש טעים",
+          "required_keywords": [
+            "שכרא",
+            "זאכי"
+          ],
+          "hint": "\"שכרא, זאכי כתיר\""
+        },
+        {
+          "npc_message": {
+            "arabic": "شو أخبار الشغل والدراسة؟",
+            "transliteration_hebrew": "שוּ אַחְבָּאר אַלְשֻׁגַ'ל וְאַלְדִּרָאסֶה?",
+            "transliteration_english": "shu ahbar alshughal waldiraseh?"
+          },
+          "user_goal_hebrew": "תגיד: הכל בסדר, תודה לאל",
+          "required_keywords": [
+            "תמאם",
+            "חמדו"
+          ],
+          "hint": "\"כלו תמאם, אלחמדו לילה\""
+        },
+        {
+          "npc_message": {
+            "arabic": "الله يخليك. وشو أخبار الأخوات؟",
+            "transliteration_hebrew": "אַלְלָה יְחַ'לִּיךְ. וְשוּ אַחְבָּאר אַלְאַחְ'וָאת?",
+            "transliteration_english": "allah ykhallik. w shu ahbar alakhwat?"
+          },
+          "user_goal_hebrew": "תגיד: כולם בסדר",
+          "required_keywords": [
+            "תמאם"
+          ],
+          "hint": "\"כלהם תמאם\" = כולם בסדר"
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا خد كمان شوية كنافة قبل ما تروح.",
+            "transliteration_hebrew": "יַלָּה חוד כְּמָאן שְׁוַיֶּה כְּנָאפֶה אַבֶּל מַא תְּרוּח.",
+            "transliteration_english": "yalah khud kman shwayeh knafeh abel ma truh."
+          },
+          "user_goal_hebrew": "תגיד: תודה, אבל אני שבע",
+          "required_keywords": [
+            "שבעאן"
+          ],
+          "hint": "\"שכרא, בס אנא שבעאן\""
+        },
+        {
+          "npc_message": {
+            "arabic": "يلا روح عالسلامة، وسلملي عالعيلة!",
+            "transliteration_hebrew": "יַלָּה רוּח עַ סְּלָאמֶה, וְסַלֵּמְלִי עַ אַלְעֵילֶה!",
+            "transliteration_english": "yalah ruh 'a slameh, w sallimli 'a al'eyleh!"
+          },
+          "user_goal_hebrew": "תיפרד לשלום",
+          "required_keywords": [
+            "סלאמה"
+          ],
+          "hint": "\"שכרא, מעא סלאמה\""
+        }
+      ]
+    }
+  ]
+}

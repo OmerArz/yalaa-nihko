@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Receive-Job *)",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\roy72\\\\Desktop\\\\אפליקציית ערבית\"; Get-Content .env.local | ForEach-Object { if \\($_ -match '^\\([^=]+\\)=\\(.+\\)$'\\) { \"$\\($matches[1]\\)=✅ [מוגדר]\" } else { $_ } })",
+      "Bash(npx tsc *)",
+      "Bash(node *)",
+      "Bash(npm run *)",
+      "Bash(Remove-Item -Recurse -Force .next -ErrorAction SilentlyContinue)",
+      "Bash(Write-Host \"Done\")",
+      "Bash(npx next *)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill *)"
+    ]
+  }
+}

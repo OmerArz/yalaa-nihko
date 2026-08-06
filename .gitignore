@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+tsconfig.tsbuildinfo
+
+# env
+.env*.local
+.env
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# design handoff / non-app assets (not used by the app)
+/design_handoff_app_screens/
+/design_handoff_app_shell_navigation/
+/uploads/
+*.dc.html
+support.js
+.thumbnail
+*.zip
+Application logo.png
+
+# vercel
+.vercel

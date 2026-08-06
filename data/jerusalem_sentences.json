@@ -1,0 +1,4560 @@
+{
+  "sentences": [
+    {
+      "id": "SN001",
+      "arabic_script": "مرحبا، كيفك اليوم؟",
+      "transliteration": "מַרְחַבָּא, כֵּיפַּךּ אֶל-יוֹם?",
+      "english_transliteration": "marhaba, keyfak el-yom?",
+      "hebrew_translation": "היי, מה שלומך היום?",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR001",
+        "GR003",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN002",
+      "arabic_script": "أنا منيح، الحمد لله",
+      "transliteration": "אַנַא מְנִיח, אַלְחַמְדוּ לִלָּה",
+      "english_transliteration": "ana mnih, alhamdu lilah",
+      "hebrew_translation": "אני בסדר, תודה לאל",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR006",
+        "GR005"
+      ]
+    },
+    {
+      "id": "SN003",
+      "arabic_script": "صباح النور، شو أخبارك؟",
+      "transliteration": "צְבָאח אַנּוּר, שוּ אַחְבָּארַךּ?",
+      "english_transliteration": "sbah anur, shu ahbarak?",
+      "hebrew_translation": "בוקר אור, מה החדשות שלך?",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR016",
+        "GR009"
+      ]
+    },
+    {
+      "id": "SN004",
+      "arabic_script": "شكرا كتير، يسلمو",
+      "transliteration": "שוּכְּרָאן כְּתִיר, יִסְלַמּוּ",
+      "english_transliteration": "shukran ktir, yislamu",
+      "hebrew_translation": "תודה רבה",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR012",
+        "EX023",
+        "GR024"
+      ]
+    },
+    {
+      "id": "SN005",
+      "arabic_script": "مساء الخير، أهلين",
+      "transliteration": "מְסָא אַלְחֵיר, אַהְלֵין",
+      "english_transliteration": "msa alheyr, ahleyn",
+      "hebrew_translation": "ערב טוב, ברוך הבא",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR017",
+        "GR002"
+      ]
+    },
+    {
+      "id": "SN006",
+      "arabic_script": "تصبح على خير، مع السلامة",
+      "transliteration": "תִצְבַּח עַ חֵיר, מַעַ סְּלָאמֶה",
+      "english_transliteration": "tisbah a heyr, ma'a slameh",
+      "hebrew_translation": "לילה טוב, להתראות",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR019",
+        "GR014"
+      ]
+    },
+    {
+      "id": "SN007",
+      "arabic_script": "إن شاء الله، بكرا منيح",
+      "transliteration": "אִנְשַׁאלָּה, בּוּכְּרָה מְנִיח",
+      "english_transliteration": "inshalah, bukrah mnih",
+      "hebrew_translation": "אם ירצה השם, מחר יהיה בסדר",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR011",
+        "NT013",
+        "GR006"
+      ]
+    },
+    {
+      "id": "SN008",
+      "arabic_script": "يسلمو إيديك، شكرا",
+      "transliteration": "יִסְלַמּוּ אִידֵּיךּ, שוּכְּרָאן",
+      "english_transliteration": "yislamu ideyk, shukran",
+      "hebrew_translation": "תודה על העזרה (ידיים בריאות), תודה",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR022",
+        "GR012"
+      ]
+    },
+    {
+      "id": "SN009",
+      "arabic_script": "بدي قهوة وشاي",
+      "transliteration": "בִּדִּי אַהְוֶה וְשַׁאיּ",
+      "english_transliteration": "bidi ahweh w shay",
+      "hebrew_translation": "אני רוצה קפה ותה",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "FD008",
+        "FD009"
+      ]
+    },
+    {
+      "id": "SN010",
+      "arabic_script": "الأكل زاكي كتير",
+      "transliteration": "אַלְאַכַּל זָאכִּי כְּתִיר",
+      "english_transliteration": "alakal zaki ktir",
+      "hebrew_translation": "האוכל טעים מאוד",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "FD001",
+        "FD002",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN011",
+      "arabic_script": "بدي فلافل وحمص",
+      "transliteration": "בִּדִּי פַלָאפִל וְחוּמוּס",
+      "english_transliteration": "bidi falafil w humus",
+      "hebrew_translation": "אני רוצה פלאפל וחומוס",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "FD015",
+        "FD016"
+      ]
+    },
+    {
+      "id": "SN012",
+      "arabic_script": "بحب الشاورما كتير",
+      "transliteration": "בְּחֶבּ אַשַּׁוַרְמָא כְּתִיר",
+      "english_transliteration": "bheb ashawarma ktir",
+      "hebrew_translation": "אני אוהב שווארמה מאוד",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB008",
+        "FD041",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN013",
+      "arabic_script": "بكل حمص وخبز",
+      "transliteration": "בְּכּוּל חוּמוּס וְחֻבְּז",
+      "english_transliteration": "bkul humus w hubz",
+      "hebrew_translation": "אני אוכל חומוס ולחם",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB010",
+        "FD016",
+        "FD006"
+      ]
+    },
+    {
+      "id": "SN014",
+      "arabic_script": "بشرب شاي بدون سكر",
+      "transliteration": "בִּשְׁרַב שַׁאיּ בִּדוּן סֻכַּר",
+      "english_transliteration": "bishrab shay bidun sukar",
+      "hebrew_translation": "אני שותה תה בלי סוכר",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB011",
+        "FD009",
+        "FD045"
+      ]
+    },
+    {
+      "id": "SN015",
+      "arabic_script": "أنا جوعان، بدي آكل",
+      "transliteration": "אַנָּה גְ'וּעָאן, בִּדִּי אָכוּל",
+      "english_transliteration": "anah ju'an, bidi akul",
+      "hebrew_translation": "אני רעב, אני רוצה לאכול",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "FD028",
+        "FD003"
+      ]
+    },
+    {
+      "id": "SN016",
+      "arabic_script": "أنا شبعان، شكرا",
+      "transliteration": "אַנָּה שִׁבְּעָאן, שוּכְּרָאן",
+      "english_transliteration": "anah shib'an, shukran",
+      "hebrew_translation": "אני שבע, תודה",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "FD029",
+        "GR012"
+      ]
+    },
+    {
+      "id": "SN017",
+      "arabic_script": "زيادة خبز، بالعافية",
+      "transliteration": "זְיָאדֶה חֻבְּז, בַּלְעָאפְיֶה",
+      "english_transliteration": "zyadeh hubz, bal'afyeh",
+      "hebrew_translation": "עוד לחם, בתאבון",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "FD034",
+        "FD006",
+        "FD038"
+      ]
+    },
+    {
+      "id": "SN018",
+      "arabic_script": "المطعم مليان اليوم",
+      "transliteration": "אַלְמַטְעַם מַלְיָאן אֶל-יוֹם",
+      "english_transliteration": "almat'am malyan el-yom",
+      "hebrew_translation": "המסעדה מלאה היום",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "word_ids": [
+        "FD030",
+        "AD026",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN019",
+      "arabic_script": "بكم هاد؟ غالي كتير",
+      "transliteration": "בְּכַּם הָאד? גָּאלִי כְּתִיר",
+      "english_transliteration": "bkam had? gali ktir",
+      "hebrew_translation": "כמה זה עולה? יקר מאוד",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH001",
+        "SH002",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN020",
+      "arabic_script": "بدي شي رخيص",
+      "transliteration": "בִּדִּי אִישִׁי רְחִיץ",
+      "english_transliteration": "bidi shi rhis",
+      "hebrew_translation": "אני רוצה משהו זול",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "EX010",
+        "SH003"
+      ]
+    },
+    {
+      "id": "SN021",
+      "arabic_script": "عطيني كيلو خضار",
+      "transliteration": "עַטִּינִי כִּילוֹ חַ'צ'ָּאר",
+      "english_transliteration": "atini kilo khadar",
+      "hebrew_translation": "תן לי קילו ירקות",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH004",
+        "SH009",
+        "SH018"
+      ]
+    },
+    {
+      "id": "SN022",
+      "arabic_script": "عندي مصاري بس ما عندي فكة",
+      "transliteration": "עִנְדִי מַצָּארִי בַּס מַא עִנְדִי פַּכֶּה",
+      "english_transliteration": "indi masari bas ma indi fakeh",
+      "hebrew_translation": "יש לי כסף אבל אין לי עודף",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SH012",
+        "EX008",
+        "SH011"
+      ]
+    },
+    {
+      "id": "SN023",
+      "arabic_script": "بدي كمان واحد",
+      "transliteration": "בִּדִּי כְּמָאן וָאחַד",
+      "english_transliteration": "bidi kman wahad",
+      "hebrew_translation": "אני רוצה עוד אחד",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "SH013"
+      ]
+    },
+    {
+      "id": "SN024",
+      "arabic_script": "هاد جديد ولا قديم؟",
+      "transliteration": "הָאד גְ'דִיד וְלַא אַדִּים?",
+      "english_transliteration": "had jdid wala adim?",
+      "hebrew_translation": "זה חדש או ישן?",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SH020",
+        "SH021"
+      ]
+    },
+    {
+      "id": "SN025",
+      "arabic_script": "فيه غيرو؟ هاد غالي",
+      "transliteration": "פִּי גֵּירוּ? הָאד גָּאלִי",
+      "english_transliteration": "fi geyru? had gali",
+      "hebrew_translation": "יש אחר? זה יקר",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH027",
+        "SH002"
+      ]
+    },
+    {
+      "id": "SN026",
+      "arabic_script": "هاد مزبوط، بدي هاد",
+      "transliteration": "הָאד מַזְבּוּט, בִּדִּי הָאד",
+      "english_transliteration": "had mazbut, bidi had",
+      "hebrew_translation": "זה מדויק/נכון, אני רוצה את זה",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH022",
+        "SH005"
+      ]
+    },
+    {
+      "id": "SN027",
+      "arabic_script": "وين السوق؟ قريب من هون؟",
+      "transliteration": "וֵין אַסּוּאַ? אָרִיב מִן הוֹן?",
+      "english_transliteration": "weyn assu'a? arib min hon?",
+      "hebrew_translation": "איפה השוק? קרוב מכאן?",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR001",
+        "SH016",
+        "DR006",
+        "DR008"
+      ]
+    },
+    {
+      "id": "SN028",
+      "arabic_script": "روح دغري ولف يمين",
+      "transliteration": "רוּח דּוּגְרִי וְלוּף יְמִין",
+      "english_transliteration": "ruh dugri w luf ymin",
+      "hebrew_translation": "לך ישר ואז תפנה ימינה",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR014",
+        "DR015"
+      ]
+    },
+    {
+      "id": "SN029",
+      "arabic_script": "لف شمال عند الإشارة",
+      "transliteration": "לוּף שְׁמָאל עִנְד אַלְאִשָּׁארֶה",
+      "english_transliteration": "luf shmal ind al'ishareh",
+      "hebrew_translation": "פנה שמאלה ליד הרמזור",
+      "category": "directions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "DR016",
+        "DR017"
+      ]
+    },
+    {
+      "id": "SN030",
+      "arabic_script": "المحطة قدام البيت",
+      "transliteration": "אַלְמַחַטָּה אַדָּאם אַלְבֵּית",
+      "english_transliteration": "almahatah adam albeyt",
+      "hebrew_translation": "התחנה מול הבית",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR002",
+        "DR012",
+        "HF001"
+      ]
+    },
+    {
+      "id": "SN031",
+      "arabic_script": "الشارع بعيد من هون",
+      "transliteration": "אַשָּׁארַע בְּעִיד מִן הוֹן",
+      "english_transliteration": "ashshara' b'id min hon",
+      "hebrew_translation": "הרחוב רחוק מכאן",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR023",
+        "DR007",
+        "DR008"
+      ]
+    },
+    {
+      "id": "SN032",
+      "arabic_script": "كيف بروح ع البلدة القديمة؟",
+      "transliteration": "כֵּיף בְּרוּח עַ אַלְבַּלְדֶה אַלְאַדִּימֶה?",
+      "english_transliteration": "keyf bruh a albaldeh al'adimeh?",
+      "hebrew_translation": "איך הולכים לעיר העתיקה?",
+      "category": "directions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "DR018",
+        "DR019"
+      ]
+    },
+    {
+      "id": "SN033",
+      "arabic_script": "كم بعيد المسجد الأقصى؟",
+      "transliteration": "כַּם בְּעִיד אַלְמַסְגִ'ד אַלְאַאְצָה?",
+      "english_transliteration": "kam b'id almasjid al'a'sah?",
+      "hebrew_translation": "כמה רחוק מסגד אל-אקצה?",
+      "category": "directions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "DR022",
+        "DR020"
+      ]
+    },
+    {
+      "id": "SN034",
+      "arabic_script": "ما بعرف وين الحارة",
+      "transliteration": "מַא בַּעְרַף וֵין אַלְחָארֶה",
+      "english_transliteration": "ma ba'raf weyn alhareh",
+      "hebrew_translation": "אני לא יודע איפה השכונה",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR021",
+        "DR024"
+      ]
+    },
+    {
+      "id": "SN035",
+      "arabic_script": "بحب القهوة كتير",
+      "transliteration": "בְּחֶבּ אַלְאַהְוֶה כְּתִיר",
+      "english_transliteration": "bheb alahweh ktir",
+      "hebrew_translation": "אני אוהב קפה מאוד",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB008",
+        "FD008",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN036",
+      "arabic_script": "ما بحب السمك",
+      "transliteration": "מַא בְּחֶבּ אַסַּמַּךּ",
+      "english_transliteration": "ma bheb assamak",
+      "hebrew_translation": "אני לא אוהב דגים",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB009",
+        "FD012"
+      ]
+    },
+    {
+      "id": "SN037",
+      "arabic_script": "بدرس اليوم في المدرسة",
+      "transliteration": "בִּדְרַס אֶל-יוֹם פִי אַלְמַדְרַסֶה",
+      "english_transliteration": "bidras el-yom fi almadraseh",
+      "hebrew_translation": "אני לומד היום בבית הספר",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB017",
+        "NT026",
+        "WE001"
+      ]
+    },
+    {
+      "id": "SN038",
+      "arabic_script": "بشتغل بمكتب كبير",
+      "transliteration": "בִּשְׁתַּגַ'ל בְּמַכְּתַב כְּבִיר",
+      "english_transliteration": "bishtajal bmaktab kbir",
+      "hebrew_translation": "אני עובד במשרד גדול",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB016",
+        "WE004",
+        "AD001"
+      ]
+    },
+    {
+      "id": "SN039",
+      "arabic_script": "بقعد بالبيت اليوم",
+      "transliteration": "בַּאַעֶד בִּלְבֵּית אֶל-יוֹם",
+      "english_transliteration": "ba'a'ed bilbeyt el-yom",
+      "hebrew_translation": "אני נשאר בבית היום",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB049",
+        "HF001",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN040",
+      "arabic_script": "بنام بكير بالليل",
+      "transliteration": "בְּנָאם בַּכִּיר בִּלְלֵיל",
+      "english_transliteration": "bnam bakir billeyl",
+      "hebrew_translation": "אני ישן מוקדם בלילה",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB012",
+        "NT034",
+        "NT020"
+      ]
+    },
+    {
+      "id": "SN041",
+      "arabic_script": "أبو رجع من الشغل تعبان",
+      "transliteration": "אַבּוּ רְג'ַע מִן אַשְּׁשֻׁגַ'ל תַּעְבָּאן",
+      "english_transliteration": "abu rja' min ashshughul ta'ban",
+      "hebrew_translation": "אבא חזר מהעבודה עייף",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "word_ids": [
+        "HF005",
+        "VB013",
+        "WE003",
+        "BH010"
+      ]
+    },
+    {
+      "id": "SN042",
+      "arabic_script": "الولد راح عالمدرسة",
+      "transliteration": "אַלְוָלַד רָאח עַ מַדְרַסֶה",
+      "english_transliteration": "alwalad rah a madraseh",
+      "hebrew_translation": "הילד הלך לבית הספר",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF006",
+        "VB001",
+        "WE001"
+      ]
+    },
+    {
+      "id": "SN043",
+      "arabic_script": "أبو اجا من السوق",
+      "transliteration": "אַבּוּ אִיג'ָה מִן אַסּוּאַ",
+      "english_transliteration": "abu ijah min assu'a",
+      "hebrew_translation": "אבא הגיע מהשוק",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF005",
+        "VB003",
+        "SH016"
+      ]
+    },
+    {
+      "id": "SN044",
+      "arabic_script": "بعرف، بس ما فهمت",
+      "transliteration": "בַּעְרַף, בַּס מַא פְּהִמְתּ",
+      "english_transliteration": "ba'raf, bas ma fhimt",
+      "hebrew_translation": "אני יודע, אבל לא הבנתי",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB007",
+        "EX008",
+        "VB021"
+      ]
+    },
+    {
+      "id": "SN045",
+      "arabic_script": "شوف هاد الكتاب",
+      "transliteration": "שוּף הָאד אַלְכִּתָאבּ",
+      "english_transliteration": "shuf had alkitab",
+      "hebrew_translation": "תראה את הספר הזה",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB006",
+        "WE009"
+      ]
+    },
+    {
+      "id": "SN046",
+      "arabic_script": "تعا عالبيت هلق",
+      "transliteration": "תְּעָה עַ בֵּית הַלַּא",
+      "english_transliteration": "t'ah a beyt hala",
+      "hebrew_translation": "בוא הביתה עכשיו",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB004",
+        "HF001",
+        "EX001"
+      ]
+    },
+    {
+      "id": "SN047",
+      "arabic_script": "ساعدني، بدي دكتور",
+      "transliteration": "סָאעִדְנִי, בִּדִּי דַּכְּתוּר",
+      "english_transliteration": "sa'idni, bidi daktur",
+      "hebrew_translation": "עזור לי, אני צריך רופא",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "BH015",
+        "BH013"
+      ]
+    },
+    {
+      "id": "SN048",
+      "arabic_script": "بحس تعبان اليوم",
+      "transliteration": "בְּחִס תַּעְבָּאן אֶל-יוֹם",
+      "english_transliteration": "bhis ta'ban el-yom",
+      "hebrew_translation": "אני מרגיש עייף היום",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB027",
+        "BH010",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN049",
+      "arabic_script": "بستنى كتير هون",
+      "transliteration": "בַּסְתַנָּא כְּתִיר הוֹן",
+      "english_transliteration": "bastana ktir hon",
+      "hebrew_translation": "אני מחכה הרבה כאן",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB043",
+        "EX023",
+        "DR008"
+      ]
+    },
+    {
+      "id": "SN050",
+      "arabic_script": "شو في؟ ما في اشي",
+      "transliteration": "שוּ פִּי? מַא פִּי אִישִׁי",
+      "english_transliteration": "shu fi? ma fi ishi",
+      "hebrew_translation": "מה יש? אין כלום",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "EX017",
+        "EX018"
+      ]
+    },
+    {
+      "id": "SN051",
+      "arabic_script": "هلق مش فاضي",
+      "transliteration": "הַלַּא מִש פָאזִ'י",
+      "english_transliteration": "hala mish fazhi",
+      "hebrew_translation": "עכשיו אני לא פנוי",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX001",
+        "EX002",
+        "AD008"
+      ]
+    },
+    {
+      "id": "SN052",
+      "arabic_script": "لازم بكير، يلا",
+      "transliteration": "לָאזִם בַּכִּיר, יַלָּה",
+      "english_transliteration": "lazim bakir, yalah",
+      "hebrew_translation": "חייבים מוקדם, יאללה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX013",
+        "NT034",
+        "EX012"
+      ]
+    },
+    {
+      "id": "SN053",
+      "arabic_script": "شو رأيك؟ منيح ولا مش منيح؟",
+      "transliteration": "שוּ רַאיַּךּ? מְנִיח וְלַא מִש מְנִיח?",
+      "english_transliteration": "shu rayak? mnih wala mish mnih?",
+      "hebrew_translation": "מה דעתך? טוב או לא טוב?",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX014",
+        "GR006"
+      ]
+    },
+    {
+      "id": "SN054",
+      "arabic_script": "ما في شي، تمام",
+      "transliteration": "מַא פִּי אִישִׁי, תַמָּאם",
+      "english_transliteration": "ma fi ishi, tamam",
+      "hebrew_translation": "אין דבר, מעולה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "EX018",
+        "GR008"
+      ]
+    },
+    {
+      "id": "SN055",
+      "arabic_script": "كتير منيح، شكرا كتير",
+      "transliteration": "כְּתִיר מְנִיח, שוּכְּרָאן כְּתִיר",
+      "english_transliteration": "ktir mnih, shukran ktir",
+      "hebrew_translation": "ממש טוב, תודה רבה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "EX021",
+        "GR012"
+      ]
+    },
+    {
+      "id": "SN056",
+      "arabic_script": "شوية شوية، ولا يهمك",
+      "transliteration": "שְׁוַיֶּה שְׁוַיֶּה, וַלָא יְהִמַּךּ",
+      "english_transliteration": "shwayeh shwayeh, wala yhimak",
+      "hebrew_translation": "לאט לאט, אל תדאג",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "EX022",
+        "EX026"
+      ]
+    },
+    {
+      "id": "SN057",
+      "arabic_script": "طول بالك، بس دقيقة",
+      "transliteration": "טוֹל בָּאלַךּ, בַּס דְּאִיאַה",
+      "english_transliteration": "tol balak, bas d'i'ah",
+      "hebrew_translation": "סבלנות, רק רגע",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX027",
+        "FD039"
+      ]
+    },
+    {
+      "id": "SN058",
+      "arabic_script": "البيت كبير ونظيف",
+      "transliteration": "אַלְבֵּית כְּבִיר וְנַזִ'יף",
+      "english_transliteration": "albeyt kbir w nazhif",
+      "hebrew_translation": "הבית גדול ונקי",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF001",
+        "AD001",
+        "AD011"
+      ]
+    },
+    {
+      "id": "SN059",
+      "arabic_script": "الشغل صعب بس مهم",
+      "transliteration": "אַשְּׁשֻׁגַ'ל צַעֶב בַּס מֻהִםּ",
+      "english_transliteration": "ashshughul sa'eb bas muhim",
+      "hebrew_translation": "העבודה קשה אבל חשובה",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "word_ids": [
+        "WE003",
+        "AD003",
+        "AD022"
+      ]
+    },
+    {
+      "id": "SN060",
+      "arabic_script": "هاد سهل كتير",
+      "transliteration": "הָאד סַהֶל כְּתִיר",
+      "english_transliteration": "had sahel ktir",
+      "hebrew_translation": "זה קל מאוד",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "AD004",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN061",
+      "arabic_script": "أنا مشغول اليوم، مش فاضي",
+      "transliteration": "אַנַא מַשְׁע'וּל אֶל-יוֹם, מִש פָאזִ'י",
+      "english_transliteration": "ana mashghul el-yom, mish fazhi",
+      "hebrew_translation": "אני עסוק היום, לא פנוי",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "AD007",
+        "NT026",
+        "AD008"
+      ]
+    },
+    {
+      "id": "SN062",
+      "arabic_script": "الباص بطيء اليوم",
+      "transliteration": "אַלְבָּאץ בַּטִיא אֶל-יוֹם",
+      "english_transliteration": "albas bati el-yom",
+      "hebrew_translation": "האוטובוס איטי היום",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "word_ids": [
+        "TR002",
+        "AD006",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN063",
+      "arabic_script": "الشاي بارد",
+      "transliteration": "אַשַּׁאיּ בָּארִד",
+      "english_transliteration": "ashshay barid",
+      "hebrew_translation": "התה קר",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "FD009",
+        "FD026"
+      ]
+    },
+    {
+      "id": "SN064",
+      "arabic_script": "هاد مهم كتير، خلص",
+      "transliteration": "הָאד מֻהִםּ כְּתִיר, חַ'לָאץ",
+      "english_transliteration": "had muhim ktir, khalas",
+      "hebrew_translation": "זה חשוב מאוד, זהו",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "AD022",
+        "EX023",
+        "EX043"
+      ]
+    },
+    {
+      "id": "SN065",
+      "arabic_script": "البيت فاضي اليوم",
+      "transliteration": "אַלְבֵּית פָאזִ'י אֶל-יוֹם",
+      "english_transliteration": "albeyt fazhi el-yom",
+      "hebrew_translation": "הבית ריק היום",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF001",
+        "AD008",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN066",
+      "arabic_script": "أنا مش متأكد، بس ممكن",
+      "transliteration": "אַנַא מִש מִתְאַכֵּד, בַּס מֻמְכִּן",
+      "english_transliteration": "ana mish mit'aked, bas mumkin",
+      "hebrew_translation": "אני לא בטוח, אבל אפשרי",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "word_ids": [
+        "AD020",
+        "AD031"
+      ]
+    },
+    {
+      "id": "SN067",
+      "arabic_script": "هاد غلط، جرب كمان واحد",
+      "transliteration": "הָאד גַ'לַט, גָ'רַבּ כְּמָאן וָאחַד",
+      "english_transliteration": "had jalat, jarab kman wahad",
+      "hebrew_translation": "זו טעות, נסה עוד פעם אחת",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "word_ids": [
+        "AD033",
+        "VB056",
+        "SH013"
+      ]
+    },
+    {
+      "id": "SN068",
+      "arabic_script": "قديش الساعة هلق؟",
+      "transliteration": "אַדֵּיש אַסָּאעָה הַלַּא?",
+      "english_transliteration": "adeysh asa'ah hala?",
+      "hebrew_translation": "מה השעה עכשיו?",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT021",
+        "EX001"
+      ]
+    },
+    {
+      "id": "SN069",
+      "arabic_script": "بكرا الساعة عشرة",
+      "transliteration": "בּוּכְרָה אַסָּאעָה עַשְׁרֶה",
+      "english_transliteration": "bukrah asa'ah ashreh",
+      "hebrew_translation": "מחר בשעה עשר",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT013",
+        "NT010"
+      ]
+    },
+    {
+      "id": "SN070",
+      "arabic_script": "بستنى نص ساعة",
+      "transliteration": "בַּסְתַנָּא נוּץ סָּאעָה",
+      "english_transliteration": "bastana nus sa'ah",
+      "hebrew_translation": "אני מחכה חצי שעה",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB043",
+        "NT022"
+      ]
+    },
+    {
+      "id": "SN071",
+      "arabic_script": "هاد الأسبوع كتير مشغول",
+      "transliteration": "הָאד אַלְאוּסְבּוּעּ כְּתִיר מַשְׁע'וּל",
+      "english_transliteration": "had alusbu' ktir mashghul",
+      "hebrew_translation": "השבוע הזה עמוס מאוד",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "word_ids": [
+        "NT024",
+        "EX023",
+        "AD007"
+      ]
+    },
+    {
+      "id": "SN072",
+      "arabic_script": "امبارح، أبو راح عالسوق",
+      "transliteration": "אִמְבָּארִח, אַבּוּ רָאח עַ סוּאַ",
+      "english_transliteration": "imbarih, abu rah a su'a",
+      "hebrew_translation": "אתמול, אבא הלך לשוק",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "word_ids": [
+        "NT014",
+        "HF005",
+        "VB001",
+        "SH016"
+      ]
+    },
+    {
+      "id": "SN073",
+      "arabic_script": "دائما بشرب قهوة الصبح",
+      "transliteration": "דָאיְמַאן בִּשְׁרַב אַהְוֶה אַצְּבַח",
+      "english_transliteration": "dayman bishrab ahweh asbah",
+      "hebrew_translation": "אני תמיד שותה קפה בבוקר",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT029",
+        "VB011",
+        "FD008",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN074",
+      "arabic_script": "ولا مرة بدي سمك",
+      "transliteration": "וַלָא מַרַּה בִּדִּי סַמַּךּ",
+      "english_transliteration": "wala marah bidi samak",
+      "hebrew_translation": "אף פעם אני לא רוצה דגים",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "word_ids": [
+        "NT030",
+        "SH005",
+        "FD012"
+      ]
+    },
+    {
+      "id": "SN075",
+      "arabic_script": "بشتغل من الصبح لبعد الضهر",
+      "transliteration": "בִּשְׁתַּגַ'ל מִן אַצְּבַח לַבַּעַד אַדּוֹהַר",
+      "english_transliteration": "bishtajal min asbah l-ba'ad adohar",
+      "hebrew_translation": "אני עובד מהבוקר עד אחר הצהריים",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB016",
+        "NT017",
+        "NT019"
+      ]
+    },
+    {
+      "id": "SN076",
+      "arabic_script": "بالبيت في غرفة وحمام",
+      "transliteration": "בִּלְבֵּית פִי גּוּרְפֶה וְחַמָּאם",
+      "english_transliteration": "bilbeyt fi gurfeh w hamam",
+      "hebrew_translation": "בבית יש חדר ואמבטיה",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "word_ids": [
+        "HF001",
+        "HF002",
+        "HF020"
+      ]
+    },
+    {
+      "id": "SN077",
+      "arabic_script": "العيلة بالبيت اليوم",
+      "transliteration": "אַלְעֵילֶה בִּלְבֵּית אֶל-יוֹם",
+      "english_transliteration": "al'eyleh bilbeyt el-yom",
+      "hebrew_translation": "המשפחה בבית היום",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF014",
+        "HF001",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN078",
+      "arabic_script": "الولد قاعد على الكرسي",
+      "transliteration": "אַלְוָלַד אָעֵד עַלָא אַלְכֻּרְסִי",
+      "english_transliteration": "alwalad a'ed ala alkursi",
+      "hebrew_translation": "הילד יושב על הכיסא",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF006",
+        "VB015",
+        "HF017"
+      ]
+    },
+    {
+      "id": "SN079",
+      "arabic_script": "الولد بلعب بالغرفة",
+      "transliteration": "אַלְוָלַד בְּלַעַב בִּלְגּוּרְפֶה",
+      "english_transliteration": "alwalad bla'ab bilgurfeh",
+      "hebrew_translation": "הילד משחק בחדר",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF006",
+        "VB040",
+        "HF002"
+      ]
+    },
+    {
+      "id": "SN080",
+      "arabic_script": "الجد والستو بالبيت",
+      "transliteration": "אַלְגִ'ד וְאַסִּתּוּ בִּלְבֵּית",
+      "english_transliteration": "aljid wassitu bilbeyt",
+      "hebrew_translation": "הסבא והסבתא בבית",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF010",
+        "HF011",
+        "HF001"
+      ]
+    },
+    {
+      "id": "SN081",
+      "arabic_script": "الشباك مفتوح والباب مسكر",
+      "transliteration": "אַשֻּׁבָּאךּ מַפְתוּח וְאַלְבָּאב מֻסַכַּר",
+      "english_transliteration": "ashshubak maftuh walbab musakar",
+      "hebrew_translation": "החלון פתוח והדלת סגורה",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "word_ids": [
+        "HF018",
+        "AD024",
+        "HF016",
+        "AD025"
+      ]
+    },
+    {
+      "id": "SN082",
+      "arabic_script": "الخزانة كبيرة كتير",
+      "transliteration": "אַלְחַ'זָאנֶה כְּבִּירֶה כְּתִיר",
+      "english_transliteration": "alkhazaneh kbireh ktir",
+      "hebrew_translation": "הארון גדול מאוד",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF026",
+        "AD001",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN083",
+      "arabic_script": "الثلاجة فاضية اليوم",
+      "transliteration": "אַתַּלָּאגַ'ה פָאזְ'יֶה אֶל-יוֹם",
+      "english_transliteration": "attalajah fadyeh el-yom",
+      "hebrew_translation": "המקרר ריק היום",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF027",
+        "AD008",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN084",
+      "arabic_script": "بوجعني بطني، مش كويس",
+      "transliteration": "בְּוָג'ַעְנִי בַּטְנִי, מִש כְּוִיס",
+      "english_transliteration": "bwaja'ni batni, mish kwis",
+      "hebrew_translation": "כואבת לי הבטן, לא טוב",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "BH011",
+        "BH005",
+        "BH009"
+      ]
+    },
+    {
+      "id": "SN085",
+      "arabic_script": "أنا تعبان، بدي دوا",
+      "transliteration": "אַנַא תַּעְבָּאן, בִּדִּי דְּוָא",
+      "english_transliteration": "ana ta'ban, bidi dwa",
+      "hebrew_translation": "אני עייף, אני צריך תרופה",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "word_ids": [
+        "BH010",
+        "BH014"
+      ]
+    },
+    {
+      "id": "SN086",
+      "arabic_script": "هي مريضة، لازم دكتور",
+      "transliteration": "הִי מְרִיצ'ַה, לָאזִם דַּכְּתוּר",
+      "english_transliteration": "hiye mridah, lazim daktur",
+      "hebrew_translation": "היא חולה, צריך רופא",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "BH008",
+        "EX013",
+        "BH013"
+      ]
+    },
+    {
+      "id": "SN087",
+      "arabic_script": "ساعدني، بوجعني قلبي",
+      "transliteration": "סָאעִדְנִי, בְּוָג'ַעְנִי אַלְבִּי",
+      "english_transliteration": "sa'idni, bwaja'ni albi",
+      "hebrew_translation": "עזור לי, כואב לי הלב",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "BH015",
+        "BH006"
+      ]
+    },
+    {
+      "id": "SN088",
+      "arabic_script": "عيني تعبانة اليوم",
+      "transliteration": "עֵינִי תַּעְבָּאנֶה אֶל-יוֹם",
+      "english_transliteration": "eyni ta'baneh el-yom",
+      "hebrew_translation": "העין שלי עייפה היום",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "BH004",
+        "BH010",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN089",
+      "arabic_script": "الحمد لله بخير، ما بوجعني اشي",
+      "transliteration": "אַלְחַמְדוּ לִלָּה בְּחֵיר, מַא בְּוָג'ַעְנִי אִישִׁי",
+      "english_transliteration": "alhamdu lilah bheyr, ma bwaja'ni ishi",
+      "hebrew_translation": "תודה לאל בסדר גמור, שום דבר לא כואב לי",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "BH012",
+        "EX010"
+      ]
+    },
+    {
+      "id": "SN090",
+      "arabic_script": "بدرس بالجامعة",
+      "transliteration": "בִּדְרַס בִּלְגָ'אמְעַה",
+      "english_transliteration": "bidras biljam'ah",
+      "hebrew_translation": "אני לומד באוניברסיטה",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB017",
+        "WE002"
+      ]
+    },
+    {
+      "id": "SN091",
+      "arabic_script": "المعلم قاعد بالمكتب",
+      "transliteration": "אַלְמֻעַלֵּם אָעֵד בִּלְמַכְּתַב",
+      "english_transliteration": "almu'alem a'ed bilmaktab",
+      "hebrew_translation": "המורה יושב במשרד",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WE005",
+        "VB015",
+        "WE004"
+      ]
+    },
+    {
+      "id": "SN092",
+      "arabic_script": "عندي امتحان بكرا",
+      "transliteration": "עִנְדִי אִמְתִחָאן בּוּכְרָה",
+      "english_transliteration": "indi imtihan bukrah",
+      "hebrew_translation": "יש לי מבחן מחר",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WE008",
+        "NT013"
+      ]
+    },
+    {
+      "id": "SN093",
+      "arabic_script": "الطالب بكتب بالدفتر",
+      "transliteration": "אַטָּאלֶבּ בִּכְתוּב בִּדַּפְתַר",
+      "english_transliteration": "attaleb biktub biddaftar",
+      "hebrew_translation": "התלמיד כותב במחברת",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WE006",
+        "VB025",
+        "WE010"
+      ]
+    },
+    {
+      "id": "SN094",
+      "arabic_script": "المدير مشغول، هو بالشغل",
+      "transliteration": "אַלְמַדִיר מַשְׁע'וּל, הוּ בִּשַּׁשֻּׁע'ל",
+      "english_transliteration": "almadir mashghul, hu bishshughul",
+      "hebrew_translation": "המנהל עסוק, הוא בעבודה",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "WE013",
+        "AD007",
+        "WE003"
+      ]
+    },
+    {
+      "id": "SN095",
+      "arabic_script": "بدي كمبيوتر جديد للشغل",
+      "transliteration": "בִּדִּי כּוֹמְבְּיוּתַר גְ'דִיד לִשַּׁשֻּׁע'ל",
+      "english_transliteration": "bidi kombyutar jdid lishshughul",
+      "hebrew_translation": "אני רוצה מחשב חדש לעבודה",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "WE019",
+        "SH020",
+        "WE003"
+      ]
+    },
+    {
+      "id": "SN096",
+      "arabic_script": "بدي تذكرة طيارة",
+      "transliteration": "בִּדִּי תַזְכַּרַה טַיָּארַה",
+      "english_transliteration": "bidi tazkarah tayarah",
+      "hebrew_translation": "אני רוצה כרטיס טיסה",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "TR008",
+        "TR004"
+      ]
+    },
+    {
+      "id": "SN097",
+      "arabic_script": "وين جواز السفر؟",
+      "transliteration": "וֵין גָ'וָאז סַפַר?",
+      "english_transliteration": "weyn jawaz safar?",
+      "hebrew_translation": "איפה הדרכון?",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR001",
+        "TR009"
+      ]
+    },
+    {
+      "id": "SN098",
+      "arabic_script": "الباص بطيء، بدي تاكسي",
+      "transliteration": "אַלְבָּאץ בַּטִיא, בִּדִּי תַכְּסִי",
+      "english_transliteration": "albas bati, bidi taksi",
+      "hebrew_translation": "האוטובוס איטי, אני רוצה מונית",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "word_ids": [
+        "TR002",
+        "AD006",
+        "TR003"
+      ]
+    },
+    {
+      "id": "SN099",
+      "arabic_script": "فيه عجقة بالشارع",
+      "transliteration": "פִּי עַגַ'אַה בִּשַּׁשָּׁארַע",
+      "english_transliteration": "fi aja'ah bishshara'",
+      "hebrew_translation": "יש פקק ברחוב",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "TR014",
+        "DR023"
+      ]
+    },
+    {
+      "id": "SN100",
+      "arabic_script": "المطار بعيد من هون",
+      "transliteration": "אַלְמַטָאר בְּעִיד מִן הוֹן",
+      "english_transliteration": "almatar b'id min hon",
+      "hebrew_translation": "שדה התעופה רחוק מכאן",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "TR005",
+        "DR007",
+        "DR008"
+      ]
+    },
+    {
+      "id": "SN101",
+      "arabic_script": "الجو بارد اليوم",
+      "transliteration": "אַלְגַ'וּ בָּארִד אֶל-יוֹם",
+      "english_transliteration": "aljau barid el-yom",
+      "hebrew_translation": "מזג האוויר קר היום",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN008",
+        "FD026",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN102",
+      "arabic_script": "الشمس قوية اليوم",
+      "transliteration": "אַשַּׁמֶס אָוִיֶּה אֶל-יוֹם",
+      "english_transliteration": "ashshames awiyeh el-yom",
+      "hebrew_translation": "השמש חזקה היום",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN001",
+        "AD016",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN103",
+      "arabic_script": "فيه مطر كتير اليوم",
+      "transliteration": "פִּי מַטַר כְּתִיר אֶל-יוֹם",
+      "english_transliteration": "fi matar ktir el-yom",
+      "hebrew_translation": "יש הרבה גשם היום",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN005",
+        "EX023",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN104",
+      "arabic_script": "الجبل عالي كتير",
+      "transliteration": "אַלְגַ'בַּל עָאלִי כְּתִיר",
+      "english_transliteration": "aljabal ali ktir",
+      "hebrew_translation": "ההר גבוה מאוד",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN011",
+        "AD027"
+      ]
+    },
+    {
+      "id": "SN105",
+      "arabic_script": "الشجرة كبيرة قدام البيت",
+      "transliteration": "אַשַּׁגַ'רַה כְּבִּירֶה אַדָּאם אַלְבֵּית",
+      "english_transliteration": "ashshajarah kbireh adam albeyt",
+      "hebrew_translation": "העץ גדול מול הבית",
+      "category": "weather_nature",
+      "difficulty_level": 2,
+      "word_ids": [
+        "WN013",
+        "AD001",
+        "DR012",
+        "HF001"
+      ]
+    },
+    {
+      "id": "SN106",
+      "arabic_script": "بحس فرح كتير اليوم",
+      "transliteration": "בְּחִס פַרַח כְּתִיר אֶל-יוֹם",
+      "english_transliteration": "bhis farah ktir el-yom",
+      "hebrew_translation": "אני מרגיש שמח מאוד היום",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB027",
+        "SF002",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN107",
+      "arabic_script": "الصديق منيح كتير",
+      "transliteration": "אַצַּדִיא מְנִיח כְּתִיר",
+      "english_transliteration": "assadi mnih ktir",
+      "hebrew_translation": "החבר טוב מאוד",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SF007",
+        "GR006",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN108",
+      "arabic_script": "ما في خوف، تمام",
+      "transliteration": "מַא פִּי חַ'וְף, תַמָּאם",
+      "english_transliteration": "ma fi khawf, tamam",
+      "hebrew_translation": "אין פחד, הכל בסדר",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SF004",
+        "GR008"
+      ]
+    },
+    {
+      "id": "SN109",
+      "arabic_script": "بدي سلام واحترام",
+      "transliteration": "בִּדִּי סַלָאם וְאִחְתִרָאם",
+      "english_transliteration": "bidi salam w ihtiram",
+      "hebrew_translation": "אני רוצה שלום וכבוד",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SF005",
+        "SF010"
+      ]
+    },
+    {
+      "id": "SN110",
+      "arabic_script": "الحب مهم كتير",
+      "transliteration": "אַלְחֻבּ מֻהִםּ כְּתִיר",
+      "english_transliteration": "alhub muhim ktir",
+      "hebrew_translation": "האהבה חשובה מאוד",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SF001",
+        "AD022",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN111",
+      "arabic_script": "أهلا فيك، يلا تفضل",
+      "transliteration": "אַהְלַן פִּיךּ, יַלָּה תְּפַדְּל",
+      "english_transliteration": "ahlan fik, yalah tfadl",
+      "hebrew_translation": "ברוך הבא, בבקשה היכנס",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR028",
+        "SH024"
+      ]
+    },
+    {
+      "id": "SN112",
+      "arabic_script": "الله يسعدك، ألف مبروك",
+      "transliteration": "אַלְּלָה יִסְעִידַךּ, אַלְף מַבְרוּךּ",
+      "english_transliteration": "allah yis'idak, alf mabruk",
+      "hebrew_translation": "אלוהים ישמחך, מזל טוב",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR023",
+        "GR020"
+      ]
+    },
+    {
+      "id": "SN113",
+      "arabic_script": "نورتنا، حياك",
+      "transliteration": "נַוָּרְתְּנָה, חַיָּאךּ",
+      "english_transliteration": "nawartnah, hayak",
+      "hebrew_translation": "הארת את פנינו, ברוך שובך",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR026",
+        "GR025"
+      ]
+    },
+    {
+      "id": "SN114",
+      "arabic_script": "شو بيخدمك؟ بدي قهوة",
+      "transliteration": "שוּ בִּיחְדַמַּךּ? בִּדִּי אַהְוֶה",
+      "english_transliteration": "shu bihdamak? bidi ahweh",
+      "hebrew_translation": "במה אוכל לשרת אותך? אני רוצה קפה",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR027",
+        "SH005",
+        "FD008"
+      ]
+    },
+    {
+      "id": "SN115",
+      "arabic_script": "ربي يحميك، مع السلامة",
+      "transliteration": "רַבִּי יְחְמִיךּ, מַעַ סְּלָאמֶה",
+      "english_transliteration": "rabi yhmik, ma'a slameh",
+      "hebrew_translation": "ה' ישמור אותך, להתראות",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR030",
+        "GR014"
+      ]
+    },
+    {
+      "id": "SN116",
+      "arabic_script": "روح عالسلامة، يسلمو",
+      "transliteration": "רוּח עַ סְּלָאמֶה, יִסְלַמּוּ",
+      "english_transliteration": "ruh a slameh, yislamu",
+      "hebrew_translation": "לך לשלום, תודה",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR029",
+        "GR024"
+      ]
+    },
+    {
+      "id": "SN117",
+      "arabic_script": "بتحب الفلافل؟",
+      "transliteration": "בְּתְחֶבּ אַלְפַלָאפִל?",
+      "english_transliteration": "bthebb alfalafil?",
+      "hebrew_translation": "אתה אוהב פלאפל?",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB008",
+        "FD015"
+      ]
+    },
+    {
+      "id": "SN118",
+      "arabic_script": "بتحبي الكنافة؟",
+      "transliteration": "בְּתְחִבִּי אַלְכְּנָאפֶה?",
+      "english_transliteration": "bthebbi alknafeh?",
+      "hebrew_translation": "את אוהבת כנאפה?",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB008",
+        "FD023"
+      ]
+    },
+    {
+      "id": "SN119",
+      "arabic_script": "بيحب القهوة الصبح",
+      "transliteration": "בִּיחֶבּ אַלְאַהְוֶה אַצְּבַח",
+      "english_transliteration": "biheb alahweh asbah",
+      "hebrew_translation": "הוא אוהב קפה בבוקר",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB008",
+        "FD008",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN120",
+      "arabic_script": "بتحب الشاي بالليل",
+      "transliteration": "בְּתְחֶבּ אַשַּׁאיּ בִּלְלֵיל",
+      "english_transliteration": "bthebb ashshay billeyl",
+      "hebrew_translation": "היא אוהבת תה בלילה",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB008",
+        "FD009",
+        "NT020"
+      ]
+    },
+    {
+      "id": "SN121",
+      "arabic_script": "منحب الحمص والفلافل",
+      "transliteration": "מְנְחֶבּ אַלְחוּמוּס וְאַלְפַלָאפִל",
+      "english_transliteration": "mnheb alhumus walfalafil",
+      "hebrew_translation": "אנחנו אוהבים חומוס ופלאפל",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB008",
+        "FD016",
+        "FD015"
+      ]
+    },
+    {
+      "id": "SN122",
+      "arabic_script": "بياكلوا كنافة بعد العشا",
+      "transliteration": "בְּיָאכְּלוּ כְּנָאפֶה בַּעַד אַלְעַשָא",
+      "english_transliteration": "byaklu knafeh ba'ad al'asha",
+      "hebrew_translation": "הם אוכלים כנאפה אחרי ארוחת הערב",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB010",
+        "FD023",
+        "FD049"
+      ]
+    },
+    {
+      "id": "SN123",
+      "arabic_script": "بتاكل خضار وفواكه",
+      "transliteration": "בְּתָאכּוּל חַ'צ'ָּאר וְפָאכְּהֶה",
+      "english_transliteration": "btakul khadar w fakheh",
+      "hebrew_translation": "היא אוכלת ירקות ופירות",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB010",
+        "SH018",
+        "SH019"
+      ]
+    },
+    {
+      "id": "SN124",
+      "arabic_script": "شربت قهوة الصبح؟",
+      "transliteration": "שִׁרֶבְת אַהְוֶה אַצְּבַח?",
+      "english_transliteration": "shirebt ahweh asbah?",
+      "hebrew_translation": "שתית קפה הבוקר?",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB011",
+        "FD008",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN125",
+      "arabic_script": "بتشتري خضار من السوق؟",
+      "transliteration": "בְּתִשְׁתַרִי חַ'צ'ָּאר מִן אַסּוּאַ?",
+      "english_transliteration": "btishtari khadar min assu'a?",
+      "hebrew_translation": "אתה קונה ירקות מהשוק?",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB047",
+        "SH018",
+        "SH016"
+      ]
+    },
+    {
+      "id": "SN126",
+      "arabic_script": "اشتريت كيلو رز امبارح",
+      "transliteration": "אִשְׁתַרֵית כִּילוֹ רוּז אִמְבָּארִח",
+      "english_transliteration": "ishtareit kilo ruz imbarih",
+      "hebrew_translation": "קניתי קילו אורז אתמול",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB047",
+        "SH009",
+        "FD013",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN127",
+      "arabic_script": "بيدفع كتير على هاد",
+      "transliteration": "בִּידְפַע כְּתִיר עַלָא הָאד",
+      "english_transliteration": "bidfa' ktir ala had",
+      "hebrew_translation": "הוא משלם הרבה על זה",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB048",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN128",
+      "arabic_script": "دفعت الحساب، شكرا",
+      "transliteration": "דַפַעְת אַלְחִסָּאב, שוּכְּרָאן",
+      "english_transliteration": "dafa't alhisab, shukran",
+      "hebrew_translation": "שילמתי את החשבון, תודה",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB048",
+        "FD004",
+        "GR012"
+      ]
+    },
+    {
+      "id": "SN129",
+      "arabic_script": "منشتري خضار وفواكه من السوق",
+      "transliteration": "מְנִשְׁתַרִי חַ'צ'ָּאר וְפָאכְּהֶה מִן אַסּוּאַ",
+      "english_transliteration": "mnishtari khadar w fakheh min assu'a",
+      "hebrew_translation": "אנחנו קונים ירקות ופירות מהשוק",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB047",
+        "SH018",
+        "SH019",
+        "SH016"
+      ]
+    },
+    {
+      "id": "SN130",
+      "arabic_script": "أحسن سعر بالسوق هون",
+      "transliteration": "אַחְסַן סִעֶר בִּסּוּאַ הוֹן",
+      "english_transliteration": "ahsan si'r bissu'a hon",
+      "hebrew_translation": "המחיר הכי טוב בשוק כאן",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SH014",
+        "SH016",
+        "DR008"
+      ]
+    },
+    {
+      "id": "SN131",
+      "arabic_script": "الدكان مسكر اليوم",
+      "transliteration": "אַדַּכָּאן מֻסַכַּר אֶל-יוֹם",
+      "english_transliteration": "addakan musakar el-yom",
+      "hebrew_translation": "החנות סגורה היום",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH015",
+        "AD025",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN132",
+      "arabic_script": "بكم الكيلو؟ رخيص كتير",
+      "transliteration": "בְּכַּם אַלְכִּילוֹ? רְחִיץ כְּתִיר",
+      "english_transliteration": "bkam alkilo? rhis ktir",
+      "hebrew_translation": "כמה עולה הקילו? זול מאוד",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH001",
+        "SH009",
+        "SH003",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN133",
+      "arabic_script": "وين بتروح هلق؟",
+      "transliteration": "וֵין בְּתְרוּח הַלַּא?",
+      "english_transliteration": "weyn btruh hala?",
+      "hebrew_translation": "לאן אתה הולך עכשיו?",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR001",
+        "VB001",
+        "EX001"
+      ]
+    },
+    {
+      "id": "SN134",
+      "arabic_script": "بروح عالشغل الصبح",
+      "transliteration": "בַּרוּח עַ שֻׁגַ'ל אַצְּבַח",
+      "english_transliteration": "baruh a shughul asbah",
+      "hebrew_translation": "אני הולך לעבודה בבוקר",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB001",
+        "WE003",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN135",
+      "arabic_script": "بتروحي عالجامعة؟",
+      "transliteration": "בְּתְרוּחִי עַ גָ'אמְעַה?",
+      "english_transliteration": "btruhi a jam'ah?",
+      "hebrew_translation": "את הולכת לאוניברסיטה?",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB001",
+        "WE002"
+      ]
+    },
+    {
+      "id": "SN136",
+      "arabic_script": "رحنا عالبلدة القديمة امبارح",
+      "transliteration": "רֻחְנָא עַ אַלְבַּלְדֶה אַלְאַדִּימֶה אִמְבָּארִח",
+      "english_transliteration": "ruhna a albaldeh al'adimeh imbarih",
+      "hebrew_translation": "הלכנו לעיר העתיקה אתמול",
+      "category": "directions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB001",
+        "DR019",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN137",
+      "arabic_script": "بيروح عالمدرسة الصبح",
+      "transliteration": "בִּירוּח עַ מַדְרַסֶה אַצְּבַח",
+      "english_transliteration": "biruh a madraseh asbah",
+      "hebrew_translation": "הוא הולך לבית הספר בבוקר",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB001",
+        "WE001",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN138",
+      "arabic_script": "راحت عالسوق الصبح",
+      "transliteration": "רָאחֶת עַ סוּאַ אַצְּבַח",
+      "english_transliteration": "rahet a su'a asbah",
+      "hebrew_translation": "היא הלכה לשוק בבוקר",
+      "category": "directions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB001",
+        "SH016",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN139",
+      "arabic_script": "بيروحوا عالمطعم بعد الشغل",
+      "transliteration": "בִּירוּחוּ עַ מַטְעַם בַּעַד אַשַּׁשֻּׁגַ'ל",
+      "english_transliteration": "biruhu a almat'am ba'ad ashshughul",
+      "hebrew_translation": "הם הולכים למסעדה אחרי העבודה",
+      "category": "directions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB001",
+        "FD030",
+        "WE003"
+      ]
+    },
+    {
+      "id": "SN140",
+      "arabic_script": "من وين جيت؟",
+      "transliteration": "מִן וֵין גִ'ית?",
+      "english_transliteration": "min weyn jit?",
+      "hebrew_translation": "מאיפה הגעת?",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR008",
+        "DR001",
+        "VB003"
+      ]
+    },
+    {
+      "id": "SN141",
+      "arabic_script": "بتعرف وين الشارع؟",
+      "transliteration": "בְּתַעְרַף וֵין אַשָּׁארַע?",
+      "english_transliteration": "bta'raf weyn ashshara'?",
+      "hebrew_translation": "אתה יודע איפה הרחוב?",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB007",
+        "DR001",
+        "DR023"
+      ]
+    },
+    {
+      "id": "SN142",
+      "arabic_script": "شفتي الفيديو؟",
+      "transliteration": "שֻׁפְתִי אַלְפִידְיוֹ?",
+      "english_transliteration": "shufti alfidyo?",
+      "hebrew_translation": "ראית את הסרטון?",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB005",
+        "WE024"
+      ]
+    },
+    {
+      "id": "SN143",
+      "arabic_script": "بينام بكير هلق",
+      "transliteration": "בִּינָאם בַּכִּיר הַלַּא",
+      "english_transliteration": "binam bakir hala",
+      "hebrew_translation": "הוא ישן מוקדם עכשיו",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB012",
+        "NT034",
+        "EX001"
+      ]
+    },
+    {
+      "id": "SN144",
+      "arabic_script": "نمنا كتير امبارح",
+      "transliteration": "נִמְנָא כְּתִיר אִמְבָּארִח",
+      "english_transliteration": "nimna ktir imbarih",
+      "hebrew_translation": "ישנו הרבה אתמול",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB012",
+        "EX023",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN145",
+      "arabic_script": "بترجع عالبيت الساعة كم؟",
+      "transliteration": "בְּתְרְגַ'ע עַ בֵּית אַסָּאעָה כַּם?",
+      "english_transliteration": "btrja' a beyt asa'ah kam?",
+      "hebrew_translation": "באיזו שעה אתה חוזר הביתה?",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB013",
+        "HF001",
+        "NT021"
+      ]
+    },
+    {
+      "id": "SN146",
+      "arabic_script": "بيقعدوا بالبيت بعد الضهر",
+      "transliteration": "בְּיַאְעְדוּ בִּלְבֵּית בַּעַד אַדּוֹהַר",
+      "english_transliteration": "bya'a'du bilbeyt ba'ad adohar",
+      "hebrew_translation": "הם יושבים בבית אחר הצהריים",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB015",
+        "HF001",
+        "NT019"
+      ]
+    },
+    {
+      "id": "SN147",
+      "arabic_script": "بتحكي عربي منيح!",
+      "transliteration": "בְּתְחָכִּי עַרַבִּי מְנִיח!",
+      "english_transliteration": "bthaki arabi mnih!",
+      "hebrew_translation": "אתה מדבר ערבית טוב!",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB024",
+        "GR006"
+      ]
+    },
+    {
+      "id": "SN148",
+      "arabic_script": "كتبت رسالة بالدفتر",
+      "transliteration": "כַּתַבְת רַסָאלֶה בִּדַּפְתַר",
+      "english_transliteration": "katabt risaleh biddaftar",
+      "hebrew_translation": "כתבתי הודעה במחברת",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB025",
+        "WE022",
+        "WE010"
+      ]
+    },
+    {
+      "id": "SN149",
+      "arabic_script": "بيفتح الدكان الساعة تسعة",
+      "transliteration": "בִּיפְתַח אַדַּכָּאן אַסָּאעָה תִסְעֶה",
+      "english_transliteration": "biftah addakan asa'ah tis'eh",
+      "hebrew_translation": "הוא פותח את החנות בשעה תשע",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB030",
+        "SH015",
+        "NT009"
+      ]
+    },
+    {
+      "id": "SN150",
+      "arabic_script": "بتسكري الشباك هلق؟",
+      "transliteration": "בְּתְסַכְּכְּרִי אַשֻּׁבָּאךּ הַלַּא?",
+      "english_transliteration": "btsakkri ashshubak hala?",
+      "hebrew_translation": "את סוגרת את החלון עכשיו?",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB031",
+        "HF018",
+        "EX001"
+      ]
+    },
+    {
+      "id": "SN151",
+      "arabic_script": "على فكرة، هاد هو الأحسن",
+      "transliteration": "עַלָא פִכְרַה, הָאד הוּ אַלְאַחְסַן",
+      "english_transliteration": "ala fikrah, had hu alahsan",
+      "hebrew_translation": "דרך אגב, זה הכי טוב",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX032",
+        "EX019",
+        "SH014"
+      ]
+    },
+    {
+      "id": "SN152",
+      "arabic_script": "يا ريت! ما صار شي",
+      "transliteration": "יַא רֵית! מַא צָּאר אִישִׁי",
+      "english_transliteration": "ya reyt! ma sar ishi",
+      "hebrew_translation": "הלוואי! לא קרה כלום",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX040",
+        "EX016"
+      ]
+    },
+    {
+      "id": "SN153",
+      "arabic_script": "شو مالك؟ شو القصة؟",
+      "transliteration": "שוּ מַאלַךּ? שוּ אֶל-אִצַּה?",
+      "english_transliteration": "shu malak? shu el-'isah?",
+      "hebrew_translation": "מה קורה לך? מה הסיפור?",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "EX035",
+        "EX029"
+      ]
+    },
+    {
+      "id": "SN154",
+      "arabic_script": "ولا يهمك، ما بصير اشي",
+      "transliteration": "וַלָא יְהִמַּךּ, מַא בִּצִיר אִישִׁי",
+      "english_transliteration": "wala yhimak, ma bisir ishi",
+      "hebrew_translation": "אל תדאג, זה לא קורה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "EX026",
+        "EX048"
+      ]
+    },
+    {
+      "id": "SN155",
+      "arabic_script": "بالتوفيق! والله بس",
+      "transliteration": "בִּאל-תַוְפִיא! וַאלְּלָה בַּס",
+      "english_transliteration": "bil-tawfi! wallah bas",
+      "hebrew_translation": "בהצלחה! ממש כן",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX045",
+        "EX015"
+      ]
+    },
+    {
+      "id": "SN156",
+      "arabic_script": "تحت الأمر، على راسي",
+      "transliteration": "תַחְת אֶל-אַמְר, עַלָא רָאסִי",
+      "english_transliteration": "taht el-'amr, ala rasi",
+      "hebrew_translation": "לרשותך, בשמחה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX047",
+        "EX028"
+      ]
+    },
+    {
+      "id": "SN157",
+      "arabic_script": "الولد صغير وذكي",
+      "transliteration": "אַלְוָלַד צְגִ'יר וְזַכִּי",
+      "english_transliteration": "alwalad sjir w zaki",
+      "hebrew_translation": "הילד קטן וחכם",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF006",
+        "AD002",
+        "AD013"
+      ]
+    },
+    {
+      "id": "SN158",
+      "arabic_script": "السيارة سريعة وخفيفة",
+      "transliteration": "אַסַּיָּארַה סַרִיעַה וְחַ'פִיפֶה",
+      "english_transliteration": "assayarah sari'ah w khafifeh",
+      "hebrew_translation": "המכונית מהירה וקלה",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "word_ids": [
+        "TR001",
+        "AD005",
+        "AD009"
+      ]
+    },
+    {
+      "id": "SN159",
+      "arabic_script": "الشنطة ثقيلة كتير",
+      "transliteration": "אַשַּׁנְטַה תְאִילֶה כְּתִיר",
+      "english_transliteration": "ashshantah t'ileh ktir",
+      "hebrew_translation": "התיק כבד מאוד",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "TR011",
+        "AD010",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN160",
+      "arabic_script": "الشارع وسخ اليوم",
+      "transliteration": "אַשָּׁארַע וֶסֶח אֶל-יוֹם",
+      "english_transliteration": "ashshara' weseh el-yom",
+      "hebrew_translation": "הרחוב מלוכלך היום",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR023",
+        "AD012",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN161",
+      "arabic_script": "هو مشهور بالحارة",
+      "transliteration": "הוּ מַשְׁהוּר בִּלְחָארֶה",
+      "english_transliteration": "hu mashhur bilhareh",
+      "hebrew_translation": "הוא מפורסם בשכונה",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX019",
+        "AD021",
+        "DR024"
+      ]
+    },
+    {
+      "id": "SN162",
+      "arabic_script": "الأكل ممتاز، شكرا",
+      "transliteration": "אַלְאַכַּל מֻמְתָאז, שוּכְּרָאן",
+      "english_transliteration": "alakal mumtaz, shukran",
+      "hebrew_translation": "האוכל מצוין, תודה",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "FD001",
+        "AD023",
+        "GR012"
+      ]
+    },
+    {
+      "id": "SN163",
+      "arabic_script": "هاد مستحيل، ما بصير",
+      "transliteration": "הָאד מֻסְתַחִיל, מַא בִּצִיר",
+      "english_transliteration": "had mustahil, ma bisir",
+      "hebrew_translation": "זה בלתי אפשרי, לא יתכן",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "word_ids": [
+        "AD032",
+        "EX048"
+      ]
+    },
+    {
+      "id": "SN164",
+      "arabic_script": "الطالب ناجح ومش كسلان",
+      "transliteration": "אַטָּאלֶבּ נָאגֵ'ח וְמִש כַּסְלָאן",
+      "english_transliteration": "attaleb najeh w mish kaslan",
+      "hebrew_translation": "התלמיד מצליח ולא עצלן",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "word_ids": [
+        "WE006",
+        "AD029",
+        "AD030"
+      ]
+    },
+    {
+      "id": "SN165",
+      "arabic_script": "الساعة كم هلق؟ الساعة تسعة",
+      "transliteration": "אַסָּאעָה כַּם הַלַּא? אַסָּאעָה תִסְעֶה",
+      "english_transliteration": "asa'ah kam hala? asa'ah tis'eh",
+      "hebrew_translation": "מה השעה עכשיו? השעה תשע",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT021",
+        "EX001",
+        "NT009"
+      ]
+    },
+    {
+      "id": "SN166",
+      "arabic_script": "بكرا بعد بكرا في امتحان",
+      "transliteration": "בּוּכְרָה בַּעַד בּוּכְרָה פִי אִמְתִחָאן",
+      "english_transliteration": "bukrah ba'ad bukrah fi imtihan",
+      "hebrew_translation": "מחרתיים יש מבחן",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT027",
+        "WE008"
+      ]
+    },
+    {
+      "id": "SN167",
+      "arabic_script": "أول امبارح شفت أبو بالسوق",
+      "transliteration": "אַוַּל אִמְבָּארִח שֻׁפְת אַבּוּ בִּסּוּאַ",
+      "english_transliteration": "awal imbarih shuft abu bissu'a",
+      "hebrew_translation": "שלשום ראיתי את אבא בשוק",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "word_ids": [
+        "NT028",
+        "VB005",
+        "HF005",
+        "SH016"
+      ]
+    },
+    {
+      "id": "SN168",
+      "arabic_script": "الشهر الجاي بروح عالسفر",
+      "transliteration": "אַשְׁשַׁהַר אַלְג'ָאיּ בַּרוּח עַ סַפַר",
+      "english_transliteration": "ashshahar aljay baruh a safar",
+      "hebrew_translation": "בחודש הבא אני נוסע",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "word_ids": [
+        "NT025",
+        "VB001",
+        "TR007"
+      ]
+    },
+    {
+      "id": "SN169",
+      "arabic_script": "مرات بتذكر، مرات بنسى",
+      "transliteration": "מַרָאת בַּתְזַכַּר, מַרָאת בַּנְסָא",
+      "english_transliteration": "marat batzakar, marat bansa",
+      "hebrew_translation": "לפעמים אני זוכר, לפעמים אני שוכח",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "word_ids": [
+        "NT031",
+        "VB045",
+        "VB044"
+      ]
+    },
+    {
+      "id": "SN170",
+      "arabic_script": "بكير كتير، الدكان مسكر",
+      "transliteration": "בַּכִּיר כְּתִיר, אַדַּכָּאן מֻסַכַּר",
+      "english_transliteration": "bakir ktir, addakan musakar",
+      "hebrew_translation": "מוקדם מאוד, החנות סגורה",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT034",
+        "EX023",
+        "SH015",
+        "AD025"
+      ]
+    },
+    {
+      "id": "SN171",
+      "arabic_script": "مرتي بتشتغل بمكتب",
+      "transliteration": "מַרְתִּי בְּתִשְׁתַּגַ'ל בִּמַכְּתַב",
+      "english_transliteration": "marti btishtajal bmaktab",
+      "hebrew_translation": "אשתי עובדת במשרד",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "word_ids": [
+        "HF012",
+        "VB016",
+        "WE004"
+      ]
+    },
+    {
+      "id": "SN172",
+      "arabic_script": "جوزي بيحب القهوة الصبح",
+      "transliteration": "גּ'וֹזִי בִּיחֶבּ אַלְאַהְוֶה אַצְּבַח",
+      "english_transliteration": "jozi biheb alahweh asbah",
+      "hebrew_translation": "בעלי אוהב קפה בבוקר",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "word_ids": [
+        "HF013",
+        "VB008",
+        "FD008",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN173",
+      "arabic_script": "عزيزي، وين رحت؟",
+      "transliteration": "עַזִּיזִי, וֵין רֻחְת?",
+      "english_transliteration": "azizi, weyn ruht?",
+      "hebrew_translation": "יקירי, לאן הלכת?",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF019",
+        "DR001",
+        "VB001"
+      ]
+    },
+    {
+      "id": "SN174",
+      "arabic_script": "أخو وأخت بالبيت",
+      "transliteration": "אַחוּ וְאוּחְתּ בִּלְבֵּית",
+      "english_transliteration": "ahu w uht bilbeyt",
+      "hebrew_translation": "אח ואחות בבית",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF008",
+        "HF009",
+        "HF001"
+      ]
+    },
+    {
+      "id": "SN175",
+      "arabic_script": "الرفيق قاعد بالمطبخ",
+      "transliteration": "אַרְּפִיאַ אָעֵד בִּלְמַטְבַּח",
+      "english_transliteration": "arrafi' a'ed bilmatbah",
+      "hebrew_translation": "החבר יושב במטבח",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF015",
+        "VB015",
+        "HF003"
+      ]
+    },
+    {
+      "id": "SN176",
+      "arabic_script": "التخت بالغرفة، والخزانة جنب الباب",
+      "transliteration": "אַתַּחֶת בִּלְגּוּרְפֶה, וְאַלְחַ'זָאנֶה גַּנְּב אַלְבָּאב",
+      "english_transliteration": "attakhet bilgurfeh, walkhazaneh janb albab",
+      "hebrew_translation": "המיטה בחדר, והארון ליד הדלת",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "word_ids": [
+        "HF025",
+        "HF002",
+        "HF026",
+        "DR011",
+        "HF016"
+      ]
+    },
+    {
+      "id": "SN177",
+      "arabic_script": "شفت دكتور امبارح",
+      "transliteration": "שֻׁפְת דַּכְּתוּר אִמְבָּארִח",
+      "english_transliteration": "shuft daktur imbarih",
+      "hebrew_translation": "ראיתי רופא אתמול",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB005",
+        "BH013",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN178",
+      "arabic_script": "بتحس تعبان؟ روح للدكتور",
+      "transliteration": "בְּתְחִס תַּעְבָּאן? רוּח לִדַּכְּתוּר",
+      "english_transliteration": "bthis ta'ban? ruh liddaktur",
+      "hebrew_translation": "אתה מרגיש עייף? לך לרופא",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB027",
+        "BH010",
+        "VB002",
+        "BH013"
+      ]
+    },
+    {
+      "id": "SN179",
+      "arabic_script": "بوجعني ظهري من الشغل",
+      "transliteration": "בְּוָג'ַעְנִי זְהַרִי מִן אַשַּׁשֻּׁגַ'ל",
+      "english_transliteration": "bwaja'ni zhari min ashshughul",
+      "hebrew_translation": "כואב לי הגב מהעבודה",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "BH007",
+        "WE003"
+      ]
+    },
+    {
+      "id": "SN180",
+      "arabic_script": "هي تعبانة اليوم، مش مريضة",
+      "transliteration": "הִי תַּעְבָּאנֶה אֶל-יוֹם, מִש מְרִיצ'ַה",
+      "english_transliteration": "hiye ta'baneh el-yom, mish mridah",
+      "hebrew_translation": "היא עייפה היום, לא חולה",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "BH010",
+        "NT026",
+        "BH008"
+      ]
+    },
+    {
+      "id": "SN181",
+      "arabic_script": "بتشتغل وين؟",
+      "transliteration": "בְּתִשְׁתַּגַ'ל וֵין?",
+      "english_transliteration": "btishtajal weyn?",
+      "hebrew_translation": "איפה אתה עובד?",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB016",
+        "DR001"
+      ]
+    },
+    {
+      "id": "SN182",
+      "arabic_script": "اشتغلت بمكتب كبير",
+      "transliteration": "אִשְׁתַּגַ'לְת בִּמַכְּתַב כְּבִיר",
+      "english_transliteration": "ishtajalt bmaktab kbir",
+      "hebrew_translation": "עבדתי במשרד גדול",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB016",
+        "WE004",
+        "AD001"
+      ]
+    },
+    {
+      "id": "SN183",
+      "arabic_script": "درست بالجامعة كتير منيح",
+      "transliteration": "דַרַסְת בִּלְגָ'אמְעַה כְּתִיר מְנִיח",
+      "english_transliteration": "darast biljam'ah ktir mnih",
+      "hebrew_translation": "למדתי באוניברסיטה ממש טוב",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB017",
+        "WE002",
+        "EX021"
+      ]
+    },
+    {
+      "id": "SN184",
+      "arabic_script": "المعلم بيحكي عربي منيح",
+      "transliteration": "אַלְמֻעַלֵּם בִּיחָכִּי עַרַבִּי מְנִיח",
+      "english_transliteration": "almu'alem bihaki arabi mnih",
+      "hebrew_translation": "המורה מדבר ערבית טוב",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WE005",
+        "VB024",
+        "GR006"
+      ]
+    },
+    {
+      "id": "SN185",
+      "arabic_script": "سافرنا بالطيارة امبارح",
+      "transliteration": "סָאפַרְנָא בִּטַּיָּארַה אִמְבָּארִח",
+      "english_transliteration": "safarna bittayarah imbarih",
+      "hebrew_translation": "טסנו במטוס אתמול",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB051",
+        "TR004",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN186",
+      "arabic_script": "الشنطة بالتاكسي",
+      "transliteration": "אַשַּׁנְטַה בִּתַּכְּסִי",
+      "english_transliteration": "ashshantah bittaksi",
+      "hebrew_translation": "התיק במונית",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "TR011",
+        "TR003"
+      ]
+    },
+    {
+      "id": "SN187",
+      "arabic_script": "فيه عجقة كتير بالشارع اليوم",
+      "transliteration": "פִּי עַגַ'אַה כְּתִיר בִּשַּׁשָּׁארַע אֶל-יוֹם",
+      "english_transliteration": "fi aja'ah ktir bishshara' el-yom",
+      "hebrew_translation": "יש הרבה פקק ברחוב היום",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "word_ids": [
+        "TR014",
+        "EX023",
+        "DR023",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN188",
+      "arabic_script": "الفندق قريب من المطار",
+      "transliteration": "אַלְפֻנְדֻא אָרִיב מִן אַלְמַטָאר",
+      "english_transliteration": "alfundu arib min almatar",
+      "hebrew_translation": "המלון קרוב לשדה התעופה",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "TR012",
+        "DR006",
+        "TR005"
+      ]
+    },
+    {
+      "id": "SN189",
+      "arabic_script": "بحب الجو البارد",
+      "transliteration": "בְּחֶבּ אַלְגַ'וּ אַלְבָּארִד",
+      "english_transliteration": "bheb aljau albarid",
+      "hebrew_translation": "אני אוהב את מזג האוויר הקר",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB008",
+        "WN008",
+        "FD026"
+      ]
+    },
+    {
+      "id": "SN190",
+      "arabic_script": "فيه ثلج على الجبل اليوم",
+      "transliteration": "פִּי תַלֶג' עַלָא אַלְגַ'בַּל אֶל-יוֹם",
+      "english_transliteration": "fi talej ala aljabal el-yom",
+      "hebrew_translation": "יש שלג על ההר היום",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN006",
+        "WN011",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN191",
+      "arabic_script": "الهوا قوي كتير اليوم",
+      "transliteration": "אַלְהַוָא אָוִי כְּתִיר אֶל-יוֹם",
+      "english_transliteration": "alhawa awi ktir el-yom",
+      "hebrew_translation": "הרוח חזקה מאוד היום",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN007",
+        "AD016",
+        "EX023",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN192",
+      "arabic_script": "الوردة حلوة كتير",
+      "transliteration": "אַלְוַרְדֶה חִלְוֶה כְּתִיר",
+      "english_transliteration": "alwardeh hilu ktir",
+      "hebrew_translation": "הפרח יפה מאוד",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN014",
+        "FD024",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN193",
+      "arabic_script": "بحب الجيران كتير",
+      "transliteration": "בְּחֶבּ אַלְגִ'ירָאן כְּתִיר",
+      "english_transliteration": "bheb aljiran ktir",
+      "hebrew_translation": "אני אוהב את השכנים מאוד",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB008",
+        "SF006",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN194",
+      "arabic_script": "الاحترام مهم بالحارة",
+      "transliteration": "אִלְאִחְתִרָאם מֻהִםּ בִּלְחָארֶה",
+      "english_transliteration": "alihtiram muhim bilhareh",
+      "hebrew_translation": "הכבוד חשוב בשכונה",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SF010",
+        "AD022",
+        "DR024"
+      ]
+    },
+    {
+      "id": "SN195",
+      "arabic_script": "بحس سلام هون",
+      "transliteration": "בְּחִס סַלָאם הוֹן",
+      "english_transliteration": "bhis salam hon",
+      "hebrew_translation": "אני מרגיש שלווה כאן",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB027",
+        "SF005",
+        "DR008"
+      ]
+    },
+    {
+      "id": "SN196",
+      "arabic_script": "ما في خوف من هيك اشي",
+      "transliteration": "מַא פִּי חַ'וְף מִן הֵיךּ אִישִׁי",
+      "english_transliteration": "ma fi khawf min heyk ishi",
+      "hebrew_translation": "אין פחד מדבר כזה",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SF004",
+        "EX007",
+        "EX010"
+      ]
+    },
+    {
+      "id": "SN197",
+      "arabic_script": "بتاخذ الباص ولا التاكسي؟",
+      "transliteration": "בְּתָאחוּד אַלְבָּאץ וְלַא אַתַּכְּסִי?",
+      "english_transliteration": "btakhud albas wala attaksi?",
+      "hebrew_translation": "אתה לוקח את האוטובוס או המונית?",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB033",
+        "TR002",
+        "TR003"
+      ]
+    },
+    {
+      "id": "SN198",
+      "arabic_script": "جاب الأكل عالطاولة",
+      "transliteration": "גָ'אב אַלְאַכַּל עַ טָאוְולֶה",
+      "english_transliteration": "jab alakal a tawleh",
+      "hebrew_translation": "הוא הביא את האוכל לשולחן",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB032",
+        "FD001",
+        "FD031"
+      ]
+    },
+    {
+      "id": "SN199",
+      "arabic_script": "جبت الكتاب من الشغل",
+      "transliteration": "גִ'בְת אַלְכִּתָאבּ מִן אַשַּׁשֻּׁגַ'ל",
+      "english_transliteration": "jibt alkitab min ashshughul",
+      "hebrew_translation": "הבאתי את הספר מהעבודה",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB032",
+        "WE009",
+        "WE003"
+      ]
+    },
+    {
+      "id": "SN200",
+      "arabic_script": "بيلعب بالغرفة الصبح",
+      "transliteration": "בִּילַעַב בִּלְגּוּרְפֶה אַצְּבַח",
+      "english_transliteration": "bila'ab bilgurfeh asbah",
+      "hebrew_translation": "הוא משחק בחדר בבוקר",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB040",
+        "HF002",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN201",
+      "arabic_script": "لعبنا كتير امبارح",
+      "transliteration": "לַעַבְנָא כְּתִיר אִמְבָּארִח",
+      "english_transliteration": "la'abna ktir imbarih",
+      "hebrew_translation": "שיחקנו הרבה אתמול",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB040",
+        "EX023",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN202",
+      "arabic_script": "بتفكر كتير بالشغل",
+      "transliteration": "בְּתְפַכֶּר כְּתִיר בִּשַּׁשֻּׁגַ'ל",
+      "english_transliteration": "btfaker ktir bishshughul",
+      "hebrew_translation": "אתה חושב הרבה על העבודה",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB042",
+        "EX023",
+        "WE003"
+      ]
+    },
+    {
+      "id": "SN203",
+      "arabic_script": "فكرت كتير، بس ما فهمت",
+      "transliteration": "פַכַּרְת כְּתִיר, בַּס מַא פְּהִמְתּ",
+      "english_transliteration": "fakkart ktir, bas ma fhimt",
+      "hebrew_translation": "חשבתי הרבה, אבל לא הבנתי",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB042",
+        "EX023",
+        "EX008",
+        "VB021"
+      ]
+    },
+    {
+      "id": "SN204",
+      "arabic_script": "منستنى الباص هون",
+      "transliteration": "מְנִסְתַנָּא אַלְבָּאץ הוֹן",
+      "english_transliteration": "mnistana albas hon",
+      "hebrew_translation": "אנחנו מחכים לאוטובוס כאן",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB043",
+        "TR002",
+        "DR008"
+      ]
+    },
+    {
+      "id": "SN205",
+      "arabic_script": "استنيت كتير بالدكتور",
+      "transliteration": "אִסְתַנֵּית כְּתִיר בִּדַּכְּתוּר",
+      "english_transliteration": "istaneit ktir biddaktur",
+      "hebrew_translation": "חיכיתי הרבה אצל הרופא",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB043",
+        "EX023",
+        "BH013"
+      ]
+    },
+    {
+      "id": "SN206",
+      "arabic_script": "بتقوم بكير الصبح؟",
+      "transliteration": "בְּתְאוּם בַּכִּיר אַצְּבַח?",
+      "english_transliteration": "bt'um bakir asbah?",
+      "hebrew_translation": "אתה קם מוקדם בבוקר?",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB050",
+        "NT034",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN207",
+      "arabic_script": "قامت الساعة ستة",
+      "transliteration": "אָאמֶת אַסָּאעָה סִתֶּה",
+      "english_transliteration": "'amet asa'ah siteh",
+      "hebrew_translation": "היא קמה בשעה שש",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB050",
+        "NT021",
+        "NT006"
+      ]
+    },
+    {
+      "id": "SN208",
+      "arabic_script": "بتدور على شغل جديد",
+      "transliteration": "בְּתְדַוֶּר עַלָא שֻׁגַ'ל גְ'דִיד",
+      "english_transliteration": "btdawer ala shughul jdid",
+      "hebrew_translation": "אתה מחפש עבודה חדשה",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB052",
+        "WE003",
+        "SH020"
+      ]
+    },
+    {
+      "id": "SN209",
+      "arabic_script": "دورنا على الدكان كتير",
+      "transliteration": "דַוַּרְנָא עַלָא אַדַּכָּאן כְּתִיר",
+      "english_transliteration": "dawarna ala addakan ktir",
+      "hebrew_translation": "חיפשנו את החנות הרבה",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB052",
+        "SH015",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN210",
+      "arabic_script": "ليش بتسأل كتير؟",
+      "transliteration": "לֵיש בְּתִסְאַל כְּתִיר?",
+      "english_transliteration": "leysh btis'al ktir?",
+      "hebrew_translation": "למה אתה שואל הרבה?",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "EX006",
+        "VB053",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN211",
+      "arabic_script": "سألت المعلم، وهو جاوب",
+      "transliteration": "סַאַלְת אַלְמֻעַלֵּם, וְהוּ גָ'אוַבּ",
+      "english_transliteration": "sa'alt almu'alem, w hu jawab",
+      "hebrew_translation": "שאלתי את המורה, והוא ענה",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB053",
+        "WE005",
+        "VB054"
+      ]
+    },
+    {
+      "id": "SN212",
+      "arabic_script": "بيطلب قهوة بالمطعم",
+      "transliteration": "בִּיטְלוּב אַהְוֶה בִּלְמַטְעַם",
+      "english_transliteration": "bitlub ahweh bilmat'am",
+      "hebrew_translation": "הוא מזמין קפה במסעדה",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB055",
+        "FD008",
+        "FD030"
+      ]
+    },
+    {
+      "id": "SN213",
+      "arabic_script": "طلبت فلافل وحمص",
+      "transliteration": "טַלַבְת פַלָאפִל וְחוּמוּס",
+      "english_transliteration": "talabt falafil w humus",
+      "hebrew_translation": "הזמנתי פלאפל וחומוס",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB055",
+        "FD015",
+        "FD016"
+      ]
+    },
+    {
+      "id": "SN214",
+      "arabic_script": "جربت الكنافة؟ زاكية كتير",
+      "transliteration": "גָ'רַבְּת אַלְכְּנָאפֶה? זָאכִּיֶה כְּתִיר",
+      "english_transliteration": "jarabt alknafeh? zakiyeh ktir",
+      "hebrew_translation": "טעמת את הכנאפה? טעימה מאוד",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB056",
+        "FD023",
+        "FD002",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN215",
+      "arabic_script": "بيصلح السيارة بالدكان",
+      "transliteration": "בִּיצַלֵּח אַסַּיָּארַה בִּדַּכָּאן",
+      "english_transliteration": "bisalleh assayarah biddakan",
+      "hebrew_translation": "הוא מתקן את המכונית בחנות",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB057",
+        "TR001",
+        "SH015"
+      ]
+    },
+    {
+      "id": "SN216",
+      "arabic_script": "كسرت الكاسة، معليش",
+      "transliteration": "כַּסַרְת אַלְכָּאסֶה, מַעְלֵיש",
+      "english_transliteration": "kasart alkaseh, ma'leysh",
+      "hebrew_translation": "שברתי את הכוס, לא נורא",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB058",
+        "FD032",
+        "EX034"
+      ]
+    },
+    {
+      "id": "SN217",
+      "arabic_script": "الجو بيغير كتير هون",
+      "transliteration": "אַלְגַ'וּ בִּיגַ'יֶּר כְּתִיר הוֹן",
+      "english_transliteration": "aljau bijayer ktir hon",
+      "hebrew_translation": "מזג האוויר משתנה הרבה כאן",
+      "category": "weather_nature",
+      "difficulty_level": 2,
+      "word_ids": [
+        "WN008",
+        "VB059",
+        "EX023",
+        "DR008"
+      ]
+    },
+    {
+      "id": "SN218",
+      "arabic_script": "زعل كتير امبارح",
+      "transliteration": "זִעֶל כְּתִיר אִמְבָּארִח",
+      "english_transliteration": "zi'el ktir imbarih",
+      "hebrew_translation": "הוא כעס מאוד אתמול",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB060",
+        "EX023",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN219",
+      "arabic_script": "بطل الشغل بكير",
+      "transliteration": "בַּטַּל אַשַּׁשֻּׁגַ'ל בַּכִּיר",
+      "english_transliteration": "batal ashshughul bakir",
+      "hebrew_translation": "הוא הפסיק את העבודה מוקדם",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB061",
+        "WE003",
+        "NT034"
+      ]
+    },
+    {
+      "id": "SN220",
+      "arabic_script": "فحص الدكتور راسي",
+      "transliteration": "פַחַץ אַדַּכְּתוּר רָאסִי",
+      "english_transliteration": "fahas addaktur rasi",
+      "hebrew_translation": "הרופא בדק את הראש שלי",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB064",
+        "BH013",
+        "BH001"
+      ]
+    },
+    {
+      "id": "SN221",
+      "arabic_script": "تأخرت اليوم، معليش",
+      "transliteration": "תַאַחַרְת אֶל-יוֹם, מַעְלֵיש",
+      "english_transliteration": "ta'akhart el-yom, ma'leysh",
+      "hebrew_translation": "איחרתי היום, לא נורא",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB065",
+        "NT026",
+        "EX034"
+      ]
+    },
+    {
+      "id": "SN222",
+      "arabic_script": "تشرفنا، أهلين",
+      "transliteration": "תְשַׁרַּפְנָא, אַהְלֵין",
+      "english_transliteration": "tsharrafna, ahleyn",
+      "hebrew_translation": "נעים מאוד, ברוך הבא",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR031",
+        "GR002"
+      ]
+    },
+    {
+      "id": "SN223",
+      "arabic_script": "الله يخليك، ساعدني",
+      "transliteration": "אַלְלָה יְחַ'לִּיךְ, סָאעִדְנִי",
+      "english_transliteration": "allah ykhalik, sa'idni",
+      "hebrew_translation": "בבקשה, עזור לי",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR033",
+        "BH015"
+      ]
+    },
+    {
+      "id": "SN224",
+      "arabic_script": "صحتين! الأكل زاكي كتير",
+      "transliteration": "צַחְתֵין! אַלְאַכַּל זָאכִּי כְּתִיר",
+      "english_transliteration": "sahtein! alakal zaki ktir",
+      "hebrew_translation": "לבריאות! האוכל טעים מאוד",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR034",
+        "FD001",
+        "FD002",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN225",
+      "arabic_script": "مين حضرتك؟ تشرفنا",
+      "transliteration": "מִין חַצְ'רְתַךּ? תְשַׁרַּפְנָא",
+      "english_transliteration": "min hadratak? tsharrafna",
+      "hebrew_translation": "מי אתה? נעים מאוד",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR035",
+        "GR031"
+      ]
+    },
+    {
+      "id": "SN226",
+      "arabic_script": "تصبحوا على خير، مع السلامة",
+      "transliteration": "תִצְבַּחוּ עַ חֵיר, מַעַ סְּלָאמֶה",
+      "english_transliteration": "tisbahu a heyr, ma'a slameh",
+      "hebrew_translation": "לילה טוב (לרבים), להתראות",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR036",
+        "GR014"
+      ]
+    },
+    {
+      "id": "SN227",
+      "arabic_script": "نورت، أهلا وسهلا",
+      "transliteration": "נַוַּרְת, אַהְלַן וְסַהְלַן",
+      "english_transliteration": "nawart, ahlan w sahlan",
+      "hebrew_translation": "האר את המקום, ברוכים הבאים",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR037",
+        "GR038"
+      ]
+    },
+    {
+      "id": "SN228",
+      "arabic_script": "كل سنة وإنت سالم! عيد مبارك",
+      "transliteration": "כֻּל סַנֶה וְאִנְתֶ סָאלֶם! עִיד מְבָּארַךּ",
+      "english_transliteration": "kul saneh w inte salem! id mbarak",
+      "hebrew_translation": "מועדים לשמחה! חג שמח",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "GR032",
+        "GR021"
+      ]
+    },
+    {
+      "id": "SN229",
+      "arabic_script": "بطبخ مقلوبة اليوم",
+      "transliteration": "בִּטְבַּח מַאְלוּבֶּה אֶל-יוֹם",
+      "english_transliteration": "bitbakh ma'lubeh el-yom",
+      "hebrew_translation": "אני מבשל מקלובה היום",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB069",
+        "FD059",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN230",
+      "arabic_script": "بتطبخي دجاج ورز؟",
+      "transliteration": "בְּתִטְבְּחִי דְּג'ָאג' וְרוּז?",
+      "english_transliteration": "btitbkhi djaj w ruz?",
+      "hebrew_translation": "את מבשלת עוף ואורז?",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB069",
+        "FD011",
+        "FD013"
+      ]
+    },
+    {
+      "id": "SN231",
+      "arabic_script": "طبخ أبو المقلوبة امبارح",
+      "transliteration": "טַבַּח אַבּוּ אַלְמַאְלוּבֶּה אִמְבָּארִח",
+      "english_transliteration": "tabakh abu alma'lubeh imbarih",
+      "hebrew_translation": "אבא בישל מקלובה אתמול",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB069",
+        "HF005",
+        "FD059",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN232",
+      "arabic_script": "التفاح حلو كتير",
+      "transliteration": "אַתֻּפָּאח חִלוּ כְּתִיר",
+      "english_transliteration": "attufah hilu ktir",
+      "hebrew_translation": "התפוח מתוק מאוד",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "FD050",
+        "FD024",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN233",
+      "arabic_script": "بدي برتقال وخيار",
+      "transliteration": "בִּדִּי בֻּרְתֻאָאל וְחַ'יָאר",
+      "english_transliteration": "bidi burtu'al w khyar",
+      "hebrew_translation": "אני רוצה תפוז ומלפפון",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "FD052",
+        "FD054"
+      ]
+    },
+    {
+      "id": "SN234",
+      "arabic_script": "زيتون وزيت وزعتر، فطور منيح",
+      "transliteration": "זֵיתוּן וְזֵית וְזַעְתַּר, פְטוּר מְנִיח",
+      "english_transliteration": "zeytun w zeyt wza'tar, ftur mnih",
+      "hebrew_translation": "זיתים ושמן וזעתר, ארוחת בוקר טובה",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "word_ids": [
+        "FD057",
+        "FD018",
+        "FD047",
+        "GR006"
+      ]
+    },
+    {
+      "id": "SN235",
+      "arabic_script": "بصل وثوم بالسلطة",
+      "transliteration": "בַּצַל וְתוּם בִּסַּלַטַה",
+      "english_transliteration": "basal w tum bissalatah",
+      "hebrew_translation": "בצל ושום בסלט",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "word_ids": [
+        "FD055",
+        "FD056",
+        "FD042"
+      ]
+    },
+    {
+      "id": "SN236",
+      "arabic_script": "هاتلي عسل مع الشاي",
+      "transliteration": "הָאתְלִי עַסַל מַעַ אַשַּׁאיּ",
+      "english_transliteration": "hatli asal ma'a ashshay",
+      "hebrew_translation": "תביא לי דבש עם התה",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "word_ids": [
+        "FD027",
+        "FD058",
+        "FD009"
+      ]
+    },
+    {
+      "id": "SN237",
+      "arabic_script": "جربت المقلوبة؟ زاكية كتير",
+      "transliteration": "גָ'רַבְּת אַלְמַאְלוּבֶּה? זָאכִּיֶה כְּתִיר",
+      "english_transliteration": "jarabt alma'lubeh? zakiyeh ktir",
+      "hebrew_translation": "טעמת את המקלובה? טעימה מאוד",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB056",
+        "FD059",
+        "FD002"
+      ]
+    },
+    {
+      "id": "SN238",
+      "arabic_script": "بدي قميص أحمر",
+      "transliteration": "בִּדִּי אָמִיץ אַחְמַר",
+      "english_transliteration": "bidi amis ahmar",
+      "hebrew_translation": "אני רוצה חולצה אדומה",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "SH031",
+        "AD041"
+      ]
+    },
+    {
+      "id": "SN239",
+      "arabic_script": "الفستان الأزرق حلو كتير",
+      "transliteration": "אַלְפֻסְתָאן אַלְאַזְרַא חִלוּ כְּתִיר",
+      "english_transliteration": "alfustan alazra' hilu ktir",
+      "hebrew_translation": "השמלה הכחולה יפה מאוד",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SH033",
+        "AD042",
+        "FD024",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN240",
+      "arabic_script": "بدي جزمة وكنزة",
+      "transliteration": "בִּדִּי גִ'זְמֶה וְכַּנְזֶה",
+      "english_transliteration": "bidi jizmeh w kanzeh",
+      "hebrew_translation": "אני רוצה נעליים וסוודר",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "SH034",
+        "SH039"
+      ]
+    },
+    {
+      "id": "SN241",
+      "arabic_script": "القميص الأصفر جديد",
+      "transliteration": "אַלְאָמִיץ אַלְאַצְפַר גְ'דִיד",
+      "english_transliteration": "alamis alasfar jdid",
+      "hebrew_translation": "החולצה הצהובה חדשה",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH031",
+        "AD044",
+        "SH020"
+      ]
+    },
+    {
+      "id": "SN242",
+      "arabic_script": "بكم البنطلون الأسود؟",
+      "transliteration": "בְּכַּם אַלְבַּנְטַלוֹן אַלְאַסְוַד?",
+      "english_transliteration": "bkam albantalon alaswad?",
+      "hebrew_translation": "כמה עולים המכנסיים השחורים?",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SH001",
+        "SH032",
+        "AD045"
+      ]
+    },
+    {
+      "id": "SN243",
+      "arabic_script": "عندي خصم على الجراب",
+      "transliteration": "עִנְדִי חַ'צְם עַלָא אַלְגַ'רָאבּ",
+      "english_transliteration": "indi khasm ala aljrab",
+      "hebrew_translation": "יש לי הנחה על הגרביים",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SH038",
+        "SH040"
+      ]
+    },
+    {
+      "id": "SN244",
+      "arabic_script": "شو المقاس؟ كبير ولا صغير؟",
+      "transliteration": "שוּ אַלְמַאָאס? כְּבִיר וְלַא צְגִ'יר?",
+      "english_transliteration": "shu alma'as? kbir wala sjir?",
+      "hebrew_translation": "מה המידה? גדולה או קטנה?",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SH037",
+        "AD001",
+        "AD002"
+      ]
+    },
+    {
+      "id": "SN245",
+      "arabic_script": "اللون الأبيض حلو، بس بدي رمادي",
+      "transliteration": "אַלְלוֹן אַלְאַבְּיַץ' חִלוּ, בַּס בִּדִּי רַמָאדִי",
+      "english_transliteration": "allon alabyad hilu, bas bidi ramadi",
+      "hebrew_translation": "הצבע הלבן יפה, אבל אני רוצה אפור",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SH036",
+        "AD046",
+        "FD024",
+        "EX008",
+        "SH005",
+        "AD050"
+      ]
+    },
+    {
+      "id": "SN246",
+      "arabic_script": "وين موقف الباص؟",
+      "transliteration": "וֵין מַוְאִף אַלְבָּאץ?",
+      "english_transliteration": "weyn maw'if albas?",
+      "hebrew_translation": "איפה תחנת האוטובוס?",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR001",
+        "DR029",
+        "TR002"
+      ]
+    },
+    {
+      "id": "SN247",
+      "arabic_script": "لف عند الزاوية",
+      "transliteration": "לוּף עִנְד אַזָּאוְיֶה",
+      "english_transliteration": "luf ind azzawyeh",
+      "hebrew_translation": "פנה ליד הפינה",
+      "category": "directions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "DR015",
+        "DR017",
+        "DR026"
+      ]
+    },
+    {
+      "id": "SN248",
+      "arabic_script": "الساحة قريبة من الدوار",
+      "transliteration": "אַסָּאחָה אָרִיבֶה מִן אַדַּוָּאר",
+      "english_transliteration": "assaha aribeh min addawar",
+      "hebrew_translation": "הכיכר קרובה לכיכר התנועה",
+      "category": "directions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "DR030",
+        "DR006",
+        "DR027"
+      ]
+    },
+    {
+      "id": "SN249",
+      "arabic_script": "الرصيف وسخ اليوم",
+      "transliteration": "אַרְּצִיף וֶסֶח אֶל-יוֹם",
+      "english_transliteration": "arrasif weseh el-yom",
+      "hebrew_translation": "המדרכה מלוכלכת היום",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR028",
+        "AD012",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN250",
+      "arabic_script": "بدي خريطة البلدة القديمة",
+      "transliteration": "בִּדִּי חַ'רִיטַה אַלְבַּלְדֶה אַלְאַדִּימֶה",
+      "english_transliteration": "bidi kharitah albaldeh al'adimeh",
+      "hebrew_translation": "אני רוצה מפה של העיר העתיקה",
+      "category": "directions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SH005",
+        "DR032",
+        "DR019"
+      ]
+    },
+    {
+      "id": "SN251",
+      "arabic_script": "شوف العلامة، هاد هو الشارع",
+      "transliteration": "שוּף אַלְעַלָאמֶה, הָאד הוּ אַשָּׁארַע",
+      "english_transliteration": "shuf alalameh, had hu ashshara'",
+      "hebrew_translation": "תראה את השלט, זה הרחוב",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB006",
+        "DR033",
+        "EX019",
+        "DR023"
+      ]
+    },
+    {
+      "id": "SN252",
+      "arabic_script": "وين موقف التاكسي؟",
+      "transliteration": "וֵין מַוְאִף אַתַּכְּסִי?",
+      "english_transliteration": "weyn maw'if attaksi?",
+      "hebrew_translation": "איפה תחנת המוניות?",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR001",
+        "DR029",
+        "TR003"
+      ]
+    },
+    {
+      "id": "SN253",
+      "arabic_script": "المحطة عند الدوار",
+      "transliteration": "אַלְמַחַטָּה עִנְד אַדַּוָּאר",
+      "english_transliteration": "almahatah ind addawar",
+      "hebrew_translation": "התחנה ליד כיכר התנועה",
+      "category": "directions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR002",
+        "DR017",
+        "DR027"
+      ]
+    },
+    {
+      "id": "SN254",
+      "arabic_script": "بتنضفي البيت اليوم؟",
+      "transliteration": "בְּתְנַדְּפִי אַלְבֵּית אֶל-יוֹם?",
+      "english_transliteration": "btnaddfi albeyt el-yom?",
+      "hebrew_translation": "את מנקה את הבית היום?",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB070",
+        "HF001",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN255",
+      "arabic_script": "نضفنا الغرفة امبارح",
+      "transliteration": "נַדַּפְנָא אַלְגּוּרְפֶה אִמְבָּארִח",
+      "english_transliteration": "naddafna algurfeh imbarih",
+      "hebrew_translation": "ניקינו את החדר אתמול",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB070",
+        "HF002",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN256",
+      "arabic_script": "بيغسل السيارة كل يوم",
+      "transliteration": "בִּיעְ'סַל אַסַּיָּארַה כֻּל יוֹם",
+      "english_transliteration": "bighsal assayarah kul yom",
+      "hebrew_translation": "הוא שוטף את המכונית כל יום",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB071",
+        "TR001",
+        "NT045"
+      ]
+    },
+    {
+      "id": "SN257",
+      "arabic_script": "غسلت الجراب والقميص",
+      "transliteration": "עַ'סַלְת אַלְגַ'רָאבּ וְאַלְאָמִיץ",
+      "english_transliteration": "ghasalt aljrab walamis",
+      "hebrew_translation": "כיבסתי את הגרביים והחולצה",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB071",
+        "SH040",
+        "SH031"
+      ]
+    },
+    {
+      "id": "SN258",
+      "arabic_script": "بيركض بالحديقة الصبح",
+      "transliteration": "בִּירְכֻּץ' בִּלְחַדִיאַה אַצְּבַח",
+      "english_transliteration": "birkud bilhadi'ah asbah",
+      "hebrew_translation": "הוא רץ בגן בבוקר",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB072",
+        "WN022",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN259",
+      "arabic_script": "ركضنا كتير امبارح",
+      "transliteration": "רַכַּצְ'נָא כְּתִיר אִמְבָּארִח",
+      "english_transliteration": "rakadna ktir imbarih",
+      "hebrew_translation": "רצנו הרבה אתמול",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB072",
+        "EX023",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN260",
+      "arabic_script": "بتسبحي بالبحر؟",
+      "transliteration": "בְּתִסְבְּחִי בִּלְבַּחֶר?",
+      "english_transliteration": "btisbhi bilbaher?",
+      "hebrew_translation": "את שוחה בים?",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB073",
+        "WN009"
+      ]
+    },
+    {
+      "id": "SN261",
+      "arabic_script": "سبحنا بالبحر امبارح",
+      "transliteration": "סַבַּחְנָא בִּלְבַּחֶר אִמְבָּארִח",
+      "english_transliteration": "sabahna bilbaher imbarih",
+      "hebrew_translation": "שחינו בים אתמול",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB073",
+        "WN009",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN262",
+      "arabic_script": "بترقصي منيح!",
+      "transliteration": "בְּתִרְאְצִי מְנִיח!",
+      "english_transliteration": "btir'asi mnih!",
+      "hebrew_translation": "את רוקדת טוב!",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB074",
+        "GR006"
+      ]
+    },
+    {
+      "id": "SN263",
+      "arabic_script": "ضحكنا كتير امبارح",
+      "transliteration": "צַ'חַכְּנָא כְּתִיר אִמְבָּארִח",
+      "english_transliteration": "dahakna ktir imbarih",
+      "hebrew_translation": "צחקנו הרבה אתמול",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB075",
+        "EX023",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN264",
+      "arabic_script": "يا زلمة، شو هالحكي؟",
+      "transliteration": "יַא זַלַמֶה, שוּ הַלְחַכִּי?",
+      "english_transliteration": "ya zalameh, shu halhaki?",
+      "hebrew_translation": "הי אחי, מה השטויות האלה?",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX049",
+        "EX051"
+      ]
+    },
+    {
+      "id": "SN265",
+      "arabic_script": "يا ست، أهلا فيك",
+      "transliteration": "יַא סִתּ, אַהְלַן פִּיךּ",
+      "english_transliteration": "ya sitt, ahlan fik",
+      "hebrew_translation": "הי גברת, ברוכה הבאה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "EX050",
+        "GR028"
+      ]
+    },
+    {
+      "id": "SN266",
+      "arabic_script": "شو أخبارك؟ ماشي الحال",
+      "transliteration": "שוּ אַחְבָּארַךּ? מָאשִׁי אַלְחָאל",
+      "english_transliteration": "shu ahbarak? mashi alhal",
+      "hebrew_translation": "מה החדשות? ככה ככה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR009",
+        "EX052"
+      ]
+    },
+    {
+      "id": "SN267",
+      "arabic_script": "على راحتك، خليك هيك",
+      "transliteration": "עַלָא רָאחַתַךּ, חַ'לִּיךְ הֵיךּ",
+      "english_transliteration": "ala rahatak, khallik heyk",
+      "hebrew_translation": "בנוחות שלך, תישאר ככה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX053",
+        "EX054"
+      ]
+    },
+    {
+      "id": "SN268",
+      "arabic_script": "يا سلام! هاد حلو كتير",
+      "transliteration": "יַא סַלָאם! הָאד חִלוּ כְּתִיר",
+      "english_transliteration": "ya salam! had hilu ktir",
+      "hebrew_translation": "וואו! זה יפה מאוד",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "EX055",
+        "FD024",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN269",
+      "arabic_script": "مية مية! تمام",
+      "transliteration": "מִיֶּה מִיֶּה! תַמָּאם",
+      "english_transliteration": "miyeh miyeh! tamam",
+      "hebrew_translation": "מאה אחוז! מעולה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "word_ids": [
+        "EX056",
+        "GR008"
+      ]
+    },
+    {
+      "id": "SN270",
+      "arabic_script": "شو هالحكي؟ ما بصير هيك",
+      "transliteration": "שוּ הַלְחַכִּי? מַא בִּצִיר הֵיךּ",
+      "english_transliteration": "shu halhaki? ma bisir heyk",
+      "hebrew_translation": "מה השטויות האלה? זה לא יתכן ככה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX051",
+        "EX048",
+        "EX007"
+      ]
+    },
+    {
+      "id": "SN271",
+      "arabic_script": "السما زرقاء اليوم",
+      "transliteration": "אַסַּמָא זַרְאַא אֶל-יוֹם",
+      "english_transliteration": "assama zar'a el-yom",
+      "hebrew_translation": "השמיים כחולים היום",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN004",
+        "AD042",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN272",
+      "arabic_script": "الشجرة خضرا كتير",
+      "transliteration": "אַשַּׁגַ'רַה חַ'צְ'רַא כְּתִיר",
+      "english_transliteration": "ashshajarah khadra ktir",
+      "hebrew_translation": "העץ ירוק מאוד",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN013",
+        "AD043",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN273",
+      "arabic_script": "الجزمة سودا، بدي بيضا",
+      "transliteration": "אַלְגִ'זְמֶה סַוְדָא, בִּדִּי בֵּיצְ'ָא",
+      "english_transliteration": "aljizmeh sawda, bidi bayda",
+      "hebrew_translation": "הנעליים שחורות, אני רוצה לבנות",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SH034",
+        "AD045",
+        "SH005",
+        "AD046"
+      ]
+    },
+    {
+      "id": "SN274",
+      "arabic_script": "الوردة حمرا وحلوة",
+      "transliteration": "אַלְוַרְדֶה חַמְרָא וְחִלְוֶה",
+      "english_transliteration": "alwardeh hamra w hilu",
+      "hebrew_translation": "הפרח אדום ויפה",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN014",
+        "AD041",
+        "FD024"
+      ]
+    },
+    {
+      "id": "SN275",
+      "arabic_script": "بحب اللون البنفسجي",
+      "transliteration": "בְּחֶבּ אַלְלוֹן אַלְבַּנַפְסַגִ'י",
+      "english_transliteration": "bheb allon albanafsaji",
+      "hebrew_translation": "אני אוהב את הצבע הסגול",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB008",
+        "SH036",
+        "AD049"
+      ]
+    },
+    {
+      "id": "SN276",
+      "arabic_script": "الكنزة البنية حلوة",
+      "transliteration": "אַלְכַּנְזֶה אַלְבֻּנִּיֶה חִלְוֶה",
+      "english_transliteration": "alkanzeh albunniyeh hilu",
+      "hebrew_translation": "הסוודר החום יפה",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH039",
+        "AD047",
+        "FD024"
+      ]
+    },
+    {
+      "id": "SN277",
+      "arabic_script": "هاد لذيذ كتير",
+      "transliteration": "הָאד לַזִיז כְּתִיר",
+      "english_transliteration": "had lazíz ktir",
+      "hebrew_translation": "זה טעים מאוד",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "AD051",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN278",
+      "arabic_script": "البيت هادي كتير الليل",
+      "transliteration": "אַלְבֵּית הָאדִי כְּתִיר אַלְלֵיל",
+      "english_transliteration": "albeyt hadi ktir alleyl",
+      "hebrew_translation": "הבית שקט מאוד בלילה",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF001",
+        "AD052",
+        "EX023",
+        "NT020"
+      ]
+    },
+    {
+      "id": "SN279",
+      "arabic_script": "عندي امتحان يوم الإتنين",
+      "transliteration": "עִנְדִי אִמְתִחָאן יוֹם אַלְאִתְנֵין",
+      "english_transliteration": "indi imtihan yom al-itneyn",
+      "hebrew_translation": "יש לי מבחן ביום שני",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WE008",
+        "NT037"
+      ]
+    },
+    {
+      "id": "SN280",
+      "arabic_script": "بروح عالشغل من الأحد للخميس",
+      "transliteration": "בַּרוּח עַ שֻׁגַ'ל מִן אַלְאַחַד לִלְחַ'מִיס",
+      "english_transliteration": "baruh a shughul min al-ahad lilkhamis",
+      "hebrew_translation": "אני הולך לעבודה מיום ראשון עד יום חמישי",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB001",
+        "WE003",
+        "NT036",
+        "NT040"
+      ]
+    },
+    {
+      "id": "SN281",
+      "arabic_script": "يوم الجمعة بقعد بالبيت",
+      "transliteration": "יוֹם אַלְגֻ'מְעֶה בַּאַעֶד בִּלְבֵּית",
+      "english_transliteration": "yom aljum'ah ba'a'ed bilbeyt",
+      "hebrew_translation": "ביום שישי אני נשאר בבית",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT041",
+        "VB049",
+        "HF001"
+      ]
+    },
+    {
+      "id": "SN282",
+      "arabic_script": "يوم السبت بنام كتير",
+      "transliteration": "יוֹם אַסַּבְּת בְּנָאם כְּתִיר",
+      "english_transliteration": "yom assabt bnam ktir",
+      "hebrew_translation": "בשבת אני ישן הרבה",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT042",
+        "VB012",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN283",
+      "arabic_script": "بدي نص كيلو بندورة",
+      "transliteration": "בִּדִּי נֻץ כִּילוֹ בַּנַדוֹרָה",
+      "english_transliteration": "bidi nus kilo banadora",
+      "hebrew_translation": "אני רוצה חצי קילו עגבניות",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT043",
+        "SH009",
+        "FD053"
+      ]
+    },
+    {
+      "id": "SN284",
+      "arabic_script": "ربع ساعة وبروح",
+      "transliteration": "רֻבּ סָּאעָה וְבַּרוּח",
+      "english_transliteration": "rub sa'ah w baruh",
+      "hebrew_translation": "עוד רבע שעה ואני הולך",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT044",
+        "VB001"
+      ]
+    },
+    {
+      "id": "SN285",
+      "arabic_script": "كل يوم بشرب قهوة",
+      "transliteration": "כֻּל יוֹם בִּשְׁרַב אַהְוֶה",
+      "english_transliteration": "kul yom bishrab ahweh",
+      "hebrew_translation": "כל יום אני שותה קפה",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "word_ids": [
+        "NT045",
+        "VB011",
+        "FD008"
+      ]
+    },
+    {
+      "id": "SN286",
+      "arabic_script": "يوم التلاتة عندي اجتماع",
+      "transliteration": "יוֹם אַתַּלָאתֶה עִנְדִי אִגְתִמָאע",
+      "english_transliteration": "yom attalateh indi ijtima'",
+      "hebrew_translation": "ביום שלישי יש לי פגישה",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "word_ids": [
+        "NT038",
+        "WE034"
+      ]
+    },
+    {
+      "id": "SN287",
+      "arabic_script": "وين المفتاح؟ ما بعرف",
+      "transliteration": "וֵין אַלְמִפְתָאח? מַא בַּעְרַף",
+      "english_transliteration": "weyn almiftah? ma ba'raf",
+      "hebrew_translation": "איפה המפתח? אני לא יודע",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "DR001",
+        "HF029",
+        "DR021"
+      ]
+    },
+    {
+      "id": "SN288",
+      "arabic_script": "التلفزيون بالغرفة",
+      "transliteration": "אַתִּלִפִזְיוֹן בִּלְגּוּרְפֶה",
+      "english_transliteration": "attilifizyon bilgurfeh",
+      "hebrew_translation": "הטלוויזיה בחדר",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF030",
+        "HF002"
+      ]
+    },
+    {
+      "id": "SN289",
+      "arabic_script": "شوف بالمراية",
+      "transliteration": "שוּף בִּלְמַרָאיֶה",
+      "english_transliteration": "shuf bilmarayeh",
+      "hebrew_translation": "תסתכל במראה",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB006",
+        "HF031"
+      ]
+    },
+    {
+      "id": "SN290",
+      "arabic_script": "بدي صابون ومنشفة",
+      "transliteration": "בִּדִּי צָאבּוּן וְמִנְשַׁפֶה",
+      "english_transliteration": "bidi sabun w minshafeh",
+      "hebrew_translation": "אני רוצה סבון ומגבת",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "HF032",
+        "HF033"
+      ]
+    },
+    {
+      "id": "SN291",
+      "arabic_script": "الكنبة بالغرفة الكبيرة",
+      "transliteration": "אַלְכַּנְבֶּה בִּלְגּוּרְפֶה אַלְכְּבִירֶה",
+      "english_transliteration": "alkanbeh bilgurfeh alkbireh",
+      "hebrew_translation": "הספה בחדר הגדול",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF034",
+        "HF002",
+        "AD001"
+      ]
+    },
+    {
+      "id": "SN292",
+      "arabic_script": "الستارة جديدة والسجادة قديمة",
+      "transliteration": "אַסִּתָארֶה גְ'דִידֶה וְאַסַּגָּ'אדֶה אַדִּימֶה",
+      "english_transliteration": "assitareh jdideh wassajadeh adimeh",
+      "hebrew_translation": "הוילון חדש והשטיח ישן",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "word_ids": [
+        "HF035",
+        "SH020",
+        "HF036",
+        "SH021"
+      ]
+    },
+    {
+      "id": "SN293",
+      "arabic_script": "حفيدي بيلعب بالغرفة",
+      "transliteration": "חָפִידִי בִּילְעַב בִּלְגּוּרְפֶה",
+      "english_transliteration": "hafidi bila'ab bilgurfeh",
+      "hebrew_translation": "הנכד שלי משחק בחדר",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "word_ids": [
+        "HF037",
+        "VB040",
+        "HF002"
+      ]
+    },
+    {
+      "id": "SN294",
+      "arabic_script": "حفيدتي حلوة كتير",
+      "transliteration": "חָפִידְתִי חִלְוֶה כְּתִיר",
+      "english_transliteration": "hafidti hilu ktir",
+      "hebrew_translation": "הנכדה שלי חמודה מאוד",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "word_ids": [
+        "HF038",
+        "FD024",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN295",
+      "arabic_script": "بوجعني سني",
+      "transliteration": "בְּוָג'ַעְנִי סִנִּי",
+      "english_transliteration": "bwaja'ni sinni",
+      "hebrew_translation": "כואבת לי השן",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "BH019"
+      ]
+    },
+    {
+      "id": "SN296",
+      "arabic_script": "بوجعني ودني",
+      "transliteration": "בְּוָג'ַעְנִי וִדְנִי",
+      "english_transliteration": "bwaja'ni widni",
+      "hebrew_translation": "כואבת לי האוזן",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "BH017"
+      ]
+    },
+    {
+      "id": "SN297",
+      "arabic_script": "الشعر حلو كتير",
+      "transliteration": "אַשַּׁעַר חִלוּ כְּתִיר",
+      "english_transliteration": "ashsha'ar hilu ktir",
+      "hebrew_translation": "השיער יפה מאוד",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "word_ids": [
+        "BH018",
+        "FD024",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN298",
+      "arabic_script": "وين الصيدلية؟ بدي دوا",
+      "transliteration": "וֵין אַסַּיְדַלִיֶה? בִּדִּי דְּוָא",
+      "english_transliteration": "weyn assaydaliyeh? bidi dwa",
+      "hebrew_translation": "איפה בית המרקחת? אני צריך תרופה",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "DR001",
+        "BH020",
+        "SH005",
+        "BH014"
+      ]
+    },
+    {
+      "id": "SN299",
+      "arabic_script": "رحت عالمستشفى امبارح",
+      "transliteration": "רֻחְת עַ מֻסְתַשְׁפַא אִמְבָּארִח",
+      "english_transliteration": "ruht a almustashfa imbarih",
+      "hebrew_translation": "הלכתי לבית החולים אתמול",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB001",
+        "BH021",
+        "NT014"
+      ]
+    },
+    {
+      "id": "SN300",
+      "arabic_script": "عندي حرارة وكحة",
+      "transliteration": "עִנְדִי חַרָארֶה וְכַּחַּה",
+      "english_transliteration": "indi hararah w kahheh",
+      "hebrew_translation": "יש לי חום ושיעול",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "word_ids": [
+        "BH022",
+        "BH023"
+      ]
+    },
+    {
+      "id": "SN301",
+      "arabic_script": "بوجعني بطني، عندي حرارة",
+      "transliteration": "בְּוָג'ַעְנִי בַּטְנִי, עִנְדִי חַרָארֶה",
+      "english_transliteration": "bwaja'ni batni, indi hararah",
+      "hebrew_translation": "כואבת לי הבטן, יש לי חום",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "word_ids": [
+        "BH005",
+        "BH022"
+      ]
+    },
+    {
+      "id": "SN302",
+      "arabic_script": "أبو مهندس، وأنا طالب",
+      "transliteration": "אַבּוּ מֻהַנְדִס, וְאַנַא טָאלֶבּ",
+      "english_transliteration": "abu muhandis, w ana taleb",
+      "hebrew_translation": "אבא מהנדס, ואני תלמיד",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "HF005",
+        "WE026",
+        "WE006"
+      ]
+    },
+    {
+      "id": "SN303",
+      "arabic_script": "المحامي بيشتغل بمكتب كبير",
+      "transliteration": "אַלְמֻחָאמִי בִּישְׁתַּגַ'ל בִּמַכְּתַב כְּבִיר",
+      "english_transliteration": "almuhami bishtajal bmaktab kbir",
+      "hebrew_translation": "עורך הדין עובד במשרד גדול",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "WE027",
+        "VB016",
+        "WE004",
+        "AD001"
+      ]
+    },
+    {
+      "id": "SN304",
+      "arabic_script": "الشرطي بالشارع",
+      "transliteration": "אַשֻּׁרְטִי בִּשַּׁשָּׁארַע",
+      "english_transliteration": "ashshurti bishshara'",
+      "hebrew_translation": "השוטר ברחוב",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WE028",
+        "DR023"
+      ]
+    },
+    {
+      "id": "SN305",
+      "arabic_script": "الطباخ بيطبخ بالمطعم",
+      "transliteration": "אַטַּבָּאח בִּיטְבַּח בִּלְמַטְעַם",
+      "english_transliteration": "attabbakh bitbakh bilmat'am",
+      "hebrew_translation": "הטבח מבשל במסעדה",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WE029",
+        "VB069",
+        "FD030"
+      ]
+    },
+    {
+      "id": "SN306",
+      "arabic_script": "السواق تعبان اليوم",
+      "transliteration": "אַסַּוָּאא תַּעְבָּאן אֶל-יוֹם",
+      "english_transliteration": "assawwa' ta'ban el-yom",
+      "hebrew_translation": "הנהג עייף היום",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WE030",
+        "BH010",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN307",
+      "arabic_script": "النجار بيصلح الكرسي",
+      "transliteration": "אַנַּגָּ'אר בִּיצַלֵּח אַלְכֻּרְסִי",
+      "english_transliteration": "annajar bisalleh alkursi",
+      "hebrew_translation": "הנגר מתקן את הכיסא",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "WE031",
+        "VB057",
+        "HF017"
+      ]
+    },
+    {
+      "id": "SN308",
+      "arabic_script": "رحت عند الحلاق",
+      "transliteration": "רֻחְת עִנְד אַלְחַלַּאא",
+      "english_transliteration": "ruht ind alhalla'",
+      "hebrew_translation": "הלכתי לספר",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB001",
+        "DR017",
+        "WE032"
+      ]
+    },
+    {
+      "id": "SN309",
+      "arabic_script": "شو المهنة؟ مهندس ولا محامي؟",
+      "transliteration": "שוּ אַלְמִהְנֶה? מֻהַנְדִס וְלַא מֻחָאמִי?",
+      "english_transliteration": "shu almihneh? muhandis wala muhami?",
+      "hebrew_translation": "מה המקצוע? מהנדס או עורך דין?",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "word_ids": [
+        "EX003",
+        "WE033",
+        "WE026",
+        "WE027"
+      ]
+    },
+    {
+      "id": "SN310",
+      "arabic_script": "بدي دراجة جديدة",
+      "transliteration": "בִּדִּי דַרָּאגֶ'ה גְ'דִידֶה",
+      "english_transliteration": "bidi darrajeh jdideh",
+      "hebrew_translation": "אני רוצה אופניים חדשים",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "TR015",
+        "SH020"
+      ]
+    },
+    {
+      "id": "SN311",
+      "arabic_script": "بروح عالشغل بالقطار",
+      "transliteration": "בַּרוּח עַ שֻׁגַל בִּלְאִטָאר",
+      "english_transliteration": "baruh a shughul bilitar",
+      "hebrew_translation": "אני הולך לעבודה ברכבת",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB001",
+        "WE003",
+        "TR016"
+      ]
+    },
+    {
+      "id": "SN312",
+      "arabic_script": "وين الرخصة؟",
+      "transliteration": "וֵין אַרֻּחְ'צֶה?",
+      "english_transliteration": "weyn arrukhseh?",
+      "hebrew_translation": "איפה הרישיון?",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "word_ids": [
+        "DR001",
+        "TR017"
+      ]
+    },
+    {
+      "id": "SN313",
+      "arabic_script": "بدي بنزين للسيارة",
+      "transliteration": "בִּדִּי בֶּנְזִין לִסַּיָּארַה",
+      "english_transliteration": "bidi benzin lissayarah",
+      "hebrew_translation": "אני צריך בנזין למכונית",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "TR018",
+        "TR001"
+      ]
+    },
+    {
+      "id": "SN314",
+      "arabic_script": "الميناء بعيد من هون",
+      "transliteration": "אַלְמִינַא בְּעִיד מִן הוֹן",
+      "english_transliteration": "almina b'id min hon",
+      "hebrew_translation": "הנמל רחוק מכאן",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "TR019",
+        "DR007",
+        "DR008"
+      ]
+    },
+    {
+      "id": "SN315",
+      "arabic_script": "المسافر بالبوابة",
+      "transliteration": "אַלְמֻסָאפִר בִּלְבַּוָּאבֶה",
+      "english_transliteration": "almusafir bilbawwabeh",
+      "hebrew_translation": "הנוסע בשער",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "TR020",
+        "TR022"
+      ]
+    },
+    {
+      "id": "SN316",
+      "arabic_script": "هاد خط الباص",
+      "transliteration": "הָאד חַ'ט אַלְבָּאץ",
+      "english_transliteration": "had khat albas",
+      "hebrew_translation": "זה קו האוטובוס",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "word_ids": [
+        "TR021",
+        "TR002"
+      ]
+    },
+    {
+      "id": "SN317",
+      "arabic_script": "فيه حر كتير اليوم",
+      "transliteration": "פִי חַרּ כְּתִיר אֶל-יוֹם",
+      "english_transliteration": "fi harr ktir el-yom",
+      "hebrew_translation": "יש חום רב היום",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN015",
+        "EX023",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN318",
+      "arabic_script": "فيه برد كتير بالليل",
+      "transliteration": "פִי בַּרְד כְּתִיר בִּלְלֵיל",
+      "english_transliteration": "fi bard ktir billeyl",
+      "hebrew_translation": "יש קור רב בלילה",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN016",
+        "EX023",
+        "NT020"
+      ]
+    },
+    {
+      "id": "SN319",
+      "arabic_script": "فيه رطوبة كتير اليوم",
+      "transliteration": "פִי רֻטוּבֶּה כְּתִיר אֶל-יוֹם",
+      "english_transliteration": "fi rutubeh ktir el-yom",
+      "hebrew_translation": "יש הרבה לחות היום",
+      "category": "weather_nature",
+      "difficulty_level": 2,
+      "word_ids": [
+        "WN017",
+        "EX023",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN320",
+      "arabic_script": "فيه عاصفة قوية اليوم",
+      "transliteration": "פִי עָאסִפֶה אָוִיֶה אֶל-יוֹם",
+      "english_transliteration": "fi asifeh awiyeh el-yom",
+      "hebrew_translation": "יש סערה חזקה היום",
+      "category": "weather_nature",
+      "difficulty_level": 2,
+      "word_ids": [
+        "WN018",
+        "AD016",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN321",
+      "arabic_script": "فيه غيم كتير بالسما",
+      "transliteration": "פִי גֵ'ים כְּתִיר בִּסַּמָא",
+      "english_transliteration": "fi ghim ktir bissama",
+      "hebrew_translation": "יש הרבה עננים בשמיים",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN019",
+        "EX023",
+        "WN004"
+      ]
+    },
+    {
+      "id": "SN322",
+      "arabic_script": "فيه برق ورعد",
+      "transliteration": "פִי בַּרְא וְרַעְד",
+      "english_transliteration": "fi bar' w ra'd",
+      "hebrew_translation": "יש ברק ורעם",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "WN020",
+        "WN021"
+      ]
+    },
+    {
+      "id": "SN323",
+      "arabic_script": "بحب الحديقة بالصبح",
+      "transliteration": "בְּחֶבּ אַלְחַדִיאַה בִּצְּבַח",
+      "english_transliteration": "bheb alhadi'ah bissbah",
+      "hebrew_translation": "אני אוהב את הגן בבוקר",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "word_ids": [
+        "VB008",
+        "WN022",
+        "NT017"
+      ]
+    },
+    {
+      "id": "SN324",
+      "arabic_script": "ما بحب الغضب",
+      "transliteration": "מַא בְּחֶבּ אַלְעַ'צַ'ב",
+      "english_transliteration": "ma bheb alghadab",
+      "hebrew_translation": "אני לא אוהב כעס",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB009",
+        "SF011"
+      ]
+    },
+    {
+      "id": "SN325",
+      "arabic_script": "بدي راحة اليوم",
+      "transliteration": "בִּדִּי רָאחָה אֶל-יוֹם",
+      "english_transliteration": "bidi rahah el-yom",
+      "hebrew_translation": "אני רוצה מנוחה היום",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SH005",
+        "SF012",
+        "NT026"
+      ]
+    },
+    {
+      "id": "SN326",
+      "arabic_script": "شكرا على المساعدة",
+      "transliteration": "שוּכְּרָאן עַלָא אַלְמֻסָאעַדֶה",
+      "english_transliteration": "shukran ala almusa'adeh",
+      "hebrew_translation": "תודה על העזרה",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "GR012",
+        "SF013"
+      ]
+    },
+    {
+      "id": "SN327",
+      "arabic_script": "أنا فخور كتير",
+      "transliteration": "אַנַא פַחֻ'ור כְּתִיר",
+      "english_transliteration": "ana fakhur ktir",
+      "hebrew_translation": "אני גאה מאוד",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SF014",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN328",
+      "arabic_script": "ما في غيرة",
+      "transliteration": "מַא פִי גִ'ירֶה",
+      "english_transliteration": "ma fi ghireh",
+      "hebrew_translation": "אין קנאה",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "SF015"
+      ]
+    },
+    {
+      "id": "SN329",
+      "arabic_script": "بحس وحدة كتير",
+      "transliteration": "בְּחִס וַחְדֶה כְּתִיר",
+      "english_transliteration": "bhis wahdeh ktir",
+      "hebrew_translation": "אני מרגיש בדידות רבה",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "word_ids": [
+        "VB027",
+        "SF016",
+        "EX023"
+      ]
+    },
+    {
+      "id": "SN330",
+      "arabic_script": "عندي أمل وحلم كبير",
+      "transliteration": "עִנְדִי אַמַל וְחִלְם כְּבִיר",
+      "english_transliteration": "indi amal w hilm kbir",
+      "hebrew_translation": "יש לי תקווה וחלום גדול",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "word_ids": [
+        "SF017",
+        "SF018",
+        "AD001"
+      ]
+    }
+  ]
+}
