@@ -1,8 +1,8 @@
 {
   "version": "1.1",
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-07",
   "dialect": "Jerusalem Urban Levantine (להג ירושלמי עירוני)",
-  "total_count": 559,
+  "total_count": 861,
   "categories": [
     "greetings",
     "food_restaurants",
@@ -23985,6 +23985,3932 @@
           "arabic_script": "أشهر"
         }
       }
+    },
+    {
+      "id": "GR039",
+      "arabic_script": "وينك؟",
+      "transliteration": "וֵינַכּ?",
+      "english_transliteration": "weinak",
+      "hebrew_translation": "איפה אתה?",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "tags": [
+        "greeting",
+        "question"
+      ]
+    },
+    {
+      "id": "GR040",
+      "arabic_script": "اشتقتلك",
+      "transliteration": "אִשְׁתַקְתִלַּכּ",
+      "english_transliteration": "ishta'tellak",
+      "hebrew_translation": "התגעגעתי אליך",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "tags": [
+        "greeting",
+        "feelings"
+      ]
+    },
+    {
+      "id": "GR041",
+      "arabic_script": "الله يعطيك العافية",
+      "transliteration": "אללה יִעְטִיכּ אַלְעַאפִיֶה",
+      "english_transliteration": "allah y'atik el-afye",
+      "hebrew_translation": "שיברך אותך אלוהים (לעובד)",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "tags": [
+        "greeting",
+        "blessing"
+      ]
+    },
+    {
+      "id": "GR042",
+      "arabic_script": "مبروك",
+      "transliteration": "מַבְּרוּכּ",
+      "english_transliteration": "mabruk",
+      "hebrew_translation": "מזל טוב",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "tags": [
+        "greeting",
+        "celebration"
+      ]
+    },
+    {
+      "id": "GR043",
+      "arabic_script": "الله يبارك فيك",
+      "transliteration": "אללה יְבַארֶכּ פִיכּ",
+      "english_transliteration": "allah ybarek fik",
+      "hebrew_translation": "שיברך אותך אלוהים (תשובה למזל טוב)",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "tags": [
+        "greeting",
+        "blessing"
+      ]
+    },
+    {
+      "id": "GR044",
+      "arabic_script": "حياك الله",
+      "transliteration": "חַיַּאכּ אללה",
+      "english_transliteration": "hayyak allah",
+      "hebrew_translation": "ברוך הבא (רשמי)",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "tags": [
+        "greeting",
+        "formal"
+      ]
+    },
+    {
+      "id": "GR045",
+      "arabic_script": "الله معك",
+      "transliteration": "אללה מַעַכּ",
+      "english_transliteration": "allah ma'ak",
+      "hebrew_translation": "שאלוהים איתך (פרידה)",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "tags": [
+        "greeting",
+        "farewell"
+      ]
+    },
+    {
+      "id": "FD060",
+      "arabic_script": "فطار",
+      "transliteration": "פַטַאר",
+      "english_transliteration": "ftar",
+      "hebrew_translation": "ארוחת בוקר",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "meal"
+      ]
+    },
+    {
+      "id": "FD061",
+      "arabic_script": "زيت زيتون",
+      "transliteration": "זֵית זֵיתוּן",
+      "english_transliteration": "zeit zeitun",
+      "hebrew_translation": "שמן זית",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "ingredient"
+      ]
+    },
+    {
+      "id": "FD062",
+      "arabic_script": "لبن",
+      "transliteration": "לַבַּן",
+      "english_transliteration": "laban",
+      "hebrew_translation": "לבן (יוגורט חמוץ)",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "tags": [
+        "food",
+        "ingredient"
+      ]
+    },
+    {
+      "id": "FD063",
+      "arabic_script": "بقلاوة",
+      "transliteration": "בַּקְלַאוַה",
+      "english_transliteration": "ba'lawa",
+      "hebrew_translation": "בקלאווה",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "tags": [
+        "food",
+        "dessert"
+      ]
+    },
+    {
+      "id": "FD064",
+      "arabic_script": "فواكه",
+      "transliteration": "פַוַאכֶּה",
+      "english_transliteration": "fawakeh",
+      "hebrew_translation": "פירות",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "ingredient"
+      ]
+    },
+    {
+      "id": "FD065",
+      "arabic_script": "بطاطا",
+      "transliteration": "בַּטַאטַא",
+      "english_transliteration": "batata",
+      "hebrew_translation": "תפוח אדמה",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "vegetable"
+      ]
+    },
+    {
+      "id": "FD066",
+      "arabic_script": "مطعم",
+      "transliteration": "מַטְעַם",
+      "english_transliteration": "mat'am",
+      "hebrew_translation": "מסעדה",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "place"
+      ]
+    },
+    {
+      "id": "SH041",
+      "arabic_script": "محل",
+      "transliteration": "מַחַל",
+      "english_transliteration": "mahal",
+      "hebrew_translation": "חנות",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "tags": [
+        "shopping",
+        "place"
+      ]
+    },
+    {
+      "id": "SH042",
+      "arabic_script": "سعر",
+      "transliteration": "סִעֶר",
+      "english_transliteration": "si'er",
+      "hebrew_translation": "מחיר",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "tags": [
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "id": "SH043",
+      "arabic_script": "فلوس",
+      "transliteration": "פְלוּס",
+      "english_transliteration": "flus",
+      "hebrew_translation": "כסף",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "tags": [
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "id": "SH044",
+      "arabic_script": "بياع",
+      "transliteration": "בַּיַאע",
+      "english_transliteration": "bayya'",
+      "hebrew_translation": "מוכר",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "tags": [
+        "shopping",
+        "people"
+      ]
+    },
+    {
+      "id": "SH045",
+      "arabic_script": "زبون",
+      "transliteration": "זְבּוּן",
+      "english_transliteration": "zabun",
+      "hebrew_translation": "לקוח",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "tags": [
+        "shopping",
+        "people"
+      ]
+    },
+    {
+      "id": "SH046",
+      "arabic_script": "وزن",
+      "transliteration": "וֵזְן",
+      "english_transliteration": "wazen",
+      "hebrew_translation": "משקל",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "tags": [
+        "shopping",
+        "item"
+      ]
+    },
+    {
+      "id": "SH047",
+      "arabic_script": "جودة",
+      "transliteration": "גַ'ווְדֶה",
+      "english_transliteration": "jaudeh",
+      "hebrew_translation": "איכות",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "tags": [
+        "shopping",
+        "quality"
+      ]
+    },
+    {
+      "id": "SH048",
+      "arabic_script": "عربون",
+      "transliteration": "עַרְבּוּן",
+      "english_transliteration": "arbun",
+      "hebrew_translation": "מקדמה",
+      "category": "shopping_market",
+      "difficulty_level": 3,
+      "tags": [
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "id": "SH049",
+      "arabic_script": "فاتورة",
+      "transliteration": "פַאתוּרַה",
+      "english_transliteration": "fatura",
+      "hebrew_translation": "חשבונית",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "tags": [
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "id": "SH050",
+      "arabic_script": "صراف آلي",
+      "transliteration": "צַרַאף אַלִי",
+      "english_transliteration": "sarraf aali",
+      "hebrew_translation": "כספומט",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "tags": [
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "id": "SH051",
+      "arabic_script": "بطاقة",
+      "transliteration": "בִּטַאקַה",
+      "english_transliteration": "bitaqa",
+      "hebrew_translation": "כרטיס (אשראי)",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "tags": [
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "id": "SH052",
+      "arabic_script": "تخفيضات",
+      "transliteration": "תַחְ'פִיצַ'את",
+      "english_transliteration": "takhfidat",
+      "hebrew_translation": "מבצעים",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "tags": [
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "id": "DR034",
+      "arabic_script": "مقابل",
+      "transliteration": "מֻקַאבֶּל",
+      "english_transliteration": "mu'abel",
+      "hebrew_translation": "מול",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "preposition"
+      ]
+    },
+    {
+      "id": "DR035",
+      "arabic_script": "إشارة",
+      "transliteration": "אִשַׁארַה",
+      "english_transliteration": "isharah",
+      "hebrew_translation": "רמזור",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR036",
+      "arabic_script": "تايه",
+      "transliteration": "תַאיֶה",
+      "english_transliteration": "tayeh",
+      "hebrew_translation": "אבוד (בכיוון)",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "state"
+      ]
+    },
+    {
+      "id": "DR037",
+      "arabic_script": "أول شارع",
+      "transliteration": "אַוֶל שַׁארֶע",
+      "english_transliteration": "awwal share'",
+      "hebrew_translation": "הרחוב הראשון",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "phrase"
+      ]
+    },
+    {
+      "id": "DR038",
+      "arabic_script": "آخر الشارع",
+      "transliteration": "אַאח'ֶר אַלשַׁארֶע",
+      "english_transliteration": "akher esh-share'",
+      "hebrew_translation": "סוף הרחוב",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "phrase"
+      ]
+    },
+    {
+      "id": "VB077",
+      "arabic_script": "فتح",
+      "transliteration": "פַתַח",
+      "english_transliteration": "fatah",
+      "hebrew_translation": "לפתוח",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB078",
+      "arabic_script": "لبس",
+      "transliteration": "לִבֶּס",
+      "english_transliteration": "libes",
+      "hebrew_translation": "ללבוש",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB079",
+      "arabic_script": "شرب",
+      "transliteration": "שִׁרֶב",
+      "english_transliteration": "shireb",
+      "hebrew_translation": "לשתות",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB080",
+      "arabic_script": "نام",
+      "transliteration": "נַאם",
+      "english_transliteration": "nam",
+      "hebrew_translation": "לישון",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB081",
+      "arabic_script": "صحي",
+      "transliteration": "צַחַא",
+      "english_transliteration": "sahha",
+      "hebrew_translation": "להתעורר",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "daily"
+      ]
+    },
+    {
+      "id": "VB082",
+      "arabic_script": "لعب",
+      "transliteration": "לִעֶב",
+      "english_transliteration": "li'eb",
+      "hebrew_translation": "לשחק",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB083",
+      "arabic_script": "غنى",
+      "transliteration": "ע'ַנַא",
+      "english_transliteration": "ghanna",
+      "hebrew_translation": "לשיר",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "daily"
+      ]
+    },
+    {
+      "id": "VB084",
+      "arabic_script": "وصل",
+      "transliteration": "וִצֶל",
+      "english_transliteration": "wisel",
+      "hebrew_translation": "להגיע",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB085",
+      "arabic_script": "طلع",
+      "transliteration": "טִלֶע",
+      "english_transliteration": "tili'",
+      "hebrew_translation": "לצאת/לעלות",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "daily"
+      ]
+    },
+    {
+      "id": "VB086",
+      "arabic_script": "نزل",
+      "transliteration": "נִזֶל",
+      "english_transliteration": "nizel",
+      "hebrew_translation": "לרדת",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "daily"
+      ]
+    },
+    {
+      "id": "VB087",
+      "arabic_script": "دخل",
+      "transliteration": "דַחַ'ל",
+      "english_transliteration": "dakhal",
+      "hebrew_translation": "להיכנס",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB088",
+      "arabic_script": "خرج",
+      "transliteration": "חַ'רַג'",
+      "english_transliteration": "kharaj",
+      "hebrew_translation": "לצאת",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB089",
+      "arabic_script": "فكر",
+      "transliteration": "פַכַר",
+      "english_transliteration": "fakkar",
+      "hebrew_translation": "לחשוב",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "mind"
+      ]
+    },
+    {
+      "id": "VB090",
+      "arabic_script": "فهم",
+      "transliteration": "פִהֶם",
+      "english_transliteration": "fihem",
+      "hebrew_translation": "להבין",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "mind"
+      ]
+    },
+    {
+      "id": "VB091",
+      "arabic_script": "نسي",
+      "transliteration": "נִסִי",
+      "english_transliteration": "nisi",
+      "hebrew_translation": "לשכוח",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "mind"
+      ]
+    },
+    {
+      "id": "VB092",
+      "arabic_script": "تذكر",
+      "transliteration": "תִדַ'כַּר",
+      "english_transliteration": "tzakkar",
+      "hebrew_translation": "להיזכר",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "mind"
+      ]
+    },
+    {
+      "id": "VB093",
+      "arabic_script": "كره",
+      "transliteration": "כִּרֶה",
+      "english_transliteration": "kireh",
+      "hebrew_translation": "לשנוא",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "feelings"
+      ]
+    },
+    {
+      "id": "VB094",
+      "arabic_script": "خاف",
+      "transliteration": "חַ'אף",
+      "english_transliteration": "khaf",
+      "hebrew_translation": "לפחד",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "feelings"
+      ]
+    },
+    {
+      "id": "VB095",
+      "arabic_script": "اعتذر",
+      "transliteration": "אִעְתַזַ'ר",
+      "english_transliteration": "i'tazar",
+      "hebrew_translation": "להתנצל",
+      "category": "common_verbs",
+      "difficulty_level": 3,
+      "tags": [
+        "verb",
+        "social"
+      ]
+    },
+    {
+      "id": "VB096",
+      "arabic_script": "سمح",
+      "transliteration": "סַמַח",
+      "english_transliteration": "samah",
+      "hebrew_translation": "לסלוח",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "social"
+      ]
+    },
+    {
+      "id": "VB097",
+      "arabic_script": "اشترى",
+      "transliteration": "אִשְׁתַרַא",
+      "english_transliteration": "ishtara",
+      "hebrew_translation": "לקנות",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "shopping"
+      ]
+    },
+    {
+      "id": "VB098",
+      "arabic_script": "باع",
+      "transliteration": "בַּאע",
+      "english_transliteration": "ba'",
+      "hebrew_translation": "למכור",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "shopping"
+      ]
+    },
+    {
+      "id": "VB099",
+      "arabic_script": "دفع",
+      "transliteration": "דַפַע",
+      "english_transliteration": "dafa'",
+      "hebrew_translation": "לשלם",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "shopping"
+      ]
+    },
+    {
+      "id": "VB100",
+      "arabic_script": "سمع",
+      "transliteration": "סִמֶע",
+      "english_transliteration": "sime'",
+      "hebrew_translation": "לשמוע",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB101",
+      "arabic_script": "حس",
+      "transliteration": "חַס",
+      "english_transliteration": "hass",
+      "hebrew_translation": "להרגיש",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "feelings"
+      ]
+    },
+    {
+      "id": "VB102",
+      "arabic_script": "عرف",
+      "transliteration": "עִרֶף",
+      "english_transliteration": "iref",
+      "hebrew_translation": "לדעת/להכיר",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB103",
+      "arabic_script": "علم",
+      "transliteration": "עַלַם",
+      "english_transliteration": "allam",
+      "hebrew_translation": "ללמד",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "education"
+      ]
+    },
+    {
+      "id": "VB104",
+      "arabic_script": "اشتغل",
+      "transliteration": "אִשְׁתַע'ַל",
+      "english_transliteration": "ishtaghal",
+      "hebrew_translation": "לעבוד",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "work"
+      ]
+    },
+    {
+      "id": "VB105",
+      "arabic_script": "انتظر",
+      "transliteration": "אִנְתַצַ'ר",
+      "english_transliteration": "intazar",
+      "hebrew_translation": "לחכות",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB106",
+      "arabic_script": "قرر",
+      "transliteration": "קַרר",
+      "english_transliteration": "arrar",
+      "hebrew_translation": "להחליט",
+      "category": "common_verbs",
+      "difficulty_level": 3,
+      "tags": [
+        "verb",
+        "mind"
+      ]
+    },
+    {
+      "id": "EX057",
+      "arabic_script": "يا ستي",
+      "transliteration": "יַא סִתִּי",
+      "english_transliteration": "ya sitti",
+      "hebrew_translation": "גברתי (פנייה חיבה)",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "informal"
+      ]
+    },
+    {
+      "id": "EX058",
+      "arabic_script": "ما شاء الله",
+      "transliteration": "מַאשַׁאללַה",
+      "english_transliteration": "mashallah",
+      "hebrew_translation": "איזה יופי (ברכה)",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "blessing"
+      ]
+    },
+    {
+      "id": "EX059",
+      "arabic_script": "يلا بينا",
+      "transliteration": "יַלַא בִּינַא",
+      "english_transliteration": "yalla beena",
+      "hebrew_translation": "קדימה בואו",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "tags": [
+        "expression",
+        "daily"
+      ]
+    },
+    {
+      "id": "EX060",
+      "arabic_script": "شو الأخبار",
+      "transliteration": "שׁוּ אַלְאַחְ'בַּאר",
+      "english_transliteration": "shu el-akhbar",
+      "hebrew_translation": "מה חדש",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "tags": [
+        "expression",
+        "greeting"
+      ]
+    },
+    {
+      "id": "EX061",
+      "arabic_script": "لا تهتم",
+      "transliteration": "לַא תִהְתַם",
+      "english_transliteration": "la tihtam",
+      "hebrew_translation": "אל תדאג",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "tags": [
+        "expression",
+        "daily"
+      ]
+    },
+    {
+      "id": "EX062",
+      "arabic_script": "خذ راحتك",
+      "transliteration": "חֻ'ד רַאחְתַכּ",
+      "english_transliteration": "khud rahtak",
+      "hebrew_translation": "קח את הזמן שלך",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "idiom"
+      ]
+    },
+    {
+      "id": "EX063",
+      "arabic_script": "عيب",
+      "transliteration": "עֵיב",
+      "english_transliteration": "eib",
+      "hebrew_translation": "לא יפה / בושה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "tags": [
+        "expression",
+        "social"
+      ]
+    },
+    {
+      "id": "EX064",
+      "arabic_script": "حرام",
+      "transliteration": "חַרַאם",
+      "english_transliteration": "haram",
+      "hebrew_translation": "חבל / אסור",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "tags": [
+        "expression",
+        "social"
+      ]
+    },
+    {
+      "id": "EX065",
+      "arabic_script": "يا حرام",
+      "transliteration": "יַא חַרַאם",
+      "english_transliteration": "ya haram",
+      "hebrew_translation": "חבל (רחמים)",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "social"
+      ]
+    },
+    {
+      "id": "EX066",
+      "arabic_script": "بكرة إن شاء الله",
+      "transliteration": "בֻּכְּרַה אִנְשַׁאללַה",
+      "english_transliteration": "bukra inshallah",
+      "hebrew_translation": "מחר בעזרת השם",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "idiom"
+      ]
+    },
+    {
+      "id": "EX067",
+      "arabic_script": "شو في",
+      "transliteration": "שׁוּ פִי",
+      "english_transliteration": "shu fi",
+      "hebrew_translation": "מה קורה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "tags": [
+        "expression",
+        "greeting"
+      ]
+    },
+    {
+      "id": "EX068",
+      "arabic_script": "بجنن",
+      "transliteration": "בִּגַ'נֶן",
+      "english_transliteration": "bjannen",
+      "hebrew_translation": "מטריף / מדהים",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "slang"
+      ]
+    },
+    {
+      "id": "EX069",
+      "arabic_script": "ياريت",
+      "transliteration": "יַא רֵית",
+      "english_transliteration": "ya reit",
+      "hebrew_translation": "הלוואי",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "idiom"
+      ]
+    },
+    {
+      "id": "EX070",
+      "arabic_script": "ع راسي وعيني",
+      "transliteration": "עַ רַאסִי וְעֵינִי",
+      "english_transliteration": "a rasi w'eini",
+      "hebrew_translation": "בשמחה רבה",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 3,
+      "tags": [
+        "expression",
+        "idiom"
+      ]
+    },
+    {
+      "id": "EX071",
+      "arabic_script": "الحمدلله",
+      "transliteration": "אַלְחַמְדֻלִלַה",
+      "english_transliteration": "el-hamdillah",
+      "hebrew_translation": "תודה לאל",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 1,
+      "tags": [
+        "expression",
+        "daily"
+      ]
+    },
+    {
+      "id": "AD053",
+      "arabic_script": "طويل",
+      "transliteration": "טַוִיל",
+      "english_transliteration": "taweel",
+      "hebrew_translation": "גבוה / ארוך",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "tags": [
+        "adjective",
+        "size"
+      ]
+    },
+    {
+      "id": "AD054",
+      "arabic_script": "قصير",
+      "transliteration": "קַצִיר",
+      "english_transliteration": "'aseer",
+      "hebrew_translation": "נמוך / קצר",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "tags": [
+        "adjective",
+        "size"
+      ]
+    },
+    {
+      "id": "AD055",
+      "arabic_script": "جميل",
+      "transliteration": "גַ'מִיל",
+      "english_transliteration": "jameel",
+      "hebrew_translation": "יפה",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "tags": [
+        "adjective",
+        "appearance"
+      ]
+    },
+    {
+      "id": "AD056",
+      "arabic_script": "قبيح",
+      "transliteration": "קַבִּיח",
+      "english_transliteration": "'abeeh",
+      "hebrew_translation": "מכוער",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "appearance"
+      ]
+    },
+    {
+      "id": "AD057",
+      "arabic_script": "مر",
+      "transliteration": "מֻר",
+      "english_transliteration": "murr",
+      "hebrew_translation": "מריר",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "taste"
+      ]
+    },
+    {
+      "id": "AD058",
+      "arabic_script": "حامض",
+      "transliteration": "חַאמֶץ",
+      "english_transliteration": "hamed",
+      "hebrew_translation": "חמוץ",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "taste"
+      ]
+    },
+    {
+      "id": "AD059",
+      "arabic_script": "مالح",
+      "transliteration": "מַאלֶח",
+      "english_transliteration": "maleh",
+      "hebrew_translation": "מלוח",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "taste"
+      ]
+    },
+    {
+      "id": "AD060",
+      "arabic_script": "سخن",
+      "transliteration": "סְח'ֶן",
+      "english_transliteration": "sukhun",
+      "hebrew_translation": "חם",
+      "category": "adjectives",
+      "difficulty_level": 1,
+      "tags": [
+        "adjective",
+        "temperature"
+      ]
+    },
+    {
+      "id": "AD061",
+      "arabic_script": "غني",
+      "transliteration": "ע'ַנִי",
+      "english_transliteration": "ghani",
+      "hebrew_translation": "עשיר",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "status"
+      ]
+    },
+    {
+      "id": "AD062",
+      "arabic_script": "فقير",
+      "transliteration": "פַקִיר",
+      "english_transliteration": "fa'eer",
+      "hebrew_translation": "עני",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "status"
+      ]
+    },
+    {
+      "id": "AD063",
+      "arabic_script": "غريب",
+      "transliteration": "ע'ַרִיב",
+      "english_transliteration": "ghareeb",
+      "hebrew_translation": "מוזר / זר",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "personality"
+      ]
+    },
+    {
+      "id": "AD064",
+      "arabic_script": "لطيف",
+      "transliteration": "לַטִיף",
+      "english_transliteration": "lateef",
+      "hebrew_translation": "נחמד / אדיב",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "personality"
+      ]
+    },
+    {
+      "id": "AD065",
+      "arabic_script": "مضحك",
+      "transliteration": "מְצַ'חֶכּ",
+      "english_transliteration": "mid'hek",
+      "hebrew_translation": "מצחיק",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "personality"
+      ]
+    },
+    {
+      "id": "NT046",
+      "arabic_script": "تلت",
+      "transliteration": "תֻלְת",
+      "english_transliteration": "tult",
+      "hebrew_translation": "שליש",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "tags": [
+        "numbers",
+        "basic"
+      ]
+    },
+    {
+      "id": "NT047",
+      "arabic_script": "ألف",
+      "transliteration": "אַלֶף",
+      "english_transliteration": "alef",
+      "hebrew_translation": "אלף",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "tags": [
+        "numbers",
+        "basic"
+      ]
+    },
+    {
+      "id": "NT048",
+      "arabic_script": "أول",
+      "transliteration": "אַוֶל",
+      "english_transliteration": "awwal",
+      "hebrew_translation": "ראשון",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "tags": [
+        "numbers",
+        "order"
+      ]
+    },
+    {
+      "id": "NT049",
+      "arabic_script": "تاني",
+      "transliteration": "תַאנִי",
+      "english_transliteration": "tani",
+      "hebrew_translation": "שני (בסדר)",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "tags": [
+        "numbers",
+        "order"
+      ]
+    },
+    {
+      "id": "NT050",
+      "arabic_script": "تالت",
+      "transliteration": "תַאלֶת",
+      "english_transliteration": "talet",
+      "hebrew_translation": "שלישי",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "tags": [
+        "numbers",
+        "order"
+      ]
+    },
+    {
+      "id": "NT051",
+      "arabic_script": "أخير",
+      "transliteration": "אַח'ִיר",
+      "english_transliteration": "akheer",
+      "hebrew_translation": "אחרון",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "tags": [
+        "numbers",
+        "order"
+      ]
+    },
+    {
+      "id": "NT052",
+      "arabic_script": "مرة",
+      "transliteration": "מַרַה",
+      "english_transliteration": "marra",
+      "hebrew_translation": "פעם (אחת)",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "tags": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "id": "NT053",
+      "arabic_script": "مرتين",
+      "transliteration": "מַרְתֵין",
+      "english_transliteration": "marten",
+      "hebrew_translation": "פעמיים",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "tags": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "id": "TC013",
+      "arabic_script": "الظهر",
+      "transliteration": "אַלצֹהֶר",
+      "english_transliteration": "ed-duhr",
+      "hebrew_translation": "בצהריים",
+      "category": "time_calendar",
+      "difficulty_level": 1,
+      "tags": [
+        "time",
+        "daily"
+      ]
+    },
+    {
+      "id": "TC014",
+      "arabic_script": "العصر",
+      "transliteration": "אַלעַצֶר",
+      "english_transliteration": "el-'asr",
+      "hebrew_translation": "אחר הצהריים",
+      "category": "time_calendar",
+      "difficulty_level": 2,
+      "tags": [
+        "time",
+        "daily"
+      ]
+    },
+    {
+      "id": "TC015",
+      "arabic_script": "المسا",
+      "transliteration": "אַלְמַסַא",
+      "english_transliteration": "el-masa",
+      "hebrew_translation": "בערב",
+      "category": "time_calendar",
+      "difficulty_level": 1,
+      "tags": [
+        "time",
+        "daily"
+      ]
+    },
+    {
+      "id": "TC016",
+      "arabic_script": "بالليل",
+      "transliteration": "בַּאלְלֵיל",
+      "english_transliteration": "bil-leil",
+      "hebrew_translation": "בלילה",
+      "category": "time_calendar",
+      "difficulty_level": 1,
+      "tags": [
+        "time",
+        "daily"
+      ]
+    },
+    {
+      "id": "TC017",
+      "arabic_script": "النهارده",
+      "transliteration": "אַלנַהַארְדֶּה",
+      "english_transliteration": "en-naharde",
+      "hebrew_translation": "היום",
+      "category": "time_calendar",
+      "difficulty_level": 1,
+      "tags": [
+        "time",
+        "daily"
+      ]
+    },
+    {
+      "id": "TC018",
+      "arabic_script": "بكرة",
+      "transliteration": "בֻּכְּרַה",
+      "english_transliteration": "bukra",
+      "hebrew_translation": "מחר",
+      "category": "time_calendar",
+      "difficulty_level": 1,
+      "tags": [
+        "time",
+        "daily"
+      ]
+    },
+    {
+      "id": "TC019",
+      "arabic_script": "الأسبوع الجاي",
+      "transliteration": "אַלְאֻסְבּוּע אַלְגַ'אי",
+      "english_transliteration": "el-usbu' ej-jai",
+      "hebrew_translation": "השבוע הבא",
+      "category": "time_calendar",
+      "difficulty_level": 2,
+      "tags": [
+        "time",
+        "calendar"
+      ]
+    },
+    {
+      "id": "TC020",
+      "arabic_script": "الشهر اللي فات",
+      "transliteration": "אַלשַׁהֶר אַלִי פַאת",
+      "english_transliteration": "esh-shahr elli fat",
+      "hebrew_translation": "החודש שעבר",
+      "category": "time_calendar",
+      "difficulty_level": 2,
+      "tags": [
+        "time",
+        "calendar"
+      ]
+    },
+    {
+      "id": "TC021",
+      "arabic_script": "عيد",
+      "transliteration": "עִיד",
+      "english_transliteration": "eid",
+      "hebrew_translation": "חג",
+      "category": "time_calendar",
+      "difficulty_level": 1,
+      "tags": [
+        "time",
+        "calendar"
+      ]
+    },
+    {
+      "id": "TC022",
+      "arabic_script": "رمضان",
+      "transliteration": "רַמַצַ'אן",
+      "english_transliteration": "ramadan",
+      "hebrew_translation": "רמדאן",
+      "category": "time_calendar",
+      "difficulty_level": 1,
+      "tags": [
+        "time",
+        "calendar"
+      ]
+    },
+    {
+      "id": "HF039",
+      "arabic_script": "صالون",
+      "transliteration": "צַאלוֹן",
+      "english_transliteration": "salon",
+      "hebrew_translation": "סלון",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "home",
+        "room"
+      ]
+    },
+    {
+      "id": "HF040",
+      "arabic_script": "سرير",
+      "transliteration": "סְרִיר",
+      "english_transliteration": "sireer",
+      "hebrew_translation": "מיטה",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "home",
+        "item"
+      ]
+    },
+    {
+      "id": "HF041",
+      "arabic_script": "أب",
+      "transliteration": "אַבּ",
+      "english_transliteration": "ab",
+      "hebrew_translation": "אבא",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "family",
+        "basic"
+      ]
+    },
+    {
+      "id": "HF042",
+      "arabic_script": "أخ",
+      "transliteration": "אַח'",
+      "english_transliteration": "akh",
+      "hebrew_translation": "אח",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "family",
+        "basic"
+      ]
+    },
+    {
+      "id": "HF043",
+      "arabic_script": "جدة",
+      "transliteration": "גַ'דֶה",
+      "english_transliteration": "jaddeh",
+      "hebrew_translation": "סבתא",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "family",
+        "basic"
+      ]
+    },
+    {
+      "id": "HF044",
+      "arabic_script": "ابن",
+      "transliteration": "אִבֶּן",
+      "english_transliteration": "ibn",
+      "hebrew_translation": "בן",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "family",
+        "basic"
+      ]
+    },
+    {
+      "id": "HF045",
+      "arabic_script": "زوج",
+      "transliteration": "זוֹג'",
+      "english_transliteration": "zoj",
+      "hebrew_translation": "בעל",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "family",
+        "basic"
+      ]
+    },
+    {
+      "id": "HF046",
+      "arabic_script": "زوجة",
+      "transliteration": "זוֹגֶ'ה",
+      "english_transliteration": "zojeh",
+      "hebrew_translation": "אישה (רעיה)",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "family",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH024",
+      "arabic_script": "أذن",
+      "transliteration": "אִדֶ'ן",
+      "english_transliteration": "iden",
+      "hebrew_translation": "אוזן",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH025",
+      "arabic_script": "أنف",
+      "transliteration": "אַנֶף",
+      "english_transliteration": "anef",
+      "hebrew_translation": "אף",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH026",
+      "arabic_script": "صدر",
+      "transliteration": "צַדֶר",
+      "english_transliteration": "sadr",
+      "hebrew_translation": "חזה",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH027",
+      "arabic_script": "كتف",
+      "transliteration": "כִּתֶף",
+      "english_transliteration": "kitef",
+      "hebrew_translation": "כתף",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH028",
+      "arabic_script": "إصبع",
+      "transliteration": "אִצְבֶּע",
+      "english_transliteration": "isba'",
+      "hebrew_translation": "אצבע",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH029",
+      "arabic_script": "دم",
+      "transliteration": "דַם",
+      "english_transliteration": "damm",
+      "hebrew_translation": "דם",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH030",
+      "arabic_script": "مريض",
+      "transliteration": "מַרִיץ'",
+      "english_transliteration": "mareed",
+      "hebrew_translation": "חולה",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "tags": [
+        "health",
+        "state"
+      ]
+    },
+    {
+      "id": "BH031",
+      "arabic_script": "صحة",
+      "transliteration": "צֶחַה",
+      "english_transliteration": "sihha",
+      "hebrew_translation": "בריאות",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "tags": [
+        "health",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH032",
+      "arabic_script": "وجع",
+      "transliteration": "וַגַ'ע",
+      "english_transliteration": "waja'",
+      "hebrew_translation": "כאב",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "tags": [
+        "health",
+        "symptom"
+      ]
+    },
+    {
+      "id": "BH033",
+      "arabic_script": "صداع",
+      "transliteration": "צֻדַאע",
+      "english_transliteration": "suda'",
+      "hebrew_translation": "כאב ראש",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "health",
+        "symptom"
+      ]
+    },
+    {
+      "id": "BH034",
+      "arabic_script": "رشح",
+      "transliteration": "רַשְׁח",
+      "english_transliteration": "rashh",
+      "hebrew_translation": "נזלת",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "health",
+        "symptom"
+      ]
+    },
+    {
+      "id": "BH035",
+      "arabic_script": "عافية",
+      "transliteration": "עַאפְיֶה",
+      "english_transliteration": "afyeh",
+      "hebrew_translation": "בריאות (איחול)",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "health",
+        "blessing"
+      ]
+    },
+    {
+      "id": "BH036",
+      "arabic_script": "جرح",
+      "transliteration": "גַ'רְח",
+      "english_transliteration": "jarh",
+      "hebrew_translation": "פצע",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "health",
+        "symptom"
+      ]
+    },
+    {
+      "id": "BH037",
+      "arabic_script": "عملية",
+      "transliteration": "עַמַלִיֶה",
+      "english_transliteration": "amaliyye",
+      "hebrew_translation": "ניתוח",
+      "category": "body_health",
+      "difficulty_level": 3,
+      "tags": [
+        "health",
+        "medical"
+      ]
+    },
+    {
+      "id": "BH038",
+      "arabic_script": "حامل",
+      "transliteration": "חַאמֶל",
+      "english_transliteration": "hamel",
+      "hebrew_translation": "בהריון",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "health",
+        "state"
+      ]
+    },
+    {
+      "id": "BH039",
+      "arabic_script": "نظارة",
+      "transliteration": "נַצַארַה",
+      "english_transliteration": "nazzara",
+      "hebrew_translation": "משקפיים",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "tags": [
+        "body",
+        "item"
+      ]
+    },
+    {
+      "id": "WE035",
+      "arabic_script": "واجب",
+      "transliteration": "וַאגֶ'ב",
+      "english_transliteration": "wajeb",
+      "hebrew_translation": "שיעורי בית",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "education",
+        "basic"
+      ]
+    },
+    {
+      "id": "WE036",
+      "arabic_script": "صف",
+      "transliteration": "צַף",
+      "english_transliteration": "saff",
+      "hebrew_translation": "כיתה",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "tags": [
+        "education",
+        "place"
+      ]
+    },
+    {
+      "id": "WE037",
+      "arabic_script": "شهادة",
+      "transliteration": "שַׁהַאדֶה",
+      "english_transliteration": "shahadeh",
+      "hebrew_translation": "תעודה",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "education",
+        "item"
+      ]
+    },
+    {
+      "id": "WE038",
+      "arabic_script": "مشروع",
+      "transliteration": "מַשְׁרוּע",
+      "english_transliteration": "mashru'",
+      "hebrew_translation": "פרויקט",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "work",
+        "basic"
+      ]
+    },
+    {
+      "id": "WE039",
+      "arabic_script": "خبرة",
+      "transliteration": "חַ'בְּרֶה",
+      "english_transliteration": "khibreh",
+      "hebrew_translation": "ניסיון",
+      "category": "work_education",
+      "difficulty_level": 3,
+      "tags": [
+        "work",
+        "abstract"
+      ]
+    },
+    {
+      "id": "WE040",
+      "arabic_script": "فرصة عمل",
+      "transliteration": "פֻרְצֶה עַמַל",
+      "english_transliteration": "fursat amal",
+      "hebrew_translation": "הזדמנות עבודה",
+      "category": "work_education",
+      "difficulty_level": 3,
+      "tags": [
+        "work",
+        "abstract"
+      ]
+    },
+    {
+      "id": "WE041",
+      "arabic_script": "مقابلة",
+      "transliteration": "מֻקַאבַּלֶה",
+      "english_transliteration": "mu'abaleh",
+      "hebrew_translation": "ראיון עבודה",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "work",
+        "basic"
+      ]
+    },
+    {
+      "id": "WE042",
+      "arabic_script": "زميل",
+      "transliteration": "זַמִיל",
+      "english_transliteration": "zameel",
+      "hebrew_translation": "עמית",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "work",
+        "people"
+      ]
+    },
+    {
+      "id": "WE043",
+      "arabic_script": "تدريب",
+      "transliteration": "תַדְרִיב",
+      "english_transliteration": "tadreeb",
+      "hebrew_translation": "הכשרה",
+      "category": "work_education",
+      "difficulty_level": 3,
+      "tags": [
+        "work",
+        "abstract"
+      ]
+    },
+    {
+      "id": "WE044",
+      "arabic_script": "نجاح",
+      "transliteration": "נַגַ'אח",
+      "english_transliteration": "najah",
+      "hebrew_translation": "הצלחה",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "work",
+        "abstract"
+      ]
+    },
+    {
+      "id": "TR023",
+      "arabic_script": "حقيبة",
+      "transliteration": "חַ'קִיבֶּה",
+      "english_transliteration": "ha'ibeh",
+      "hebrew_translation": "מזוודה",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "tags": [
+        "travel",
+        "item"
+      ]
+    },
+    {
+      "id": "TR024",
+      "arabic_script": "محطة",
+      "transliteration": "מַחַ'טֶה",
+      "english_transliteration": "mahatta",
+      "hebrew_translation": "תחנה",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "tags": [
+        "travel",
+        "place"
+      ]
+    },
+    {
+      "id": "TR025",
+      "arabic_script": "سفينة",
+      "transliteration": "סַפִינֶה",
+      "english_transliteration": "safeeneh",
+      "hebrew_translation": "ספינה",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "vehicle"
+      ]
+    },
+    {
+      "id": "TR026",
+      "arabic_script": "طريق",
+      "transliteration": "טַרִיק",
+      "english_transliteration": "taree'",
+      "hebrew_translation": "כביש / דרך",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "tags": [
+        "travel",
+        "basic"
+      ]
+    },
+    {
+      "id": "TR027",
+      "arabic_script": "رحلة",
+      "transliteration": "רִחְלֶה",
+      "english_transliteration": "rihleh",
+      "hebrew_translation": "טיול / נסיעה",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "tags": [
+        "travel",
+        "basic"
+      ]
+    },
+    {
+      "id": "TR028",
+      "arabic_script": "سائق",
+      "transliteration": "סַאיֶק",
+      "english_transliteration": "sae'q",
+      "hebrew_translation": "נהג",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "people"
+      ]
+    },
+    {
+      "id": "TR029",
+      "arabic_script": "رخصة سواقة",
+      "transliteration": "רֻחְ'צַת סַוַאקַה",
+      "english_transliteration": "rukhsat sawa'a",
+      "hebrew_translation": "רישיון נהיגה",
+      "category": "travel_transport",
+      "difficulty_level": 3,
+      "tags": [
+        "travel",
+        "item"
+      ]
+    },
+    {
+      "id": "TR030",
+      "arabic_script": "حدود",
+      "transliteration": "חֻדוּד",
+      "english_transliteration": "hudud",
+      "hebrew_translation": "גבול",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "place"
+      ]
+    },
+    {
+      "id": "TR031",
+      "arabic_script": "جمرك",
+      "transliteration": "גֻ'מְרֻכּ",
+      "english_transliteration": "jumruk",
+      "hebrew_translation": "מכס",
+      "category": "travel_transport",
+      "difficulty_level": 3,
+      "tags": [
+        "travel",
+        "place"
+      ]
+    },
+    {
+      "id": "TR032",
+      "arabic_script": "سائح",
+      "transliteration": "סַאיֶח",
+      "english_transliteration": "sa'ih",
+      "hebrew_translation": "תייר",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "people"
+      ]
+    },
+    {
+      "id": "WN023",
+      "arabic_script": "ريح",
+      "transliteration": "רִיח",
+      "english_transliteration": "reeh",
+      "hebrew_translation": "רוח",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "weather",
+        "basic"
+      ]
+    },
+    {
+      "id": "WN024",
+      "arabic_script": "زهرة",
+      "transliteration": "זַהְרֶה",
+      "english_transliteration": "zahreh",
+      "hebrew_translation": "פרח",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "nature",
+        "basic"
+      ]
+    },
+    {
+      "id": "WN025",
+      "arabic_script": "عشب",
+      "transliteration": "עֻשְׁב",
+      "english_transliteration": "ushb",
+      "hebrew_translation": "דשא / עשב",
+      "category": "weather_nature",
+      "difficulty_level": 2,
+      "tags": [
+        "nature",
+        "basic"
+      ]
+    },
+    {
+      "id": "WN026",
+      "arabic_script": "صحراء",
+      "transliteration": "צַחְ'רַא",
+      "english_transliteration": "sahra",
+      "hebrew_translation": "מדבר",
+      "category": "weather_nature",
+      "difficulty_level": 2,
+      "tags": [
+        "nature",
+        "basic"
+      ]
+    },
+    {
+      "id": "WN027",
+      "arabic_script": "سماء",
+      "transliteration": "סַמַא",
+      "english_transliteration": "sama",
+      "hebrew_translation": "שמיים",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "nature",
+        "basic"
+      ]
+    },
+    {
+      "id": "WN028",
+      "arabic_script": "حجر",
+      "transliteration": "חַ'גַ'ר",
+      "english_transliteration": "hajar",
+      "hebrew_translation": "אבן",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "nature",
+        "basic"
+      ]
+    },
+    {
+      "id": "WN029",
+      "arabic_script": "حيوان",
+      "transliteration": "חַיַוַאן",
+      "english_transliteration": "hayawan",
+      "hebrew_translation": "חיה",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "nature",
+        "basic"
+      ]
+    },
+    {
+      "id": "WN030",
+      "arabic_script": "طير",
+      "transliteration": "טֵיר",
+      "english_transliteration": "teir",
+      "hebrew_translation": "ציפור",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "nature",
+        "basic"
+      ]
+    },
+    {
+      "id": "WN031",
+      "arabic_script": "قطة",
+      "transliteration": "קֻטֶה",
+      "english_transliteration": "utta",
+      "hebrew_translation": "חתול",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "nature",
+        "animal"
+      ]
+    },
+    {
+      "id": "WN032",
+      "arabic_script": "كلب",
+      "transliteration": "כַּלְבּ",
+      "english_transliteration": "kalb",
+      "hebrew_translation": "כלב",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "nature",
+        "animal"
+      ]
+    },
+    {
+      "id": "WN033",
+      "arabic_script": "فصل الشتا",
+      "transliteration": "פַצְל אַלְשִׁתַא",
+      "english_transliteration": "fasl esh-shita",
+      "hebrew_translation": "עונת החורף",
+      "category": "weather_nature",
+      "difficulty_level": 2,
+      "tags": [
+        "weather",
+        "time"
+      ]
+    },
+    {
+      "id": "SF019",
+      "arabic_script": "فرحان",
+      "transliteration": "פַרְחַאן",
+      "english_transliteration": "farhan",
+      "hebrew_translation": "שמח",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF020",
+      "arabic_script": "زعلان",
+      "transliteration": "זַעְלַאן",
+      "english_transliteration": "za'lan",
+      "hebrew_translation": "כועס / עצוב",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF021",
+      "arabic_script": "متوتر",
+      "transliteration": "מְתַוַתֶר",
+      "english_transliteration": "mitwatter",
+      "hebrew_translation": "לחוץ",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF022",
+      "arabic_script": "مرتاح",
+      "transliteration": "מַרְתַאח",
+      "english_transliteration": "murtah",
+      "hebrew_translation": "רגוע",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF023",
+      "arabic_script": "خايف",
+      "transliteration": "חַ'איֶף",
+      "english_transliteration": "khayef",
+      "hebrew_translation": "מפוחד",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF024",
+      "arabic_script": "متحمس",
+      "transliteration": "מִתְחַמֶס",
+      "english_transliteration": "mithammes",
+      "hebrew_translation": "נלהב",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF025",
+      "arabic_script": "محرج",
+      "transliteration": "מַחְ'רֶג'",
+      "english_transliteration": "muhraj",
+      "hebrew_translation": "נבוך",
+      "category": "society_feelings",
+      "difficulty_level": 3,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF026",
+      "arabic_script": "غيران",
+      "transliteration": "ע'ַירַאן",
+      "english_transliteration": "ghayran",
+      "hebrew_translation": "מקנא",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF027",
+      "arabic_script": "ملل",
+      "transliteration": "מַלַל",
+      "english_transliteration": "malal",
+      "hebrew_translation": "שעמום",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF028",
+      "arabic_script": "وحيد",
+      "transliteration": "וַחִיד",
+      "english_transliteration": "waheed",
+      "hebrew_translation": "בודד",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF029",
+      "arabic_script": "مجتمع",
+      "transliteration": "מֻגְ'תַמַע",
+      "english_transliteration": "mujtama'",
+      "hebrew_translation": "חברה (קהילה)",
+      "category": "society_feelings",
+      "difficulty_level": 3,
+      "tags": [
+        "society",
+        "abstract"
+      ]
+    },
+    {
+      "id": "SF030",
+      "arabic_script": "صداقة",
+      "transliteration": "צַדַאקַה",
+      "english_transliteration": "sadaqah",
+      "hebrew_translation": "חברות",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "tags": [
+        "society",
+        "abstract"
+      ]
+    },
+    {
+      "id": "SF031",
+      "arabic_script": "ثقة",
+      "transliteration": "תִ'קַה",
+      "english_transliteration": "tiqa",
+      "hebrew_translation": "אמון",
+      "category": "society_feelings",
+      "difficulty_level": 3,
+      "tags": [
+        "society",
+        "abstract"
+      ]
+    },
+    {
+      "id": "SF032",
+      "arabic_script": "حزين",
+      "transliteration": "חַזִין",
+      "english_transliteration": "hazeen",
+      "hebrew_translation": "עצוב",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF033",
+      "arabic_script": "سعيد",
+      "transliteration": "סַעִיד",
+      "english_transliteration": "sa'eed",
+      "hebrew_translation": "מאושר",
+      "category": "society_feelings",
+      "difficulty_level": 1,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF034",
+      "arabic_script": "قلق",
+      "transliteration": "קַלַק",
+      "english_transliteration": "'alaq",
+      "hebrew_translation": "דאגה",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "tags": [
+        "feelings",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF035",
+      "arabic_script": "راحة بال",
+      "transliteration": "רַאחַת בַּאל",
+      "english_transliteration": "rahat bal",
+      "hebrew_translation": "שקט נפשי",
+      "category": "society_feelings",
+      "difficulty_level": 3,
+      "tags": [
+        "feelings",
+        "idiom"
+      ]
+    },
+    {
+      "id": "SF036",
+      "arabic_script": "شخصية",
+      "transliteration": "שַׁחְ'צִיֶה",
+      "english_transliteration": "shakhsiyyeh",
+      "hebrew_translation": "אישיות",
+      "category": "society_feelings",
+      "difficulty_level": 3,
+      "tags": [
+        "society",
+        "abstract"
+      ]
+    },
+    {
+      "id": "SF037",
+      "arabic_script": "عادات",
+      "transliteration": "עַאדַאת",
+      "english_transliteration": "adat",
+      "hebrew_translation": "הרגלים",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "tags": [
+        "society",
+        "abstract"
+      ]
+    },
+    {
+      "id": "SF038",
+      "arabic_script": "تقاليد",
+      "transliteration": "תַקַאלִיד",
+      "english_transliteration": "taqaleed",
+      "hebrew_translation": "מסורות",
+      "category": "society_feelings",
+      "difficulty_level": 3,
+      "tags": [
+        "society",
+        "abstract"
+      ]
+    },
+    {
+      "id": "GR046",
+      "arabic_script": "كيفك اليوم؟",
+      "transliteration": "כִּיפַכּ אַליוֹם?",
+      "english_transliteration": "keefak elyom",
+      "hebrew_translation": "מה שלומך היום?",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "tags": [
+        "greeting",
+        "question"
+      ]
+    },
+    {
+      "id": "GR047",
+      "arabic_script": "تفضل",
+      "transliteration": "תְפַצַל",
+      "english_transliteration": "tfaddal",
+      "hebrew_translation": "בבקשה / היכנס (הזמנה)",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "tags": [
+        "greeting",
+        "polite"
+      ]
+    },
+    {
+      "id": "GR048",
+      "arabic_script": "اتفضلي",
+      "transliteration": "תְפַצַלִי",
+      "english_transliteration": "tfaddali",
+      "hebrew_translation": "בבקשה (לאישה)",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "tags": [
+        "greeting",
+        "polite"
+      ]
+    },
+    {
+      "id": "GR049",
+      "arabic_script": "عن إذنك",
+      "transliteration": "עַן אִזְנַכּ",
+      "english_transliteration": "an iznak",
+      "hebrew_translation": "בהרשאתך / סליחה (לפני עזיבה)",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "tags": [
+        "greeting",
+        "polite"
+      ]
+    },
+    {
+      "id": "GR050",
+      "arabic_script": "الله يسلمك",
+      "transliteration": "אללה יְסַלְמַכּ",
+      "english_transliteration": "allah ysallmak",
+      "hebrew_translation": "שישמור עליך אלוהים",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "tags": [
+        "greeting",
+        "blessing"
+      ]
+    },
+    {
+      "id": "GR051",
+      "arabic_script": "يا هلا",
+      "transliteration": "יַא הַלַא",
+      "english_transliteration": "ya hala",
+      "hebrew_translation": "ברוך הבא (לא רשמי)",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "tags": [
+        "greeting",
+        "informal"
+      ]
+    },
+    {
+      "id": "GR052",
+      "arabic_script": "حبيبي",
+      "transliteration": "חַבִּיבִי",
+      "english_transliteration": "habibi",
+      "hebrew_translation": "יקירי (פנייה חיבה, לגבר)",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "tags": [
+        "greeting",
+        "affection"
+      ]
+    },
+    {
+      "id": "GR053",
+      "arabic_script": "حبيبتي",
+      "transliteration": "חַבִּיבְּתִי",
+      "english_transliteration": "habibti",
+      "hebrew_translation": "יקירתי (פנייה חיבה, לאישה)",
+      "category": "greetings",
+      "difficulty_level": 1,
+      "tags": [
+        "greeting",
+        "affection"
+      ]
+    },
+    {
+      "id": "GR054",
+      "arabic_script": "الله يطول عمرك",
+      "transliteration": "אללה יְטַוֶל עֻמְרַכּ",
+      "english_transliteration": "allah ytawwel omrak",
+      "hebrew_translation": "שיאריך אלוהים את ימיך",
+      "category": "greetings",
+      "difficulty_level": 3,
+      "tags": [
+        "greeting",
+        "blessing"
+      ]
+    },
+    {
+      "id": "GR055",
+      "arabic_script": "خاطرك",
+      "transliteration": "חַאטְרַכּ",
+      "english_transliteration": "khatrak",
+      "hebrew_translation": "לפי רצונך (ביטוי נימוס)",
+      "category": "greetings",
+      "difficulty_level": 2,
+      "tags": [
+        "greeting",
+        "polite"
+      ]
+    },
+    {
+      "id": "FD067",
+      "arabic_script": "ملعقة",
+      "transliteration": "מַלְעַקַה",
+      "english_transliteration": "mal'a'a",
+      "hebrew_translation": "כף",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "utensil"
+      ]
+    },
+    {
+      "id": "FD068",
+      "arabic_script": "شوكة",
+      "transliteration": "שׁוֹכֶּה",
+      "english_transliteration": "shoke",
+      "hebrew_translation": "מזלג",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "utensil"
+      ]
+    },
+    {
+      "id": "FD069",
+      "arabic_script": "سكين",
+      "transliteration": "סִכִּין",
+      "english_transliteration": "sikkeen",
+      "hebrew_translation": "סכין",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "utensil"
+      ]
+    },
+    {
+      "id": "FD070",
+      "arabic_script": "فنجان",
+      "transliteration": "פִנְגַ'אן",
+      "english_transliteration": "finjan",
+      "hebrew_translation": "ספל קפה קטן",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "tags": [
+        "food",
+        "utensil"
+      ]
+    },
+    {
+      "id": "FD071",
+      "arabic_script": "قهوة سادة",
+      "transliteration": "קַהְוֶה סַאדֶה",
+      "english_transliteration": "ahwe sade",
+      "hebrew_translation": "קפה ללא סוכר",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "tags": [
+        "food",
+        "drink"
+      ]
+    },
+    {
+      "id": "FD072",
+      "arabic_script": "زبدة",
+      "transliteration": "זִבְּדֶה",
+      "english_transliteration": "zibde",
+      "hebrew_translation": "חמאה",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "ingredient"
+      ]
+    },
+    {
+      "id": "FD073",
+      "arabic_script": "فطيرة",
+      "transliteration": "פְטִירֶה",
+      "english_transliteration": "fteere",
+      "hebrew_translation": "מאפה / פשטידה",
+      "category": "food_restaurants",
+      "difficulty_level": 2,
+      "tags": [
+        "food",
+        "dish"
+      ]
+    },
+    {
+      "id": "FD074",
+      "arabic_script": "مشروب",
+      "transliteration": "מַשְׁרוּב",
+      "english_transliteration": "mashrub",
+      "hebrew_translation": "משקה",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "drink"
+      ]
+    },
+    {
+      "id": "FD075",
+      "arabic_script": "بيتزا",
+      "transliteration": "פִיצַה",
+      "english_transliteration": "pizza",
+      "hebrew_translation": "פיצה",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "dish"
+      ]
+    },
+    {
+      "id": "FD076",
+      "arabic_script": "مياه غازية",
+      "transliteration": "מַיֶה ע'ַאזְיֶה",
+      "english_transliteration": "mayye ghazye",
+      "hebrew_translation": "משקה מוגז",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "drink"
+      ]
+    },
+    {
+      "id": "FD077",
+      "arabic_script": "توست",
+      "transliteration": "תוֹסְת",
+      "english_transliteration": "toast",
+      "hebrew_translation": "טוסט",
+      "category": "food_restaurants",
+      "difficulty_level": 1,
+      "tags": [
+        "food",
+        "dish"
+      ]
+    },
+    {
+      "id": "DR039",
+      "arabic_script": "الشارع الرئيسي",
+      "transliteration": "אַלשַׁארֶע אַלרַאיִסִי",
+      "english_transliteration": "esh-share' er-ra'isi",
+      "hebrew_translation": "הרחוב הראשי",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR040",
+      "arabic_script": "ممر",
+      "transliteration": "מַמַר",
+      "english_transliteration": "mamarr",
+      "hebrew_translation": "מעבר",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR041",
+      "arabic_script": "نفق",
+      "transliteration": "נַפַק",
+      "english_transliteration": "nafa'",
+      "hebrew_translation": "מנהרה",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR042",
+      "arabic_script": "درج",
+      "transliteration": "דַרַג'",
+      "english_transliteration": "daraj",
+      "hebrew_translation": "מדרגות",
+      "category": "directions",
+      "difficulty_level": 1,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR043",
+      "arabic_script": "مصعد",
+      "transliteration": "מִצְעַד",
+      "english_transliteration": "mis'ad",
+      "hebrew_translation": "מעלית",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR044",
+      "arabic_script": "مدخل",
+      "transliteration": "מַדְחַל",
+      "english_transliteration": "madkhal",
+      "hebrew_translation": "כניסה",
+      "category": "directions",
+      "difficulty_level": 1,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR045",
+      "arabic_script": "مخرج",
+      "transliteration": "מַחְרַג'",
+      "english_transliteration": "makhraj",
+      "hebrew_translation": "יציאה",
+      "category": "directions",
+      "difficulty_level": 1,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR046",
+      "arabic_script": "طابق",
+      "transliteration": "טַאבֶּק",
+      "english_transliteration": "tabe'",
+      "hebrew_translation": "קומה",
+      "category": "directions",
+      "difficulty_level": 1,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR047",
+      "arabic_script": "حي",
+      "transliteration": "חַי",
+      "english_transliteration": "hayy",
+      "hebrew_translation": "שכונה",
+      "category": "directions",
+      "difficulty_level": 1,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR048",
+      "arabic_script": "مدينة",
+      "transliteration": "מַדִינֶה",
+      "english_transliteration": "madine",
+      "hebrew_translation": "עיר",
+      "category": "directions",
+      "difficulty_level": 1,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR049",
+      "arabic_script": "قرية",
+      "transliteration": "קַרְיֶה",
+      "english_transliteration": "'arye",
+      "hebrew_translation": "כפר",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "DR050",
+      "arabic_script": "وسط البلد",
+      "transliteration": "וֶסְט אַלְבַּלַד",
+      "english_transliteration": "wast el-balad",
+      "hebrew_translation": "מרכז העיר",
+      "category": "directions",
+      "difficulty_level": 2,
+      "tags": [
+        "directions",
+        "place"
+      ]
+    },
+    {
+      "id": "VB107",
+      "arabic_script": "وقف",
+      "transliteration": "וִקֶף",
+      "english_transliteration": "wi'ef",
+      "hebrew_translation": "לעצור / לעמוד",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB108",
+      "arabic_script": "جلس",
+      "transliteration": "גַ'לֶס",
+      "english_transliteration": "jales",
+      "hebrew_translation": "לשבת",
+      "category": "common_verbs",
+      "difficulty_level": 1,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB109",
+      "arabic_script": "مسك",
+      "transliteration": "מִסֶכּ",
+      "english_transliteration": "misek",
+      "hebrew_translation": "לתפוס / להחזיק",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB110",
+      "arabic_script": "رمى",
+      "transliteration": "רַמַא",
+      "english_transliteration": "rama",
+      "hebrew_translation": "לזרוק",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "VB111",
+      "arabic_script": "لقى",
+      "transliteration": "לַקַא",
+      "english_transliteration": "la'a",
+      "hebrew_translation": "למצוא",
+      "category": "common_verbs",
+      "difficulty_level": 2,
+      "tags": [
+        "verb",
+        "basic"
+      ]
+    },
+    {
+      "id": "EX072",
+      "arabic_script": "على كيفك",
+      "transliteration": "עַלַא כֵּיפַכּ",
+      "english_transliteration": "ala keifak",
+      "hebrew_translation": "כרצונך",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "idiom"
+      ]
+    },
+    {
+      "id": "EX073",
+      "arabic_script": "مش معقول",
+      "transliteration": "מִשׁ מַעְקוּל",
+      "english_transliteration": "mish ma'ul",
+      "hebrew_translation": "לא יאומן",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "idiom"
+      ]
+    },
+    {
+      "id": "EX074",
+      "arabic_script": "الله كريم",
+      "transliteration": "אללה כַּרִים",
+      "english_transliteration": "allah kareem",
+      "hebrew_translation": "אלוהים נדיב (הבעת אופטימיות)",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "idiom"
+      ]
+    },
+    {
+      "id": "EX075",
+      "arabic_script": "صار خير",
+      "transliteration": "צַאר חֵיר",
+      "english_transliteration": "sar kheir",
+      "hebrew_translation": "הכל טוב (הסתדר)",
+      "category": "jerusalem_expressions",
+      "difficulty_level": 2,
+      "tags": [
+        "expression",
+        "idiom"
+      ]
+    },
+    {
+      "id": "AD066",
+      "arabic_script": "واسع",
+      "transliteration": "וַאסֶע",
+      "english_transliteration": "wase'",
+      "hebrew_translation": "מרווח",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "size"
+      ]
+    },
+    {
+      "id": "AD067",
+      "arabic_script": "ضيق",
+      "transliteration": "צַ'יֶק",
+      "english_transliteration": "dayye'",
+      "hebrew_translation": "צר",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "size"
+      ]
+    },
+    {
+      "id": "AD068",
+      "arabic_script": "ناعم",
+      "transliteration": "נַאעֶם",
+      "english_transliteration": "na'em",
+      "hebrew_translation": "רך",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "texture"
+      ]
+    },
+    {
+      "id": "AD069",
+      "arabic_script": "خشن",
+      "transliteration": "חִשִׁן",
+      "english_transliteration": "khishin",
+      "hebrew_translation": "מחוספס",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "texture"
+      ]
+    },
+    {
+      "id": "AD070",
+      "arabic_script": "فاتح",
+      "transliteration": "פַאתֶח",
+      "english_transliteration": "fateh",
+      "hebrew_translation": "בהיר (צבע)",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "color"
+      ]
+    },
+    {
+      "id": "AD071",
+      "arabic_script": "غامق",
+      "transliteration": "ע'ַאמֶק",
+      "english_transliteration": "ghame'",
+      "hebrew_translation": "כהה (צבע)",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "color"
+      ]
+    },
+    {
+      "id": "AD072",
+      "arabic_script": "مشابه",
+      "transliteration": "מֻשַׁאבֶּה",
+      "english_transliteration": "mushabeh",
+      "hebrew_translation": "דומה",
+      "category": "adjectives",
+      "difficulty_level": 3,
+      "tags": [
+        "adjective",
+        "comparison"
+      ]
+    },
+    {
+      "id": "AD073",
+      "arabic_script": "واضح",
+      "transliteration": "וַאצ'ֶח",
+      "english_transliteration": "wadeh",
+      "hebrew_translation": "ברור",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "state"
+      ]
+    },
+    {
+      "id": "AD074",
+      "arabic_script": "غامض",
+      "transliteration": "ע'ַאמֶד",
+      "english_transliteration": "ghamed",
+      "hebrew_translation": "מעורפל / מסתורי",
+      "category": "adjectives",
+      "difficulty_level": 3,
+      "tags": [
+        "adjective",
+        "state"
+      ]
+    },
+    {
+      "id": "AD075",
+      "arabic_script": "مناسب",
+      "transliteration": "מֻנַאסֶב",
+      "english_transliteration": "munaseb",
+      "hebrew_translation": "מתאים",
+      "category": "adjectives",
+      "difficulty_level": 2,
+      "tags": [
+        "adjective",
+        "state"
+      ]
+    },
+    {
+      "id": "NT054",
+      "arabic_script": "كل شهر",
+      "transliteration": "כֻּל שַׁהְר",
+      "english_transliteration": "kul shahr",
+      "hebrew_translation": "כל חודש",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "tags": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "id": "NT055",
+      "arabic_script": "كل سنة",
+      "transliteration": "כֻּל סַנֶה",
+      "english_transliteration": "kul sana",
+      "hebrew_translation": "כל שנה",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "tags": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "id": "NT056",
+      "arabic_script": "أول مرة",
+      "transliteration": "אַוֶל מַרַה",
+      "english_transliteration": "awwal marra",
+      "hebrew_translation": "פעם ראשונה",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "tags": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "id": "NT057",
+      "arabic_script": "آخر مرة",
+      "transliteration": "אַאחֶר מַרַה",
+      "english_transliteration": "akher marra",
+      "hebrew_translation": "פעם אחרונה",
+      "category": "numbers_time",
+      "difficulty_level": 2,
+      "tags": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "id": "NT058",
+      "arabic_script": "دايما",
+      "transliteration": "דַאיְמַן",
+      "english_transliteration": "dayman",
+      "hebrew_translation": "תמיד",
+      "category": "numbers_time",
+      "difficulty_level": 1,
+      "tags": [
+        "numbers",
+        "basic"
+      ]
+    },
+    {
+      "id": "TC023",
+      "arabic_script": "نص الليل",
+      "transliteration": "נֻץ אַלְלֵיל",
+      "english_transliteration": "noss el-leil",
+      "hebrew_translation": "חצות",
+      "category": "time_calendar",
+      "difficulty_level": 1,
+      "tags": [
+        "time",
+        "daily"
+      ]
+    },
+    {
+      "id": "TC024",
+      "arabic_script": "الفجر",
+      "transliteration": "אַלְפַג'ְר",
+      "english_transliteration": "el-fajr",
+      "hebrew_translation": "שחר",
+      "category": "time_calendar",
+      "difficulty_level": 2,
+      "tags": [
+        "time",
+        "daily"
+      ]
+    },
+    {
+      "id": "TC025",
+      "arabic_script": "آخر الأسبوع",
+      "transliteration": "אַאחֶר אַלְאֻסְבּוּע",
+      "english_transliteration": "akher el-usbu'",
+      "hebrew_translation": "סוף השבוע",
+      "category": "time_calendar",
+      "difficulty_level": 2,
+      "tags": [
+        "time",
+        "calendar"
+      ]
+    },
+    {
+      "id": "TC026",
+      "arabic_script": "أول الشهر",
+      "transliteration": "אַוֶל אַלשַׁהְר",
+      "english_transliteration": "awwal esh-shahr",
+      "hebrew_translation": "תחילת החודש",
+      "category": "time_calendar",
+      "difficulty_level": 2,
+      "tags": [
+        "time",
+        "calendar"
+      ]
+    },
+    {
+      "id": "TC027",
+      "arabic_script": "السنة الجاية",
+      "transliteration": "אַלסַנֶה אַלְגַ'איֶה",
+      "english_transliteration": "es-sane ej-jaye",
+      "hebrew_translation": "השנה הבאה",
+      "category": "time_calendar",
+      "difficulty_level": 2,
+      "tags": [
+        "time",
+        "calendar"
+      ]
+    },
+    {
+      "id": "TC028",
+      "arabic_script": "السنة اللي فاتت",
+      "transliteration": "אַלסַנֶה אַלִי פַאתֶת",
+      "english_transliteration": "es-sane elli fatet",
+      "hebrew_translation": "השנה שעברה",
+      "category": "time_calendar",
+      "difficulty_level": 2,
+      "tags": [
+        "time",
+        "calendar"
+      ]
+    },
+    {
+      "id": "TC029",
+      "arabic_script": "عيد ميلاد",
+      "transliteration": "עִיד מִילַאד",
+      "english_transliteration": "eid milad",
+      "hebrew_translation": "יום הולדת",
+      "category": "time_calendar",
+      "difficulty_level": 1,
+      "tags": [
+        "time",
+        "calendar"
+      ]
+    },
+    {
+      "id": "TC030",
+      "arabic_script": "رأس السنة",
+      "transliteration": "רַאס אַלסַנֶה",
+      "english_transliteration": "ras es-sane",
+      "hebrew_translation": "ראש השנה",
+      "category": "time_calendar",
+      "difficulty_level": 1,
+      "tags": [
+        "time",
+        "calendar"
+      ]
+    },
+    {
+      "id": "HF047",
+      "arabic_script": "مرايا",
+      "transliteration": "מִרַאיַא",
+      "english_transliteration": "miraya",
+      "hebrew_translation": "מראה",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "home",
+        "item"
+      ]
+    },
+    {
+      "id": "HF048",
+      "arabic_script": "سطح",
+      "transliteration": "סַטְח",
+      "english_transliteration": "sath",
+      "hebrew_translation": "גג / מרפסת גג",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "tags": [
+        "home",
+        "place"
+      ]
+    },
+    {
+      "id": "HF049",
+      "arabic_script": "صهر",
+      "transliteration": "צִהְר",
+      "english_transliteration": "sihr",
+      "hebrew_translation": "חתן (בעל הבת)",
+      "category": "home_family",
+      "difficulty_level": 3,
+      "tags": [
+        "family",
+        "extended"
+      ]
+    },
+    {
+      "id": "HF050",
+      "arabic_script": "كنة",
+      "transliteration": "כִּנֶה",
+      "english_transliteration": "kinne",
+      "hebrew_translation": "כלה (אשת הבן)",
+      "category": "home_family",
+      "difficulty_level": 3,
+      "tags": [
+        "family",
+        "extended"
+      ]
+    },
+    {
+      "id": "HF051",
+      "arabic_script": "ابن عم",
+      "transliteration": "אִבְּן עַם",
+      "english_transliteration": "ibn amm",
+      "hebrew_translation": "בן דוד",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "tags": [
+        "family",
+        "extended"
+      ]
+    },
+    {
+      "id": "HF052",
+      "arabic_script": "طفل",
+      "transliteration": "טִפְל",
+      "english_transliteration": "tifl",
+      "hebrew_translation": "ילד קטן / פעוט",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "family",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH040",
+      "arabic_script": "رقبة",
+      "transliteration": "רַקַבֶּה",
+      "english_transliteration": "ra'abe",
+      "hebrew_translation": "צוואר",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH041",
+      "arabic_script": "ركبة",
+      "transliteration": "רֻכְּבֶּה",
+      "english_transliteration": "rukbe",
+      "hebrew_translation": "ברך",
+      "category": "body_health",
+      "difficulty_level": 1,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH042",
+      "arabic_script": "كف",
+      "transliteration": "כַּף",
+      "english_transliteration": "kaff",
+      "hebrew_translation": "כף היד",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH043",
+      "arabic_script": "لسان",
+      "transliteration": "לִסַאן",
+      "english_transliteration": "lisan",
+      "hebrew_translation": "לשון",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH044",
+      "arabic_script": "جلد",
+      "transliteration": "גִ'לְד",
+      "english_transliteration": "jild",
+      "hebrew_translation": "עור",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH045",
+      "arabic_script": "عظم",
+      "transliteration": "עַצְ'ם",
+      "english_transliteration": "adm",
+      "hebrew_translation": "עצם",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH046",
+      "arabic_script": "عضلة",
+      "transliteration": "עַצַ'לֶה",
+      "english_transliteration": "adale",
+      "hebrew_translation": "שריר",
+      "category": "body_health",
+      "difficulty_level": 3,
+      "tags": [
+        "body",
+        "basic"
+      ]
+    },
+    {
+      "id": "BH047",
+      "arabic_script": "حبة",
+      "transliteration": "חַבֶּה",
+      "english_transliteration": "habbe",
+      "hebrew_translation": "כדור (תרופה)",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "health",
+        "item"
+      ]
+    },
+    {
+      "id": "BH048",
+      "arabic_script": "إبرة",
+      "transliteration": "אִבְּרֶה",
+      "english_transliteration": "ibre",
+      "hebrew_translation": "זריקה / מחט",
+      "category": "body_health",
+      "difficulty_level": 2,
+      "tags": [
+        "health",
+        "item"
+      ]
+    },
+    {
+      "id": "WE045",
+      "arabic_script": "دوام",
+      "transliteration": "דַוַאם",
+      "english_transliteration": "dawam",
+      "hebrew_translation": "משמרת / שעות עבודה",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "work",
+        "basic"
+      ]
+    },
+    {
+      "id": "WE046",
+      "arabic_script": "استراحة",
+      "transliteration": "אִסְתִרַאחַה",
+      "english_transliteration": "istiraha",
+      "hebrew_translation": "הפסקה",
+      "category": "work_education",
+      "difficulty_level": 1,
+      "tags": [
+        "work",
+        "basic"
+      ]
+    },
+    {
+      "id": "WE047",
+      "arabic_script": "رئيس",
+      "transliteration": "רַאיִס",
+      "english_transliteration": "ra'ees",
+      "hebrew_translation": "בוס / מנהל",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "work",
+        "people"
+      ]
+    },
+    {
+      "id": "WE048",
+      "arabic_script": "صاحب الشغل",
+      "transliteration": "צַאחֶב אַלשֻׁע'ְל",
+      "english_transliteration": "saheb esh-shughl",
+      "hebrew_translation": "מעסיק",
+      "category": "work_education",
+      "difficulty_level": 3,
+      "tags": [
+        "work",
+        "people"
+      ]
+    },
+    {
+      "id": "WE049",
+      "arabic_script": "معاش",
+      "transliteration": "מַעַאש",
+      "english_transliteration": "ma'ash",
+      "hebrew_translation": "פנסיה",
+      "category": "work_education",
+      "difficulty_level": 3,
+      "tags": [
+        "work",
+        "abstract"
+      ]
+    },
+    {
+      "id": "WE050",
+      "arabic_script": "استقالة",
+      "transliteration": "אִסְתִקַאלֶה",
+      "english_transliteration": "istiqale",
+      "hebrew_translation": "התפטרות",
+      "category": "work_education",
+      "difficulty_level": 3,
+      "tags": [
+        "work",
+        "abstract"
+      ]
+    },
+    {
+      "id": "WE051",
+      "arabic_script": "فصل دراسي",
+      "transliteration": "פַצְל דִרַאסִי",
+      "english_transliteration": "fasl dirasi",
+      "hebrew_translation": "סמסטר",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "education",
+        "basic"
+      ]
+    },
+    {
+      "id": "WE052",
+      "arabic_script": "مدرس خصوصي",
+      "transliteration": "מֻדַרֶס חְצוּצִי",
+      "english_transliteration": "mudarres khsusi",
+      "hebrew_translation": "מורה פרטי",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "education",
+        "people"
+      ]
+    },
+    {
+      "id": "WE053",
+      "arabic_script": "شهادة جامعية",
+      "transliteration": "שַׁהַאדֶה גַ'אמְעִיֶה",
+      "english_transliteration": "shahade jam'iyye",
+      "hebrew_translation": "תואר אקדמי",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "education",
+        "abstract"
+      ]
+    },
+    {
+      "id": "WE054",
+      "arabic_script": "تخرج",
+      "transliteration": "תַחַרֻג'",
+      "english_transliteration": "takharruj",
+      "hebrew_translation": "סיום לימודים",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "education",
+        "basic"
+      ]
+    },
+    {
+      "id": "WE055",
+      "arabic_script": "مهمة",
+      "transliteration": "מֻהִמֶה",
+      "english_transliteration": "muhimme",
+      "hebrew_translation": "משימה",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "work",
+        "basic"
+      ]
+    },
+    {
+      "id": "WE056",
+      "arabic_script": "تقرير",
+      "transliteration": "תַקְרִיר",
+      "english_transliteration": "ta'reer",
+      "hebrew_translation": "דוח",
+      "category": "work_education",
+      "difficulty_level": 2,
+      "tags": [
+        "work",
+        "basic"
+      ]
+    },
+    {
+      "id": "TR033",
+      "arabic_script": "باخرة",
+      "transliteration": "בַּאחִירַה",
+      "english_transliteration": "bakhira",
+      "hebrew_translation": "ספינה",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "vehicle"
+      ]
+    },
+    {
+      "id": "TR034",
+      "arabic_script": "رحلة طيران",
+      "transliteration": "רִחְלַת טַיַרַאן",
+      "english_transliteration": "rihlat tayaran",
+      "hebrew_translation": "טיסה",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "basic"
+      ]
+    },
+    {
+      "id": "TR035",
+      "arabic_script": "مقعد",
+      "transliteration": "מַקְעַד",
+      "english_transliteration": "ma'ad",
+      "hebrew_translation": "מושב",
+      "category": "travel_transport",
+      "difficulty_level": 1,
+      "tags": [
+        "travel",
+        "item"
+      ]
+    },
+    {
+      "id": "TR036",
+      "arabic_script": "حزام الأمان",
+      "transliteration": "חִזַאם אַלְאַמַאן",
+      "english_transliteration": "hizam el-aman",
+      "hebrew_translation": "חגורת בטיחות",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "item"
+      ]
+    },
+    {
+      "id": "TR037",
+      "arabic_script": "اتجاه",
+      "transliteration": "אִתִגַ'אה",
+      "english_transliteration": "ittijah",
+      "hebrew_translation": "כיוון (נסיעה)",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "basic"
+      ]
+    },
+    {
+      "id": "TR038",
+      "arabic_script": "ازدحام",
+      "transliteration": "אִזְדִחַאם",
+      "english_transliteration": "izdiham",
+      "hebrew_translation": "פקק תנועה",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "basic"
+      ]
+    },
+    {
+      "id": "TR039",
+      "arabic_script": "وقود",
+      "transliteration": "וַקוּד",
+      "english_transliteration": "waqud",
+      "hebrew_translation": "דלק",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "item"
+      ]
+    },
+    {
+      "id": "TR040",
+      "arabic_script": "ركاب",
+      "transliteration": "רֻכַאב",
+      "english_transliteration": "rukkab",
+      "hebrew_translation": "נוסעים",
+      "category": "travel_transport",
+      "difficulty_level": 2,
+      "tags": [
+        "travel",
+        "people"
+      ]
+    },
+    {
+      "id": "WN034",
+      "arabic_script": "صيف",
+      "transliteration": "צַיְף",
+      "english_transliteration": "saif",
+      "hebrew_translation": "קיץ",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "weather",
+        "season"
+      ]
+    },
+    {
+      "id": "WN035",
+      "arabic_script": "شتا",
+      "transliteration": "שִׁתַא",
+      "english_transliteration": "shita",
+      "hebrew_translation": "חורף",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "weather",
+        "season"
+      ]
+    },
+    {
+      "id": "WN036",
+      "arabic_script": "ربيع",
+      "transliteration": "רַבִּיע",
+      "english_transliteration": "rabee'",
+      "hebrew_translation": "אביב",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "weather",
+        "season"
+      ]
+    },
+    {
+      "id": "WN037",
+      "arabic_script": "خريف",
+      "transliteration": "חַרִיף",
+      "english_transliteration": "khareef",
+      "hebrew_translation": "סתיו",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "weather",
+        "season"
+      ]
+    },
+    {
+      "id": "WN038",
+      "arabic_script": "قوس قزح",
+      "transliteration": "קַוְס קֻזַח",
+      "english_transliteration": "aws quzah",
+      "hebrew_translation": "קשת בענן",
+      "category": "weather_nature",
+      "difficulty_level": 2,
+      "tags": [
+        "weather",
+        "basic"
+      ]
+    },
+    {
+      "id": "WN039",
+      "arabic_script": "نجوم",
+      "transliteration": "נֻגְ'ום",
+      "english_transliteration": "nujum",
+      "hebrew_translation": "כוכבים (רבים)",
+      "category": "weather_nature",
+      "difficulty_level": 1,
+      "tags": [
+        "nature",
+        "basic"
+      ]
+    },
+    {
+      "id": "WN040",
+      "arabic_script": "غابة",
+      "transliteration": "ע'ַאבֶּה",
+      "english_transliteration": "ghabe",
+      "hebrew_translation": "יער",
+      "category": "weather_nature",
+      "difficulty_level": 2,
+      "tags": [
+        "nature",
+        "basic"
+      ]
+    },
+    {
+      "id": "SF039",
+      "arabic_script": "احساس",
+      "transliteration": "אִחְסַאס",
+      "english_transliteration": "ihsas",
+      "hebrew_translation": "תחושה",
+      "category": "society_feelings",
+      "difficulty_level": 2,
+      "tags": [
+        "feelings",
+        "abstract"
+      ]
+    },
+    {
+      "id": "SF040",
+      "arabic_script": "تعاطف",
+      "transliteration": "תַעַאטֻף",
+      "english_transliteration": "ta'atuf",
+      "hebrew_translation": "אמפתיה",
+      "category": "society_feelings",
+      "difficulty_level": 3,
+      "tags": [
+        "feelings",
+        "abstract"
+      ]
+    },
+    {
+      "id": "SH053",
+      "arabic_script": "صندوق",
+      "transliteration": "צַנְדוּק",
+      "english_transliteration": "sanduq",
+      "hebrew_translation": "קופה (בחנות)",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "tags": [
+        "shopping",
+        "place"
+      ]
+    },
+    {
+      "id": "SH054",
+      "arabic_script": "استرجاع",
+      "transliteration": "אִסְתִרְגַ'אע",
+      "english_transliteration": "istirja'",
+      "hebrew_translation": "החזרה (מוצר)",
+      "category": "shopping_market",
+      "difficulty_level": 3,
+      "tags": [
+        "shopping",
+        "money"
+      ]
+    },
+    {
+      "id": "SH055",
+      "arabic_script": "تبديل",
+      "transliteration": "תַבְּדִיל",
+      "english_transliteration": "tabdeel",
+      "hebrew_translation": "החלפה (מוצר)",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "tags": [
+        "shopping",
+        "basic"
+      ]
+    },
+    {
+      "id": "SH056",
+      "arabic_script": "عينة",
+      "transliteration": "עַיְנֶה",
+      "english_transliteration": "ayne",
+      "hebrew_translation": "דוגמית",
+      "category": "shopping_market",
+      "difficulty_level": 3,
+      "tags": [
+        "shopping",
+        "item"
+      ]
+    },
+    {
+      "id": "SH057",
+      "arabic_script": "ماركة",
+      "transliteration": "מַארְכֶּה",
+      "english_transliteration": "marka",
+      "hebrew_translation": "מותג",
+      "category": "shopping_market",
+      "difficulty_level": 2,
+      "tags": [
+        "shopping",
+        "basic"
+      ]
+    },
+    {
+      "id": "SH058",
+      "arabic_script": "سوبرماركت",
+      "transliteration": "סוּפֶּרְמַארְכֶּת",
+      "english_transliteration": "supermarket",
+      "hebrew_translation": "סופרמרקט",
+      "category": "shopping_market",
+      "difficulty_level": 1,
+      "tags": [
+        "shopping",
+        "place"
+      ]
+    },
+    {
+      "id": "HF053",
+      "arabic_script": "بطانية",
+      "transliteration": "בַּטַאנִיֶה",
+      "english_transliteration": "battaniyye",
+      "hebrew_translation": "שמיכה",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "tags": [
+        "home",
+        "item"
+      ]
+    },
+    {
+      "id": "HF054",
+      "arabic_script": "مخدة",
+      "transliteration": "מִחַדֶּה",
+      "english_transliteration": "mikhadde",
+      "hebrew_translation": "כרית",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "tags": [
+        "home",
+        "item"
+      ]
+    },
+    {
+      "id": "HF055",
+      "arabic_script": "فرن",
+      "transliteration": "פֻרְן",
+      "english_transliteration": "furn",
+      "hebrew_translation": "תנור",
+      "category": "home_family",
+      "difficulty_level": 1,
+      "tags": [
+        "home",
+        "item"
+      ]
+    },
+    {
+      "id": "HF056",
+      "arabic_script": "حوض",
+      "transliteration": "חוֹד",
+      "english_transliteration": "hod",
+      "hebrew_translation": "כיור",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "tags": [
+        "home",
+        "item"
+      ]
+    },
+    {
+      "id": "HF057",
+      "arabic_script": "درج المطبخ",
+      "transliteration": "דֻרְג' אַלְמַטְבַּח",
+      "english_transliteration": "durj el-matbakh",
+      "hebrew_translation": "מגירת המטבח",
+      "category": "home_family",
+      "difficulty_level": 2,
+      "tags": [
+        "home",
+        "item"
+      ]
     }
   ]
 }
