@@ -1631,8 +1631,8 @@
     {
       "id": "SH002",
       "arabic_script": "غالي",
-      "transliteration": "עָּאלִי",
-      "english_transliteration": "gali",
+      "transliteration": "עַ'אלִי",
+      "english_transliteration": "ghali",
       "hebrew_translation": "יקר",
       "category": "shopping_market",
       "difficulty_level": 1,
@@ -1644,17 +1644,17 @@
       "forms": {
         "masculine": {
           "arabic_script": "غالي",
-          "transliteration": "עָּאלִי",
+          "transliteration": "עַ'אלִי",
           "english_transliteration": "ghali"
         },
         "feminine": {
           "arabic_script": "غالية",
-          "transliteration": "עָּאלְיֶה",
+          "transliteration": "עַ'אלְיֶה",
           "english_transliteration": "ghalyeh"
         },
         "plural": {
           "arabic_script": "غاليين",
-          "transliteration": "עָּאלְיִין",
+          "transliteration": "עַ'אלְיִין",
           "english_transliteration": "ghalyin"
         }
       }
@@ -2245,8 +2245,8 @@
     {
       "id": "SH027",
       "arabic_script": "فيه غيرو؟",
-      "transliteration": "פִּי עֵּירוּ?",
-      "english_transliteration": "fi geyru?",
+      "transliteration": "פִּי עֵ'ירוּ?",
+      "english_transliteration": "fi gheiru?",
       "hebrew_translation": "יש אחר? / אחרת?",
       "category": "shopping_market",
       "difficulty_level": 1,
@@ -2357,8 +2357,8 @@
     {
       "id": "DR005",
       "arabic_script": "دغري",
-      "transliteration": "דּוּעְרִי",
-      "english_transliteration": "dugri",
+      "transliteration": "דֻּוּעְ'רִי",
+      "english_transliteration": "dughri",
       "hebrew_translation": "ישר קדימה",
       "category": "directions",
       "difficulty_level": 1,
@@ -2520,8 +2520,8 @@
     {
       "id": "DR014",
       "arabic_script": "روح دغري",
-      "transliteration": "רוּח דּוּעְרִי",
-      "english_transliteration": "ruh dugri",
+      "transliteration": "רוּח דֻּוּעְ'רִי",
+      "english_transliteration": "ruh dughri",
       "hebrew_translation": "לך ישר קדימה",
       "category": "directions",
       "difficulty_level": 1,
@@ -12796,8 +12796,8 @@
     {
       "id": "NT016",
       "arabic_script": "دغيونة",
-      "transliteration": "דַּעְּיוֹנֶה",
-      "english_transliteration": "dagyoneh",
+      "transliteration": "דַּעְ'יוֹנֶה",
+      "english_transliteration": "daghyouneh",
       "hebrew_translation": "עוד רגע / ברגע",
       "category": "time_calendar",
       "difficulty_level": 1,
@@ -13170,8 +13170,8 @@
     {
       "id": "HF002",
       "arabic_script": "غرفة",
-      "transliteration": "עּוּרְפֶה",
-      "english_transliteration": "gurfeh",
+      "transliteration": "עֻ'רְפֶה",
+      "english_transliteration": "ghurfeh",
       "hebrew_translation": "חדר",
       "category": "home_family",
       "difficulty_level": 1,

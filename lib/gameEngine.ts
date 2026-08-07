@@ -10,11 +10,11 @@ export function shuffle<T>(arr: T[]): T[] {
   return result
 }
 
-export function getDistractors(
+function getDistractorEntries(
   correct: VocabEntry,
   field: 'hebrew_translation' | 'transliteration',
   count = 3
-): string[] {
+): VocabEntry[] {
   const correctValue = correct[field]
 
   let pool = getVocabByCategory(correct.category).filter(
@@ -29,19 +29,31 @@ export function getDistractors(
     pool = getAllVocab().filter((v) => v.id !== correct.id)
   }
 
-  const values = new Set<string>()
+  const seenValues = new Set<string>()
+  const entries: VocabEntry[] = []
   for (const entry of shuffle(pool)) {
     const value = entry[field]
-    if (value !== correctValue) values.add(value)
-    if (values.size >= count) break
+    if (value === correctValue || seenValues.has(value)) continue
+    seenValues.add(value)
+    entries.push(entry)
+    if (entries.length >= count) break
   }
 
-  return Array.from(values)
+  return entries
+}
+
+export function getDistractors(
+  correct: VocabEntry,
+  field: 'hebrew_translation' | 'transliteration',
+  count = 3
+): string[] {
+  return getDistractorEntries(correct, field, count).map((entry) => entry[field])
 }
 
 export interface GameQuestion {
   word: VocabEntry
   options: string[]
+  optionEntries: VocabEntry[]
   correctIndex: number
 }
 
@@ -51,10 +63,7 @@ function buildQuestion(
 ): GameQuestion | null {
   if (pool.length === 0) return null
   const word = pool[Math.floor(Math.random() * pool.length)]
-  const distractors = getDistractors(word, field)
-  const options = shuffle([word[field], ...distractors])
-  const correctIndex = options.indexOf(word[field])
-  return { word, options, correctIndex }
+  return buildQuestionForWord(word, field)
 }
 
 export function buildQuizQuestion(pool: VocabEntry[]): GameQuestion | null {
@@ -69,23 +78,25 @@ export function buildQuestionForWord(
   word: VocabEntry,
   field: 'hebrew_translation' | 'transliteration'
 ): GameQuestion {
-  const distractors = getDistractors(word, field)
-  const options = shuffle([word[field], ...distractors])
-  const correctIndex = options.indexOf(word[field])
-  return { word, options, correctIndex }
+  const distractorEntries = getDistractorEntries(word, field)
+  const optionEntries = shuffle([word, ...distractorEntries])
+  const options = optionEntries.map((entry) => entry[field])
+  const correctIndex = optionEntries.findIndex((entry) => entry.id === word.id)
+  return { word, options, optionEntries, correctIndex }
 }
 
 export interface SentenceGameQuestion {
   sentence: SentenceEntry
   options: string[]
+  optionEntries: SentenceEntry[]
   correctIndex: number
 }
 
-function getSentenceDistractors(
+function getSentenceDistractorEntries(
   correct: SentenceEntry,
   field: 'hebrew_translation' | 'transliteration',
   count = 3
-): string[] {
+): SentenceEntry[] {
   const correctValue = correct[field]
 
   let pool = getAllSentences().filter(
@@ -100,22 +111,26 @@ function getSentenceDistractors(
     pool = getAllSentences().filter((s) => s.id !== correct.id)
   }
 
-  const values = new Set<string>()
+  const seenValues = new Set<string>()
+  const entries: SentenceEntry[] = []
   for (const entry of shuffle(pool)) {
     const value = entry[field]
-    if (value !== correctValue) values.add(value)
-    if (values.size >= count) break
+    if (value === correctValue || seenValues.has(value)) continue
+    seenValues.add(value)
+    entries.push(entry)
+    if (entries.length >= count) break
   }
 
-  return Array.from(values)
+  return entries
 }
 
 export function buildQuestionForSentence(
   sentence: SentenceEntry,
   field: 'hebrew_translation' | 'transliteration'
 ): SentenceGameQuestion {
-  const distractors = getSentenceDistractors(sentence, field)
-  const options = shuffle([sentence[field], ...distractors])
-  const correctIndex = options.indexOf(sentence[field])
-  return { sentence, options, correctIndex }
+  const distractorEntries = getSentenceDistractorEntries(sentence, field)
+  const optionEntries = shuffle([sentence, ...distractorEntries])
+  const options = optionEntries.map((entry) => entry[field])
+  const correctIndex = optionEntries.findIndex((entry) => entry.id === sentence.id)
+  return { sentence, options, optionEntries, correctIndex }
 }

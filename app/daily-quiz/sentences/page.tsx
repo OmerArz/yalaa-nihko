@@ -367,6 +367,9 @@ export default function DailySentenceQuizPage() {
                   }
                 }
 
+                const optionMeaning =
+                  direction === 'hebrew-to-transliteration' ? question.optionEntries[i]?.hebrew_translation : null
+
                 return (
                   <motion.button
                     key={i}
@@ -374,18 +377,27 @@ export default function DailySentenceQuizPage() {
                     disabled={answered}
                     whileHover={!answered && !reduceMotion ? { scale: 1.02, boxShadow: '0 6px 16px rgba(45,90,39,0.12)' } : {}}
                     whileTap={!answered && !reduceMotion ? { scale: 0.98 } : {}}
-                    className={`flex items-center justify-between rounded-2xl border-[1.5px] px-4 py-3.5 text-right text-[13px] font-bold transition-colors ${bg} ${border} ${text} ${
-                      direction === 'hebrew-to-transliteration' ? 'transliteration' : ''
-                    }`}
+                    className={`flex items-center justify-between rounded-2xl border-[1.5px] px-4 py-3.5 text-right text-[13px] font-bold transition-colors ${bg} ${border} ${text}`}
                   >
-                    <span>{opt}</span>
+                    <span className="flex flex-col items-end gap-0.5">
+                      <span className={direction === 'hebrew-to-transliteration' ? 'transliteration' : ''}>{opt}</span>
+                      {answered && optionMeaning && (
+                        <motion.span
+                          initial={{ opacity: 0, y: -2 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          className="text-[11px] font-normal text-gray-400"
+                        >
+                          {optionMeaning}
+                        </motion.span>
+                      )}
+                    </span>
                     <AnimatePresence>
                       {answered && (isCorrectOption || isSelected) && (
                         <motion.span
                           initial={{ scale: 0, opacity: 0 }}
                           animate={{ scale: 1, opacity: 1 }}
                           transition={{ type: 'spring', stiffness: 400, damping: 20 }}
-                          className={`flex h-5 w-5 items-center justify-center rounded-full ${
+                          className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
                             isCorrectOption ? 'bg-olive' : 'bg-gold-dark'
                           }`}
                         >
