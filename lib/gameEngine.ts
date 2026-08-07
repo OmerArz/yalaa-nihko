@@ -1,4 +1,5 @@
 import { VocabEntry, getVocabByCategory, getAllVocab } from './ragEngine'
+import { SentenceEntry, getAllSentences } from './sentenceBank'
 
 export function shuffle<T>(arr: T[]): T[] {
   const result = [...arr]
@@ -72,4 +73,49 @@ export function buildQuestionForWord(
   const options = shuffle([word[field], ...distractors])
   const correctIndex = options.indexOf(word[field])
   return { word, options, correctIndex }
+}
+
+export interface SentenceGameQuestion {
+  sentence: SentenceEntry
+  options: string[]
+  correctIndex: number
+}
+
+function getSentenceDistractors(
+  correct: SentenceEntry,
+  field: 'hebrew_translation' | 'transliteration',
+  count = 3
+): string[] {
+  const correctValue = correct[field]
+
+  let pool = getAllSentences().filter(
+    (s) => s.category === correct.category && s.difficulty_level === correct.difficulty_level && s.id !== correct.id
+  )
+
+  if (pool.length < count) {
+    pool = getAllSentences().filter((s) => s.category === correct.category && s.id !== correct.id)
+  }
+
+  if (pool.length < count) {
+    pool = getAllSentences().filter((s) => s.id !== correct.id)
+  }
+
+  const values = new Set<string>()
+  for (const entry of shuffle(pool)) {
+    const value = entry[field]
+    if (value !== correctValue) values.add(value)
+    if (values.size >= count) break
+  }
+
+  return Array.from(values)
+}
+
+export function buildQuestionForSentence(
+  sentence: SentenceEntry,
+  field: 'hebrew_translation' | 'transliteration'
+): SentenceGameQuestion {
+  const distractors = getSentenceDistractors(sentence, field)
+  const options = shuffle([sentence[field], ...distractors])
+  const correctIndex = options.indexOf(sentence[field])
+  return { sentence, options, correctIndex }
 }

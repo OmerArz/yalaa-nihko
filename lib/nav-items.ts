@@ -27,7 +27,13 @@ export const desktopNavItems: NavItem[] = [
     icon: Target,
     matchPrefixes: ['/daily-practice', '/daily-words', '/daily-sentences'],
   },
-  { id: 'daily-quiz', href: '/daily-quiz', label: 'בוחן יומי', icon: ClipboardCheck },
+  {
+    id: 'daily-quiz',
+    href: '/daily-quiz',
+    label: 'בוחן יומי',
+    icon: ClipboardCheck,
+    matchPrefixes: ['/daily-quiz'],
+  },
   { id: 'daily-reflection', href: '/daily-reflection', label: 'איך עבר עליך היום?', icon: Moon },
   { id: 'settings', href: '/settings', label: 'הגדרות', icon: Settings },
 ]
