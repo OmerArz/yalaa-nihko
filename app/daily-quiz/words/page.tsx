@@ -9,6 +9,7 @@ import { getAllVocab, getVocabById, getWordBreakdown, VocabEntry } from '@/lib/r
 import { getDailyQueueWithLeftovers } from '@/lib/dailyQueue'
 import { buildQuestionForWord, GameQuestion } from '@/lib/gameEngine'
 import { setWordStatus } from '@/lib/wordStatus'
+import { isQuizCompletedToday, markQuizCompletedToday } from '@/lib/dailyQuizCompletion'
 
 type Direction = 'transliteration-to-hebrew' | 'hebrew-to-transliteration'
 
@@ -49,10 +50,16 @@ export default function DailyQuizPage() {
   const [markedDone, setMarkedDone] = useState(false)
   const [streak, setStreak] = useState(0)
   const [bump, setBump] = useState(false)
+  const [alreadyCompleted, setAlreadyCompleted] = useState(false)
   const reduceMotion = useReducedMotion()
 
   useEffect(() => {
     async function build() {
+      if (isQuizCompletedToday('words')) {
+        setAlreadyCompleted(true)
+        setLoading(false)
+        return
+      }
       const { getFailedQuizWordIds } = await import('@/lib/db')
       const { getSettings } = await import('@/lib/db')
       const settings = await getSettings()
@@ -133,6 +140,23 @@ export default function DailyQuizPage() {
       markChecklistItemDone('daily-quiz').then(() => setMarkedDone(true))
     })
   }, [])
+
+  useEffect(() => {
+    if (finished && failedCount === 0) {
+      markQuizCompletedToday('words')
+    }
+  }, [finished, failedCount])
+
+  if (alreadyCompleted) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center gap-3 pb-24 md:pb-0 px-4 text-center">
+        <p className="text-4xl">🌟</p>
+        <p className="font-bold text-olive-dark">כבר השלמת את בוחן המילים היום!</p>
+        <p className="text-sm text-gray-500 max-w-xs">בוחן חדש יחכה לך מחר בחצות</p>
+        <BottomNav />
+      </div>
+    )
+  }
 
   if (loading) {
     return (

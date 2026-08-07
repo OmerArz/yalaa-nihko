@@ -10,6 +10,7 @@ import { SentenceEntry, getAllSentences } from '@/lib/sentenceBank'
 import { getDailySentenceQueueWithLeftovers } from '@/lib/dailySentenceQueue'
 import { getSentenceStatusMap, recordSentenceResult } from '@/lib/sentenceStatus'
 import { buildQuestionForSentence, SentenceGameQuestion } from '@/lib/gameEngine'
+import { isQuizCompletedToday, markQuizCompletedToday } from '@/lib/dailyQuizCompletion'
 
 type Direction = 'transliteration-to-hebrew' | 'hebrew-to-transliteration'
 
@@ -50,10 +51,16 @@ export default function DailySentenceQuizPage() {
   const [markedDone, setMarkedDone] = useState(false)
   const [streak, setStreak] = useState(0)
   const [bump, setBump] = useState(false)
+  const [alreadyCompleted, setAlreadyCompleted] = useState(false)
   const reduceMotion = useReducedMotion()
 
   useEffect(() => {
     async function build() {
+      if (isQuizCompletedToday('sentences')) {
+        setAlreadyCompleted(true)
+        setLoading(false)
+        return
+      }
       const { getSettings } = await import('@/lib/db')
       const settings = await getSettings()
       const statusMap = getSentenceStatusMap()
@@ -138,6 +145,23 @@ export default function DailySentenceQuizPage() {
       markChecklistItemDone('daily-quiz').then(() => setMarkedDone(true))
     })
   }, [])
+
+  useEffect(() => {
+    if (finished && failedCount === 0) {
+      markQuizCompletedToday('sentences')
+    }
+  }, [finished, failedCount])
+
+  if (alreadyCompleted) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center gap-3 pb-24 md:pb-0 px-4 text-center">
+        <p className="text-4xl">🌟</p>
+        <p className="font-bold text-olive-dark">כבר השלמת את בוחן המשפטים היום!</p>
+        <p className="text-sm text-gray-500 max-w-xs">בוחן חדש יחכה לך מחר בחצות</p>
+        <BottomNav />
+      </div>
+    )
+  }
 
   if (loading) {
     return (
