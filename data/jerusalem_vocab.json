@@ -2,7 +2,7 @@
   "version": "1.1",
   "last_updated": "2026-08-07",
   "dialect": "Jerusalem Urban Levantine (להג ירושלמי עירוני)",
-  "total_count": 861,
+  "total_count": 930,
   "categories": [
     "greetings",
     "food_restaurants",
@@ -18,7 +18,8 @@
     "travel_transport",
     "weather_nature",
     "society_feelings",
-    "time_calendar"
+    "time_calendar",
+    "animals"
   ],
   "difficulty_levels": {
     "1": "בסיסי",
@@ -27911,6 +27912,1809 @@
         "home",
         "item"
       ]
+    },
+    {
+      "id": "AN001",
+      "arabic_script": "قط",
+      "transliteration": "קֵט",
+      "english_transliteration": "et",
+      "hebrew_translation": "חתול",
+      "tags": [
+        "animal",
+        "pet",
+        "domestic"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "قط",
+          "transliteration": "קֵט",
+          "english_transliteration": "et"
+        },
+        "feminine": {
+          "arabic_script": "قطة",
+          "transliteration": "קִטֶּה",
+          "english_transliteration": "itteh"
+        },
+        "plural": {
+          "arabic_script": "قطط",
+          "transliteration": "קְטַט",
+          "english_transliteration": "tat"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN002",
+      "arabic_script": "كلب",
+      "transliteration": "כַּלְבּ",
+      "english_transliteration": "kalb",
+      "hebrew_translation": "כלב",
+      "tags": [
+        "animal",
+        "pet",
+        "domestic"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "كلب",
+          "transliteration": "כַּלְבּ",
+          "english_transliteration": "kalb"
+        },
+        "feminine": {
+          "arabic_script": "كلبة",
+          "transliteration": "כַּלְבֶּה",
+          "english_transliteration": "kalbeh"
+        },
+        "plural": {
+          "arabic_script": "كلاب",
+          "transliteration": "כְּלַאבּ",
+          "english_transliteration": "klab"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN003",
+      "arabic_script": "حصان",
+      "transliteration": "חְצָאן",
+      "english_transliteration": "hsan",
+      "hebrew_translation": "סוס",
+      "tags": [
+        "animal",
+        "farm"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "حصان",
+          "transliteration": "חְצָאן",
+          "english_transliteration": "hsan"
+        },
+        "feminine": {
+          "arabic_script": "فرس",
+          "transliteration": "פַרַס",
+          "english_transliteration": "faras"
+        },
+        "plural": {
+          "arabic_script": "خيل",
+          "transliteration": "ח'ֵיל",
+          "english_transliteration": "kheil"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN004",
+      "arabic_script": "حمار",
+      "transliteration": "חְמָאר",
+      "english_transliteration": "hmar",
+      "hebrew_translation": "חמור",
+      "tags": [
+        "animal",
+        "farm"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "حمار",
+          "transliteration": "חְמָאר",
+          "english_transliteration": "hmar"
+        },
+        "feminine": {
+          "arabic_script": "حمارة",
+          "transliteration": "חְמָארָה",
+          "english_transliteration": "hmara"
+        },
+        "plural": {
+          "arabic_script": "حمير",
+          "transliteration": "חְמִיר",
+          "english_transliteration": "hmir"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN005",
+      "arabic_script": "ثور",
+      "transliteration": "תוֹר",
+      "english_transliteration": "tor",
+      "hebrew_translation": "שור/פרה",
+      "tags": [
+        "animal",
+        "farm"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "ثور",
+          "transliteration": "תוֹר",
+          "english_transliteration": "tor"
+        },
+        "feminine": {
+          "arabic_script": "بقرة",
+          "transliteration": "בַּקַרָה",
+          "english_transliteration": "ba'ara"
+        },
+        "plural": {
+          "arabic_script": "بقر",
+          "transliteration": "בַּקַר",
+          "english_transliteration": "ba'ar"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN006",
+      "arabic_script": "خروف",
+      "transliteration": "ח'ַרוּף",
+      "english_transliteration": "kharuf",
+      "hebrew_translation": "כבש",
+      "tags": [
+        "animal",
+        "farm"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "خروف",
+          "transliteration": "ח'ַרוּף",
+          "english_transliteration": "kharuf"
+        },
+        "feminine": {
+          "arabic_script": "نعجة",
+          "transliteration": "נַעְג'ֶה",
+          "english_transliteration": "na'jeh"
+        },
+        "plural": {
+          "arabic_script": "خرفان",
+          "transliteration": "ח'ֶרְפָאן",
+          "english_transliteration": "kherfan"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN007",
+      "arabic_script": "تيس",
+      "transliteration": "תַיְס",
+      "english_transliteration": "tays",
+      "hebrew_translation": "עז",
+      "tags": [
+        "animal",
+        "farm"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "تيس",
+          "transliteration": "תַיְס",
+          "english_transliteration": "tays"
+        },
+        "feminine": {
+          "arabic_script": "عنزة",
+          "transliteration": "עַנְזֶה",
+          "english_transliteration": "anzeh"
+        },
+        "plural": {
+          "arabic_script": "ماعز",
+          "transliteration": "מַאעֶז",
+          "english_transliteration": "ma'ez"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN008",
+      "arabic_script": "ديك",
+      "transliteration": "דִיכּ",
+      "english_transliteration": "deek",
+      "hebrew_translation": "תרנגול/תרנגולת",
+      "tags": [
+        "animal",
+        "farm",
+        "bird"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "ديك",
+          "transliteration": "דִיכּ",
+          "english_transliteration": "deek"
+        },
+        "feminine": {
+          "arabic_script": "دجاجة",
+          "transliteration": "דַג'אג'ֶה",
+          "english_transliteration": "dajajeh"
+        },
+        "plural": {
+          "arabic_script": "دجاج",
+          "transliteration": "דְּג'ָאג'",
+          "english_transliteration": "djaj"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN009",
+      "arabic_script": "جمل",
+      "transliteration": "ג'ַמַל",
+      "english_transliteration": "jamal",
+      "hebrew_translation": "גמל",
+      "tags": [
+        "animal",
+        "desert"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "جمل",
+          "transliteration": "ג'ַמַל",
+          "english_transliteration": "jamal"
+        },
+        "feminine": {
+          "arabic_script": "ناقة",
+          "transliteration": "נָאקָה",
+          "english_transliteration": "na'a"
+        },
+        "plural": {
+          "arabic_script": "جمال",
+          "transliteration": "ג'ְמַאל",
+          "english_transliteration": "jmal"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN010",
+      "arabic_script": "أسد",
+      "transliteration": "אַסַד",
+      "english_transliteration": "asad",
+      "hebrew_translation": "אריה",
+      "tags": [
+        "animal",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "أسد",
+          "transliteration": "אַסַד",
+          "english_transliteration": "asad"
+        },
+        "feminine": {
+          "arabic_script": "لبؤة",
+          "transliteration": "לַבּוּעָה",
+          "english_transliteration": "labu'a"
+        },
+        "plural": {
+          "arabic_script": "أسود",
+          "transliteration": "אַסוּד",
+          "english_transliteration": "asud"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN011",
+      "arabic_script": "نمر",
+      "transliteration": "נִמְר",
+      "english_transliteration": "nimr",
+      "hebrew_translation": "נמר",
+      "tags": [
+        "animal",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "نمر",
+          "transliteration": "נִמְר",
+          "english_transliteration": "nimr"
+        },
+        "feminine": {
+          "arabic_script": "نمرة",
+          "transliteration": "נִמְרָה",
+          "english_transliteration": "nimra"
+        },
+        "plural": {
+          "arabic_script": "نمور",
+          "transliteration": "נְמוּר",
+          "english_transliteration": "nmur"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN012",
+      "arabic_script": "فيل",
+      "transliteration": "פִיל",
+      "english_transliteration": "fil",
+      "hebrew_translation": "פיל",
+      "tags": [
+        "animal",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "فيل",
+          "transliteration": "פִיל",
+          "english_transliteration": "fil"
+        },
+        "feminine": {
+          "arabic_script": "فيلة",
+          "transliteration": "פִילֶה",
+          "english_transliteration": "fileh"
+        },
+        "plural": {
+          "arabic_script": "أفيال",
+          "transliteration": "אַפְיָאל",
+          "english_transliteration": "afyal"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN013",
+      "arabic_script": "أرنب",
+      "transliteration": "אַרְנַבּ",
+      "english_transliteration": "arnab",
+      "hebrew_translation": "ארנב",
+      "tags": [
+        "animal",
+        "wild",
+        "pet"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "أرنب",
+          "transliteration": "אַרְנַבּ",
+          "english_transliteration": "arnab"
+        },
+        "feminine": {
+          "arabic_script": "أرنبة",
+          "transliteration": "אַרְנַבֶּה",
+          "english_transliteration": "arnabeh"
+        },
+        "plural": {
+          "arabic_script": "أرانب",
+          "transliteration": "אַרַאנִבּ",
+          "english_transliteration": "aranib"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN014",
+      "arabic_script": "فأر",
+      "transliteration": "פַאר",
+      "english_transliteration": "far",
+      "hebrew_translation": "עכבר",
+      "tags": [
+        "animal",
+        "pest"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "فأر",
+          "transliteration": "פַאר",
+          "english_transliteration": "far"
+        },
+        "feminine": {
+          "arabic_script": "فأرة",
+          "transliteration": "פַארָה",
+          "english_transliteration": "fara"
+        },
+        "plural": {
+          "arabic_script": "فيران",
+          "transliteration": "פִירָאן",
+          "english_transliteration": "firan"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN015",
+      "arabic_script": "ثعلب",
+      "transliteration": "תַעְלַבּ",
+      "english_transliteration": "ta'lab",
+      "hebrew_translation": "שועל",
+      "tags": [
+        "animal",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "ثعلب",
+          "transliteration": "תַעְלַבּ",
+          "english_transliteration": "ta'lab"
+        },
+        "feminine": {
+          "arabic_script": "ثعلبة",
+          "transliteration": "תַעְלַבֶּה",
+          "english_transliteration": "ta'labeh"
+        },
+        "plural": {
+          "arabic_script": "ثعالب",
+          "transliteration": "תַעָאלֶבּ",
+          "english_transliteration": "ta'aleb"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN016",
+      "arabic_script": "ذئب",
+      "transliteration": "זִאְבּ",
+      "english_transliteration": "zi'b",
+      "hebrew_translation": "זאב",
+      "tags": [
+        "animal",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "ذئب",
+          "transliteration": "זִאְבּ",
+          "english_transliteration": "zi'b"
+        },
+        "feminine": {
+          "arabic_script": "ذئبة",
+          "transliteration": "זִאְבֶּה",
+          "english_transliteration": "zi'beh"
+        },
+        "plural": {
+          "arabic_script": "ذئاب",
+          "transliteration": "זִאָאבּ",
+          "english_transliteration": "zi'ab"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN017",
+      "arabic_script": "دب",
+      "transliteration": "דֻבּ",
+      "english_transliteration": "dub",
+      "hebrew_translation": "דוב",
+      "tags": [
+        "animal",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "دب",
+          "transliteration": "דֻבּ",
+          "english_transliteration": "dub"
+        },
+        "feminine": {
+          "arabic_script": "دبة",
+          "transliteration": "דֻבֶּה",
+          "english_transliteration": "dubbeh"
+        },
+        "plural": {
+          "arabic_script": "دببة",
+          "transliteration": "דְבַּבֶּה",
+          "english_transliteration": "dbabeh"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN018",
+      "arabic_script": "قرد",
+      "transliteration": "קִרְד",
+      "english_transliteration": "ird",
+      "hebrew_translation": "קוף",
+      "tags": [
+        "animal",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "قرد",
+          "transliteration": "קִרְד",
+          "english_transliteration": "ird"
+        },
+        "feminine": {
+          "arabic_script": "قردة",
+          "transliteration": "קִרְדֶה",
+          "english_transliteration": "irdeh"
+        },
+        "plural": {
+          "arabic_script": "قرود",
+          "transliteration": "קְרוּד",
+          "english_transliteration": "rud"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN019",
+      "arabic_script": "طير",
+      "transliteration": "טַיְר",
+      "english_transliteration": "tayr",
+      "hebrew_translation": "ציפור (כללי)",
+      "tags": [
+        "animal",
+        "bird"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "طير",
+          "transliteration": "טַיְר",
+          "english_transliteration": "tayr"
+        },
+        "feminine": {
+          "arabic_script": "طير",
+          "transliteration": "טַיְר",
+          "english_transliteration": "tayr"
+        },
+        "plural": {
+          "arabic_script": "طيور",
+          "transliteration": "טְיוּר",
+          "english_transliteration": "tyur"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN020",
+      "arabic_script": "عصفور",
+      "transliteration": "עַצְפוּר",
+      "english_transliteration": "asfur",
+      "hebrew_translation": "דרור/ציפור קטנה",
+      "tags": [
+        "animal",
+        "bird"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "عصفور",
+          "transliteration": "עַצְפוּר",
+          "english_transliteration": "asfur"
+        },
+        "feminine": {
+          "arabic_script": "عصفورة",
+          "transliteration": "עַצְפוּרָה",
+          "english_transliteration": "asfura"
+        },
+        "plural": {
+          "arabic_script": "عصافير",
+          "transliteration": "עַצַאפִיר",
+          "english_transliteration": "asafir"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN021",
+      "arabic_script": "حمامة",
+      "transliteration": "חַמָאמֶה",
+      "english_transliteration": "hamameh",
+      "hebrew_translation": "יונה",
+      "tags": [
+        "animal",
+        "bird"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "حمامة",
+          "transliteration": "חַמָאמֶה",
+          "english_transliteration": "hamameh"
+        },
+        "feminine": {
+          "arabic_script": "حمامة",
+          "transliteration": "חַמָאמֶה",
+          "english_transliteration": "hamameh"
+        },
+        "plural": {
+          "arabic_script": "حمام",
+          "transliteration": "חַמָאם",
+          "english_transliteration": "hamam"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN022",
+      "arabic_script": "بطة",
+      "transliteration": "בַּטֶה",
+      "english_transliteration": "batteh",
+      "hebrew_translation": "ברווז",
+      "tags": [
+        "animal",
+        "bird"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "بطة",
+          "transliteration": "בַּטֶה",
+          "english_transliteration": "batteh"
+        },
+        "feminine": {
+          "arabic_script": "بطة",
+          "transliteration": "בַּטֶה",
+          "english_transliteration": "batteh"
+        },
+        "plural": {
+          "arabic_script": "بط",
+          "transliteration": "בַּט",
+          "english_transliteration": "batt"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN023",
+      "arabic_script": "سمكة",
+      "transliteration": "סַמַכֶּה",
+      "english_transliteration": "samakeh",
+      "hebrew_translation": "דג (יחיד)",
+      "tags": [
+        "animal",
+        "sea"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "سمكة",
+          "transliteration": "סַמַכֶּה",
+          "english_transliteration": "samakeh"
+        },
+        "feminine": {
+          "arabic_script": "سمكة",
+          "transliteration": "סַמַכֶּה",
+          "english_transliteration": "samakeh"
+        },
+        "plural": {
+          "arabic_script": "سمك",
+          "transliteration": "סַמַכּ",
+          "english_transliteration": "samak"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN024",
+      "arabic_script": "حية",
+      "transliteration": "חַיֶּה",
+      "english_transliteration": "hayyeh",
+      "hebrew_translation": "נחש",
+      "tags": [
+        "animal",
+        "reptile"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "حية",
+          "transliteration": "חַיֶּה",
+          "english_transliteration": "hayyeh"
+        },
+        "feminine": {
+          "arabic_script": "حية",
+          "transliteration": "חַיֶּה",
+          "english_transliteration": "hayyeh"
+        },
+        "plural": {
+          "arabic_script": "حيات",
+          "transliteration": "חַיָאת",
+          "english_transliteration": "hayyat"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN025",
+      "arabic_script": "سلحفاة",
+      "transliteration": "סֻלַחְפָאה",
+      "english_transliteration": "sulahfah",
+      "hebrew_translation": "צב",
+      "tags": [
+        "animal",
+        "reptile"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "سلحفاة",
+          "transliteration": "סֻלַחְפָאה",
+          "english_transliteration": "sulahfah"
+        },
+        "feminine": {
+          "arabic_script": "سلحفاة",
+          "transliteration": "סֻלַחְפָאה",
+          "english_transliteration": "sulahfah"
+        },
+        "plural": {
+          "arabic_script": "سلاحف",
+          "transliteration": "סַלַאחֶף",
+          "english_transliteration": "salahef"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN026",
+      "arabic_script": "ضفدع",
+      "transliteration": "דַ׳פְדַע",
+      "english_transliteration": "dafda'",
+      "hebrew_translation": "צפרדע",
+      "tags": [
+        "animal",
+        "amphibian"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "ضفدع",
+          "transliteration": "דַ׳פְדַע",
+          "english_transliteration": "dafda'"
+        },
+        "feminine": {
+          "arabic_script": "ضفدع",
+          "transliteration": "דַ׳פְדַע",
+          "english_transliteration": "dafda'"
+        },
+        "plural": {
+          "arabic_script": "ضفادع",
+          "transliteration": "דַ׳פַאדֶע",
+          "english_transliteration": "dafade'"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN027",
+      "arabic_script": "نحلة",
+      "transliteration": "נַחְלֶה",
+      "english_transliteration": "nahleh",
+      "hebrew_translation": "דבורה",
+      "tags": [
+        "animal",
+        "insect"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "نحلة",
+          "transliteration": "נַחְלֶה",
+          "english_transliteration": "nahleh"
+        },
+        "feminine": {
+          "arabic_script": "نحلة",
+          "transliteration": "נַחְלֶה",
+          "english_transliteration": "nahleh"
+        },
+        "plural": {
+          "arabic_script": "نحل",
+          "transliteration": "נַחְל",
+          "english_transliteration": "nahl"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN028",
+      "arabic_script": "فراشة",
+      "transliteration": "פַרַאשֶה",
+      "english_transliteration": "farasheh",
+      "hebrew_translation": "פרפר",
+      "tags": [
+        "animal",
+        "insect"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "فراشة",
+          "transliteration": "פַרַאשֶה",
+          "english_transliteration": "farasheh"
+        },
+        "feminine": {
+          "arabic_script": "فراشة",
+          "transliteration": "פַרַאשֶה",
+          "english_transliteration": "farasheh"
+        },
+        "plural": {
+          "arabic_script": "فراشات",
+          "transliteration": "פַרַאשַאת",
+          "english_transliteration": "farashat"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN029",
+      "arabic_script": "نملة",
+      "transliteration": "נַמְלֶה",
+      "english_transliteration": "namleh",
+      "hebrew_translation": "נמלה",
+      "tags": [
+        "animal",
+        "insect"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "نملة",
+          "transliteration": "נַמְלֶה",
+          "english_transliteration": "namleh"
+        },
+        "feminine": {
+          "arabic_script": "نملة",
+          "transliteration": "נַמְלֶה",
+          "english_transliteration": "namleh"
+        },
+        "plural": {
+          "arabic_script": "نمل",
+          "transliteration": "נַמְל",
+          "english_transliteration": "naml"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN030",
+      "arabic_script": "عنكبوت",
+      "transliteration": "עַנְכַּבּוּת",
+      "english_transliteration": "ankabut",
+      "hebrew_translation": "עכביש",
+      "tags": [
+        "animal",
+        "insect"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "عنكبوت",
+          "transliteration": "עַנְכַּבּוּת",
+          "english_transliteration": "ankabut"
+        },
+        "feminine": {
+          "arabic_script": "عنكبوت",
+          "transliteration": "עַנְכַּבּוּת",
+          "english_transliteration": "ankabut"
+        },
+        "plural": {
+          "arabic_script": "عناكب",
+          "transliteration": "עַנַאכֶּבּ",
+          "english_transliteration": "anakeb"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN031",
+      "arabic_script": "حمار وحشي",
+      "transliteration": "חְמָאר וַחְשִׁי",
+      "english_transliteration": "hmar wahshi",
+      "hebrew_translation": "זברה",
+      "tags": [
+        "animal",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "حمار وحشي",
+          "transliteration": "חְמָאר וַחְשִׁי",
+          "english_transliteration": "hmar wahshi"
+        },
+        "feminine": {
+          "arabic_script": "حمار وحشي",
+          "transliteration": "חְמָאר וַחְשִׁי",
+          "english_transliteration": "hmar wahshi"
+        },
+        "plural": {
+          "arabic_script": "حمير وحشية",
+          "transliteration": "חְמִיר וַחְשִׁיֶה",
+          "english_transliteration": "hmir wahshiyeh"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN032",
+      "arabic_script": "زرافة",
+      "transliteration": "זַרַאפֶה",
+      "english_transliteration": "zarafeh",
+      "hebrew_translation": "ג'ירפה",
+      "tags": [
+        "animal",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "زرافة",
+          "transliteration": "זַרַאפֶה",
+          "english_transliteration": "zarafeh"
+        },
+        "feminine": {
+          "arabic_script": "زرافة",
+          "transliteration": "זַרַאפֶה",
+          "english_transliteration": "zarafeh"
+        },
+        "plural": {
+          "arabic_script": "زرافات",
+          "transliteration": "זַרַאפַאת",
+          "english_transliteration": "zarafat"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN033",
+      "arabic_script": "غزال",
+      "transliteration": "עַ'זַאל",
+      "english_transliteration": "ghazal",
+      "hebrew_translation": "צבי/איילה",
+      "tags": [
+        "animal",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "غزال",
+          "transliteration": "עַ'זַאל",
+          "english_transliteration": "ghazal"
+        },
+        "feminine": {
+          "arabic_script": "غزالة",
+          "transliteration": "עַ'זַאלֶה",
+          "english_transliteration": "ghazaleh"
+        },
+        "plural": {
+          "arabic_script": "غزلان",
+          "transliteration": "עַ'זְלָאן",
+          "english_transliteration": "ghezlan"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN034",
+      "arabic_script": "صقر",
+      "transliteration": "צַקְר",
+      "english_transliteration": "sa'r",
+      "hebrew_translation": "בז/נץ",
+      "tags": [
+        "animal",
+        "bird",
+        "wild"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "صقر",
+          "transliteration": "צַקְר",
+          "english_transliteration": "sa'r"
+        },
+        "feminine": {
+          "arabic_script": "صقر",
+          "transliteration": "צַקְר",
+          "english_transliteration": "sa'r"
+        },
+        "plural": {
+          "arabic_script": "صقور",
+          "transliteration": "צְקוּר",
+          "english_transliteration": "s'ur"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "AN035",
+      "arabic_script": "بومة",
+      "transliteration": "בּוּמֶה",
+      "english_transliteration": "bumeh",
+      "hebrew_translation": "ינשוף",
+      "tags": [
+        "animal",
+        "bird"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "بومة",
+          "transliteration": "בּוּמֶה",
+          "english_transliteration": "bumeh"
+        },
+        "feminine": {
+          "arabic_script": "بومة",
+          "transliteration": "בּוּמֶה",
+          "english_transliteration": "bumeh"
+        },
+        "plural": {
+          "arabic_script": "بوم",
+          "transliteration": "בּוּם",
+          "english_transliteration": "bum"
+        }
+      },
+      "category": "animals",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD078",
+      "arabic_script": "عنب",
+      "transliteration": "עִנַבּ",
+      "english_transliteration": "'inab",
+      "hebrew_translation": "ענבים",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "عنب",
+          "transliteration": "עִנַבּ",
+          "english_transliteration": "'inab"
+        },
+        "feminine": {
+          "arabic_script": "عنبة",
+          "transliteration": "עִנַבֶּה",
+          "english_transliteration": "'inabeh"
+        },
+        "plural": {
+          "arabic_script": "عنبات",
+          "transliteration": "עִנַבַּאת",
+          "english_transliteration": "'inabat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD079",
+      "arabic_script": "بطيخ",
+      "transliteration": "בַּטִּיח'",
+      "english_transliteration": "battikh",
+      "hebrew_translation": "אבטיח",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "بطيخ",
+          "transliteration": "בַּטִּיח'",
+          "english_transliteration": "battikh"
+        },
+        "feminine": {
+          "arabic_script": "بطيخة",
+          "transliteration": "בַּטִּיח'ָה",
+          "english_transliteration": "battikha"
+        },
+        "plural": {
+          "arabic_script": "بطيخات",
+          "transliteration": "בַּטִּיח'ָאת",
+          "english_transliteration": "battikhat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD080",
+      "arabic_script": "شمام",
+      "transliteration": "שַׁמָאם",
+      "english_transliteration": "shammam",
+      "hebrew_translation": "מלון",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "شمام",
+          "transliteration": "שַׁמָאם",
+          "english_transliteration": "shammam"
+        },
+        "feminine": {
+          "arabic_script": "شمامة",
+          "transliteration": "שַׁמָאמֶה",
+          "english_transliteration": "shammameh"
+        },
+        "plural": {
+          "arabic_script": "شمامات",
+          "transliteration": "שַׁמָאמַאת",
+          "english_transliteration": "shammamat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD081",
+      "arabic_script": "فريز",
+      "transliteration": "פְרֵיז",
+      "english_transliteration": "freiz",
+      "hebrew_translation": "תות שדה",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "فريز",
+          "transliteration": "פְרֵיז",
+          "english_transliteration": "freiz"
+        },
+        "feminine": {
+          "arabic_script": "فريزة",
+          "transliteration": "פְרֵיזֶה",
+          "english_transliteration": "freizeh"
+        },
+        "plural": {
+          "arabic_script": "فريزات",
+          "transliteration": "פְרֵיזַאת",
+          "english_transliteration": "freizat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD082",
+      "arabic_script": "رمان",
+      "transliteration": "רֻמָאן",
+      "english_transliteration": "rumman",
+      "hebrew_translation": "רימון",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "رمان",
+          "transliteration": "רֻמָאן",
+          "english_transliteration": "rumman"
+        },
+        "feminine": {
+          "arabic_script": "رمانة",
+          "transliteration": "רֻמָאנֶה",
+          "english_transliteration": "rummaneh"
+        },
+        "plural": {
+          "arabic_script": "رمانات",
+          "transliteration": "רֻמָאנַאת",
+          "english_transliteration": "rummanat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD083",
+      "arabic_script": "تين",
+      "transliteration": "תִין",
+      "english_transliteration": "tin",
+      "hebrew_translation": "תאנים",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "تين",
+          "transliteration": "תִין",
+          "english_transliteration": "tin"
+        },
+        "feminine": {
+          "arabic_script": "تينة",
+          "transliteration": "תִינֶה",
+          "english_transliteration": "tineh"
+        },
+        "plural": {
+          "arabic_script": "تينات",
+          "transliteration": "תִינַאת",
+          "english_transliteration": "tinat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD084",
+      "arabic_script": "مشمش",
+      "transliteration": "מִשְׁמִשׁ",
+      "english_transliteration": "mishmish",
+      "hebrew_translation": "משמש",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "مشمش",
+          "transliteration": "מִשְׁמִשׁ",
+          "english_transliteration": "mishmish"
+        },
+        "feminine": {
+          "arabic_script": "مشمشة",
+          "transliteration": "מִשְׁמִשֶׁה",
+          "english_transliteration": "mishmisheh"
+        },
+        "plural": {
+          "arabic_script": "مشمشات",
+          "transliteration": "מִשְׁמִשַׁאת",
+          "english_transliteration": "mishmishat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD085",
+      "arabic_script": "خوخ",
+      "transliteration": "ח'וֹח'",
+      "english_transliteration": "khukh",
+      "hebrew_translation": "אפרסק",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "خوخ",
+          "transliteration": "ח'וֹח'",
+          "english_transliteration": "khukh"
+        },
+        "feminine": {
+          "arabic_script": "خوخة",
+          "transliteration": "ח'וֹח'ָה",
+          "english_transliteration": "khukha"
+        },
+        "plural": {
+          "arabic_script": "خوخات",
+          "transliteration": "ח'וֹח'ָאת",
+          "english_transliteration": "khukhat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD086",
+      "arabic_script": "كرز",
+      "transliteration": "כַּרַז",
+      "english_transliteration": "karaz",
+      "hebrew_translation": "דובדבן",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "كرز",
+          "transliteration": "כַּרַז",
+          "english_transliteration": "karaz"
+        },
+        "feminine": {
+          "arabic_script": "كرزة",
+          "transliteration": "כַּרַזֶה",
+          "english_transliteration": "karazeh"
+        },
+        "plural": {
+          "arabic_script": "كرزات",
+          "transliteration": "כַּרַזַאת",
+          "english_transliteration": "karazat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD087",
+      "arabic_script": "ليمون",
+      "transliteration": "לַיְמוּן",
+      "english_transliteration": "laymun",
+      "hebrew_translation": "לימון",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "ليمون",
+          "transliteration": "לַיְמוּן",
+          "english_transliteration": "laymun"
+        },
+        "feminine": {
+          "arabic_script": "ليمونة",
+          "transliteration": "לַיְמוּנֶה",
+          "english_transliteration": "laymuneh"
+        },
+        "plural": {
+          "arabic_script": "ليمونات",
+          "transliteration": "לַיְמוּנַאת",
+          "english_transliteration": "laymunat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD088",
+      "arabic_script": "أناناس",
+      "transliteration": "אַנַאנַאס",
+      "english_transliteration": "ananas",
+      "hebrew_translation": "אננס",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD089",
+      "arabic_script": "جوافة",
+      "transliteration": "ג'וּאָפֶה",
+      "english_transliteration": "jwafeh",
+      "hebrew_translation": "גויאבה",
+      "tags": [
+        "food",
+        "fruit"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD090",
+      "arabic_script": "جزر",
+      "transliteration": "ג'זַר",
+      "english_transliteration": "jazar",
+      "hebrew_translation": "גזר",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "جزر",
+          "transliteration": "ג'זַר",
+          "english_transliteration": "jazar"
+        },
+        "feminine": {
+          "arabic_script": "جزرة",
+          "transliteration": "ג'זַרָה",
+          "english_transliteration": "jazara"
+        },
+        "plural": {
+          "arabic_script": "جزرات",
+          "transliteration": "ג'זַרַאת",
+          "english_transliteration": "jazarat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD091",
+      "arabic_script": "بازيلا",
+      "transliteration": "בָּאזִילַא",
+      "english_transliteration": "bazella",
+      "hebrew_translation": "אפונה",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD092",
+      "arabic_script": "فاصوليا",
+      "transliteration": "פַאצוֹלְיַא",
+      "english_transliteration": "fasulya",
+      "hebrew_translation": "שעועית",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD093",
+      "arabic_script": "باذنجان",
+      "transliteration": "בָּאדִ׳נְגָ'אן",
+      "english_transliteration": "batinjan",
+      "hebrew_translation": "חציל",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "باذنجان",
+          "transliteration": "בָּאדִ׳נְגָ'אן",
+          "english_transliteration": "batinjan"
+        },
+        "feminine": {
+          "arabic_script": "باذنجانة",
+          "transliteration": "בָּאדִ׳נְגָ'אנֶה",
+          "english_transliteration": "batinjaneh"
+        },
+        "plural": {
+          "arabic_script": "باذنجانات",
+          "transliteration": "בָּאדִ׳נְגָ'אנַאת",
+          "english_transliteration": "batinjanat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD094",
+      "arabic_script": "فلفل",
+      "transliteration": "פִלְפִל",
+      "english_transliteration": "filfil",
+      "hebrew_translation": "פלפל",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "فلفل",
+          "transliteration": "פִלְפִל",
+          "english_transliteration": "filfil"
+        },
+        "feminine": {
+          "arabic_script": "فلفلة",
+          "transliteration": "פִלְפִלֶה",
+          "english_transliteration": "filfileh"
+        },
+        "plural": {
+          "arabic_script": "فلفلات",
+          "transliteration": "פִלְפִלַאת",
+          "english_transliteration": "filfilat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD095",
+      "arabic_script": "كوسا",
+      "transliteration": "כּוּסַא",
+      "english_transliteration": "kusa",
+      "hebrew_translation": "קישוא",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "كوسا",
+          "transliteration": "כּוּסַא",
+          "english_transliteration": "kusa"
+        },
+        "feminine": {
+          "arabic_script": "كوساية",
+          "transliteration": "כּוּסַאיֶה",
+          "english_transliteration": "kusayeh"
+        },
+        "plural": {
+          "arabic_script": "كوسايات",
+          "transliteration": "כּוּסַאיַאת",
+          "english_transliteration": "kusayat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD096",
+      "arabic_script": "ملفوف",
+      "transliteration": "מַלְפוּף",
+      "english_transliteration": "malfuf",
+      "hebrew_translation": "כרוב",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "ملفوف",
+          "transliteration": "מַלְפוּף",
+          "english_transliteration": "malfuf"
+        },
+        "feminine": {
+          "arabic_script": "ملفوف",
+          "transliteration": "מַלְפוּף",
+          "english_transliteration": "malfuf"
+        },
+        "plural": {
+          "arabic_script": "ملافيف",
+          "transliteration": "מַלַאפִיף",
+          "english_transliteration": "malafif"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD097",
+      "arabic_script": "خس",
+      "transliteration": "ח'ַסּ",
+      "english_transliteration": "khass",
+      "hebrew_translation": "חסה",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD098",
+      "arabic_script": "سبانخ",
+      "transliteration": "סְבָּאנֶח'",
+      "english_transliteration": "sbanikh",
+      "hebrew_translation": "תרד",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD099",
+      "arabic_script": "فجل",
+      "transliteration": "פִגְ'ל",
+      "english_transliteration": "fijil",
+      "hebrew_translation": "צנון",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "فجل",
+          "transliteration": "פִגְ'ל",
+          "english_transliteration": "fijil"
+        },
+        "feminine": {
+          "arabic_script": "فجلة",
+          "transliteration": "פִגְ'לֶה",
+          "english_transliteration": "fijleh"
+        },
+        "plural": {
+          "arabic_script": "فجلات",
+          "transliteration": "פִגְ'לַאת",
+          "english_transliteration": "fijlat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD100",
+      "arabic_script": "ذرة",
+      "transliteration": "דַ׳רָה",
+      "english_transliteration": "dhareh",
+      "hebrew_translation": "תירס",
+      "tags": [
+        "food",
+        "vegetable"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD101",
+      "arabic_script": "كباب",
+      "transliteration": "כַּבָּאבּ",
+      "english_transliteration": "kabab",
+      "hebrew_translation": "קבב",
+      "tags": [
+        "food",
+        "meat"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD102",
+      "arabic_script": "لحمة مفرومة",
+      "transliteration": "לַחְמֶה מַפְרוּמֶה",
+      "english_transliteration": "lahmeh mafrumeh",
+      "hebrew_translation": "בשר טחון",
+      "tags": [
+        "food",
+        "meat"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD103",
+      "arabic_script": "سجق",
+      "transliteration": "סֻגְ'ק",
+      "english_transliteration": "suju'",
+      "hebrew_translation": "נקניק",
+      "tags": [
+        "food",
+        "meat"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD104",
+      "arabic_script": "فلفل أسود",
+      "transliteration": "פִלְפִל אַסְוַד",
+      "english_transliteration": "filfil aswad",
+      "hebrew_translation": "פלפל שחור",
+      "tags": [
+        "food",
+        "spice"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD105",
+      "arabic_script": "كمون",
+      "transliteration": "כַּמּוּן",
+      "english_transliteration": "kammun",
+      "hebrew_translation": "כמון",
+      "tags": [
+        "food",
+        "spice"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD106",
+      "arabic_script": "قرفة",
+      "transliteration": "קִרְפֶה",
+      "english_transliteration": "irfeh",
+      "hebrew_translation": "קינמון",
+      "tags": [
+        "food",
+        "spice"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD107",
+      "arabic_script": "فستق",
+      "transliteration": "פֻסְתֻק",
+      "english_transliteration": "fustu'",
+      "hebrew_translation": "פיסטוק",
+      "tags": [
+        "food",
+        "nuts"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD108",
+      "arabic_script": "لوز",
+      "transliteration": "לוֹז",
+      "english_transliteration": "loz",
+      "hebrew_translation": "שקד",
+      "tags": [
+        "food",
+        "nuts"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "لوز",
+          "transliteration": "לוֹז",
+          "english_transliteration": "loz"
+        },
+        "feminine": {
+          "arabic_script": "لوزة",
+          "transliteration": "לוֹזֶה",
+          "english_transliteration": "lozeh"
+        },
+        "plural": {
+          "arabic_script": "لوزات",
+          "transliteration": "לוֹזַאת",
+          "english_transliteration": "lozat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD109",
+      "arabic_script": "جوز",
+      "transliteration": "ג'וֹז",
+      "english_transliteration": "joz",
+      "hebrew_translation": "אגוז",
+      "tags": [
+        "food",
+        "nuts"
+      ],
+      "forms": {
+        "masculine": {
+          "arabic_script": "جوز",
+          "transliteration": "ג'וֹז",
+          "english_transliteration": "joz"
+        },
+        "feminine": {
+          "arabic_script": "جوزة",
+          "transliteration": "ג'וֹזֶה",
+          "english_transliteration": "jozeh"
+        },
+        "plural": {
+          "arabic_script": "جوزات",
+          "transliteration": "ג'וֹזַאת",
+          "english_transliteration": "jozat"
+        }
+      },
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD110",
+      "arabic_script": "شاي بالنعنع",
+      "transliteration": "שַׁאי בַּלְנַעְנַע",
+      "english_transliteration": "shai bi na'na'",
+      "hebrew_translation": "תה בנענע",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
+    },
+    {
+      "id": "FD111",
+      "arabic_script": "ليموناضة",
+      "transliteration": "לִימוֹנָאדַה",
+      "english_transliteration": "limonada",
+      "hebrew_translation": "לימונדה",
+      "tags": [
+        "food",
+        "drink"
+      ],
+      "category": "food_restaurants",
+      "difficulty_level": 1
     }
   ]
 }

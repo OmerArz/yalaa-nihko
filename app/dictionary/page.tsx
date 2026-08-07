@@ -14,6 +14,7 @@ const CATEGORIES = [
   { id: 'all', label: 'הכל', icon: '📚' },
   { id: 'greetings', label: 'ברכות', icon: '👋' },
   { id: 'food_restaurants', label: 'אוכל', icon: '🍽️' },
+  { id: 'animals', label: 'חיות', icon: '🐾' },
   { id: 'shopping_market', label: 'קניות', icon: '🛒' },
   { id: 'directions', label: 'כיוונים', icon: '🗺️' },
   { id: 'common_verbs', label: 'פעלים', icon: '⚡' },
