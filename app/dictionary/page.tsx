@@ -30,6 +30,15 @@ const CATEGORIES = [
   { id: 'society_feelings', label: 'רגשות', icon: '❤️' },
 ]
 
+function shuffleWords<T>(arr: T[]): T[] {
+  const result = [...arr]
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[result[i], result[j]] = [result[j], result[i]]
+  }
+  return result
+}
+
 function FlashcardMode({
   words,
   savedIds,
@@ -42,13 +51,22 @@ function FlashcardMode({
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
 
-  const word = words[index]
+  // Re-shuffle whenever the underlying word list changes (new category/filter,
+  // or a fresh mount when the user re-enters flashcard mode).
+  const shuffledWords = useMemo(() => shuffleWords(words), [words])
+
+  useEffect(() => {
+    setIndex(0)
+    setFlipped(false)
+  }, [shuffledWords])
+
+  const word = shuffledWords[index]
   if (!word) return null
 
   return (
     <div className="flex flex-col items-center gap-6 py-8 px-4">
       <p className="text-sm text-gray-400">
-        {index + 1} / {words.length}
+        {index + 1} / {shuffledWords.length}
       </p>
 
       <div className="w-full max-w-md cursor-pointer" onClick={() => setFlipped((v) => !v)}>
@@ -87,8 +105,8 @@ function FlashcardMode({
           ← הקודמת
         </button>
         <button
-          onClick={() => { setFlipped(false); setIndex((v) => Math.min(words.length - 1, v + 1)) }}
-          disabled={index === words.length - 1}
+          onClick={() => { setFlipped(false); setIndex((v) => Math.min(shuffledWords.length - 1, v + 1)) }}
+          disabled={index === shuffledWords.length - 1}
           className="flex-1 btn-primary"
         >
           הבאה →
