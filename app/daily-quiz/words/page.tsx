@@ -363,7 +363,9 @@ export default function DailyQuizPage() {
                 }
 
                 const optionMeaning =
-                  direction === 'hebrew-to-transliteration' ? question.optionEntries[i]?.hebrew_translation : null
+                  direction === 'hebrew-to-transliteration'
+                    ? question.optionEntries[i]?.hebrew_translation
+                    : question.optionEntries[i]?.transliteration
 
                 return (
                   <motion.button
@@ -380,7 +382,9 @@ export default function DailyQuizPage() {
                         <motion.span
                           initial={{ opacity: 0, y: -2 }}
                           animate={{ opacity: 1, y: 0 }}
-                          className="text-[11px] font-normal text-gray-400"
+                          className={`text-[11px] font-normal text-gray-400 ${
+                            direction === 'transliteration-to-hebrew' ? 'transliteration' : ''
+                          }`}
                         >
                           {optionMeaning}
                         </motion.span>
